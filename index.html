@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11151a">
+  <meta name="description" content="Puzzle Lab — два игровых HTML5-прототипа: SwitchFlow и Color Fuse.">
+  <title>Puzzle Lab — выбери игру</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #11151a; color: #f6f4ed; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 280px; }
+    a { color: inherit; -webkit-tap-highlight-color: transparent; }
+    .page { width: min(100%, 920px); margin: auto; padding: max(28px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left)); }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 750; letter-spacing: -.5px; }
+    .brand-icon { display: grid; grid-template-columns: repeat(2, 7px); gap: 3px; transform: rotate(-10deg); }
+    .brand-icon i { width: 7px; height: 7px; border-radius: 2px; background: #c7ef9c; }
+    .brand-icon i:last-child { background: #a79af5; }
+    .edition { font: 10px ui-monospace, monospace; letter-spacing: 1.4px; color: #b0b8c1; text-transform: uppercase; }
+    .intro { padding: 50px 0 28px; }
+    .eyebrow { margin: 0 0 15px; color: #c7ef9c; font: 11px ui-monospace, monospace; letter-spacing: 2px; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(40px, 8.5vw, 72px); line-height: 1.03; font-weight: 750; letter-spacing: -2px; }
+    h1 span { color: #aeb6c0; }
+    .intro p:last-child { max-width: 440px; margin: 20px 0 0; color: #b7bec7; font-size: 15px; line-height: 1.6; }
+    .games { display: grid; gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .game { display: flex; flex-direction: column; position: relative; min-height: 354px; padding: 24px; border-radius: 26px; text-decoration: none; overflow: hidden; color: #171b1f; transition: transform .18s ease; }
+    .game:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+    .game:active { transform: scale(.98); }
+    .switch { background: #c9c0f5; }
+    .fuse { background: #eec4a1; }
+    .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; font: 10px ui-monospace, monospace; letter-spacing: 1.3px; text-transform: uppercase; }
+    .pill { border: 1px solid #171b1f55; padding: 6px 9px; border-radius: 20px; }
+    .art { display: flex; flex: 1; min-height: 160px; align-items: center; justify-content: center; margin: 10px 0; }
+    .flow { display: grid; grid-template-columns: repeat(3, 48px); gap: 8px; transform: rotate(-10deg); }
+    .flow b { display: grid; place-items: center; height: 48px; border-radius: 13px; background: #171b1f; color: #d6cef9; font-size: 28px; font-weight: 500; }
+    .flow b:nth-child(2), .flow b:nth-child(4) { background: #f7f5ed; color: #171b1f; }
+    .flow b:nth-child(6) { background: #8c7cd1; color: #f7f5ed; }
+    .orbs { display: grid; grid-template-columns: repeat(3, 48px); gap: 8px; transform: rotate(10deg); }
+    .orbs b { height: 48px; border-radius: 50%; background: #bd5c49; box-shadow: inset -4px -5px 0 #00000014; }
+    .orbs b:nth-child(2), .orbs b:nth-child(6) { background: #f8f3df; }
+    .orbs b:nth-child(3), .orbs b:nth-child(4) { background: #627c5c; }
+    .card-bottom { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+    h2 { margin: 0 0 6px; font-size: 30px; letter-spacing: -1.3px; line-height: 1.1; }
+    .play { font-size: 13px; font-weight: 600; }
+    .arrow { display: grid; place-items: center; flex: 0 0 46px; height: 46px; border-radius: 50%; background: #171b1f; color: #f7f5ed; font-size: 25px; }
+    footer { display: flex; justify-content: space-between; gap: 16px; margin-top: 26px; padding-top: 18px; border-top: 1px solid #ffffff1c; color: #aeb6c0; font-size: 11px; line-height: 1.5; }
+    footer span:last-child { font-family: ui-monospace, monospace; white-space: nowrap; }
+    @media (hover: hover) { .game:hover { transform: translateY(-4px); } }
+    @media (max-width: 580px) {
+      .intro { padding-top: 42px; }
+      .games { grid-template-columns: 1fr; gap: 14px; }
+      .game { min-height: 292px; padding: 20px; border-radius: 23px; }
+      .art { min-height: 132px; }
+      .flow, .orbs { grid-template-columns: repeat(3, 42px); gap: 6px; }
+      .flow b, .orbs b { height: 42px; }
+      h2 { font-size: 28px; }
+      footer { margin-top: 22px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .game { transition: none; } .game:hover, .game:active { transform: none; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Puzzle Lab</div>
+      <span class="edition">Playground / 01</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">Маленькая игровая лаборатория</p>
+        <h1 id="title">Твой следующий<br><span>ещё один раунд.</span></h1>
+        <p>Два прототипа для любопытных. Выбери игру и попробуй новую идею в действии.</p>
+      </section>
+      <nav class="games" aria-label="Выбор игры">
+        <a class="game switch" href="./switchflow.html" aria-labelledby="switch-title switch-play">
+          <div class="card-top"><span>Эксперимент 01</span><span class="pill">HTML5</span></div>
+          <div class="art" aria-hidden="true"><div class="flow"><b>→</b><b>↓</b><b>←</b><b>↑</b><b>→</b><b>↓</b></div></div>
+          <div class="card-bottom"><div><h2 id="switch-title">SwitchFlow</h2><span class="play" id="switch-play">Начать игру</span></div><span class="arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="game fuse" href="./color_fuse.html" aria-labelledby="fuse-title fuse-play">
+          <div class="card-top"><span>Эксперимент 02</span><span class="pill">HTML5</span></div>
+          <div class="art" aria-hidden="true"><div class="orbs"><b></b><b></b><b></b><b></b><b></b><b></b></div></div>
+          <div class="card-bottom"><div><h2 id="fuse-title">Color Fuse</h2><span class="play" id="fuse-play">Начать игру</span></div><span class="arrow" aria-hidden="true">↗</span></div>
+        </a>
+      </nav>
+    </main>
+    <footer><span>Идеи, в которые можно поиграть.</span><span>PUZZLE LAB © 2026</span></footer>
+  </div>
+</body>
+</html>
