@@ -1,0 +1,2380 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "retrievedDate": "2026-10-27",
+    "treeUrl": "https://www.pathofexile.com/passive-skill-tree",
+    "overviewUrl": "https://www.pathofexile.com/ascendancy/classes",
+    "pageVersion": "3.29.3b",
+    "treeName": "Default",
+    "realm": "pc",
+    "mode": "Normal (Default), not Ruthless",
+    "treeHtmlSha256": "4b38265c024175ae2edded027acdd637184d091c2caf73823a07557c39b74201",
+    "overviewHtmlSha256": "b0cf05b011e09fe790128df3593b1c781a055729c5c30095eefa9113a79fddcf",
+    "statsPolicy": "Exact original English stats/reminderText, including line breaks and original markup. No balancing or translated paraphrases.",
+    "scope": "The 21 base-class Ascendancies in classes[]. Excludes alternate_ascendancies (Bloodline/Wildwood).",
+    "countDiscrepancy": {
+      "overviewHeadline": 20,
+      "overviewListedNames": [
+        "Slayer",
+        "Gladiator",
+        "Champion",
+        "Assassin",
+        "Saboteur",
+        "Trickster",
+        "Juggernaut",
+        "Berserker",
+        "Chieftain",
+        "Necromancer",
+        "Occultist",
+        "Elementalist",
+        "Deadeye",
+        "Warden",
+        "Pathfinder",
+        "Inquisitor",
+        "Hierophant",
+        "Guardian",
+        "Ascendant",
+        "Reliquarian",
+        "Luminary"
+      ],
+      "actualClassAscendancies": 21,
+      "resolution": "Use current Default tree classes[]. Seven base classes each have three Ascendancies; overview headline is stale."
+    }
+  },
+  "selectionPolicy": "Exactly four candidate key effects per Ascendancy for Duskbound adaptation. Original full stats are preserved; this is not a legal-build claim. Original path requirements are supplied for review.",
+  "ascendancies": [
+    {
+      "classId": "scion",
+      "className": "Scion",
+      "ascendancyId": "Ascendant",
+      "ascendancyName": "Ascendant",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Ascendant",
+      "nodes": [
+        {
+          "nodeId": "34567",
+          "name": "Deadeye",
+          "stats": [
+            "25% increased Effect of your Marks",
+            "Gain a Frenzy Charge every 3 seconds while Moving",
+            "Skills fire an additional Projectile",
+            "You and nearby Allies have Tailwind"
+          ],
+          "reminderText": [
+            "(Tailwind increases Action Speed by 8%)",
+            "(You can only take one of the three Ranger Ascendancy passives)"
+          ],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "35754",
+            "31598",
+            "38689",
+            "49532",
+            "34567"
+          ],
+          "originalPathNodeNames": [
+            "Ascendant",
+            "Dexterity",
+            "Passive Point",
+            "Ranger Ascendancy",
+            "Deadeye"
+          ],
+          "originalChoiceHubIds": [
+            "49532"
+          ]
+        },
+        {
+          "nodeId": "10099",
+          "name": "Necromancer",
+          "stats": [
+            "Your Offering Skills also affect you",
+            "Your Offerings have 50% reduced Effect on you",
+            "Minions deal 30% increased Damage",
+            "Auras from your Skills grant 2% increased Attack and Cast\nSpeed to you and Allies",
+            "If you've Consumed a corpse Recently, you and your Minions have 30% increased Area of Effect"
+          ],
+          "reminderText": [
+            "(Auras can only grant bonuses to things they affect)",
+            "(Recently refers to the past 4 seconds)",
+            "(You can only take one of the three Witch Ascendancy passives)"
+          ],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "35754",
+            "58029",
+            "2521",
+            "51782",
+            "10099"
+          ],
+          "originalPathNodeNames": [
+            "Ascendant",
+            "Intelligence",
+            "Passive Point",
+            "Witch Ascendancy",
+            "Necromancer"
+          ],
+          "originalChoiceHubIds": [
+            "51782"
+          ]
+        },
+        {
+          "nodeId": "61072",
+          "name": "Juggernaut",
+          "stats": [
+            "+1000 to Accuracy Rating",
+            "Cannot be Chilled",
+            "Cannot be Stunned",
+            "5% increased Damage per Endurance Charge",
+            "Gain 1 Endurance Charge every second if you've been Hit Recently"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)",
+            "(You can only take one of the three Marauder Ascendancy passives)"
+          ],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "35754",
+            "193",
+            "33875",
+            "61437",
+            "61072"
+          ],
+          "originalPathNodeNames": [
+            "Ascendant",
+            "Strength",
+            "Passive Point",
+            "Marauder Ascendancy",
+            "Juggernaut"
+          ],
+          "originalChoiceHubIds": [
+            "61437"
+          ]
+        },
+        {
+          "nodeId": "43122",
+          "name": "Assassin",
+          "stats": [
+            "+0.75% to Critical Strike Chance",
+            "10% chance to gain a Power Charge on Critical Strike",
+            "10% chance to gain Elusive on Critical Strike",
+            "Damage cannot be Reflected"
+          ],
+          "reminderText": [
+            "(Elusive initially grants 15% chance to Avoid All Damage from Hits, and 30% increased Movement Speed. The buff reduces its effect over time, removing itself at 0% effect. If you already have an Elusive buff, you cannot gain Elusive)",
+            "(You can only take one of the three Shadow Ascendancy passives)"
+          ],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "35754",
+            "45403",
+            "42546",
+            "772",
+            "43122"
+          ],
+          "originalPathNodeNames": [
+            "Ascendant",
+            "Dexterity and Intelligence",
+            "Passive Point",
+            "Shadow Ascendancy",
+            "Assassin"
+          ],
+          "originalChoiceHubIds": [
+            "772"
+          ]
+        }
+      ],
+      "originalPathUnionPointCount": 12,
+      "additionalOriginalNotableDependencyIds": [
+        "49532",
+        "51782",
+        "61437",
+        "772"
+      ],
+      "allocationCaveats": [
+        "Allocating all selected options along displayed original paths needs 12 original points, over the original 8-point cap. Duskbound milestone allocation must be labelled adaptation.",
+        "Additional original notable dependencies: Ranger Ascendancy, Witch Ascendancy, Marauder Ascendancy, Shadow Ascendancy"
+      ],
+      "adaptationCaveat": "These are multiple-choice options of class hubs, not standalone full Ascendancies. One option per connected hub; up to two class choices in a typical 8-point build."
+    },
+    {
+      "classId": "scion",
+      "className": "Scion",
+      "ascendancyId": "Reliquarian",
+      "ascendancyName": "Reliquarian",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Reliquarian",
+      "nodes": [
+        {
+          "nodeId": "36072",
+          "name": "Gloomfang",
+          "stats": [
+            "Skills Chain +1 times",
+            "Projectiles that have Chained gain 20% of Non-Chaos Damage as extra Chaos Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "10108",
+            "35936",
+            "22441",
+            "36489",
+            "16633",
+            "15544",
+            "2460",
+            "18147",
+            "35989",
+            "36072"
+          ],
+          "originalPathNodeNames": [
+            "Reliquarian",
+            "Passive Point",
+            "Passive Point",
+            "Armour Display",
+            "Passive Point",
+            "Passive Point",
+            "Caster Weapon Display",
+            "Passive Point",
+            "Jewellery Display",
+            "Gloomfang"
+          ],
+          "originalChoiceHubIds": [
+            "36489",
+            "2460",
+            "35989"
+          ]
+        },
+        {
+          "nodeId": "35448",
+          "name": "Kaom's Roots",
+          "stats": [
+            "+100 to maximum Life",
+            "Cannot be Knocked Back",
+            "Action Speed cannot be modified to below Base Value",
+            "Cannot Evade enemy Attacks\nCannot be Stunned"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "10108",
+            "35936",
+            "22441",
+            "36489",
+            "35448"
+          ],
+          "originalPathNodeNames": [
+            "Reliquarian",
+            "Passive Point",
+            "Passive Point",
+            "Armour Display",
+            "Kaom's Roots"
+          ],
+          "originalChoiceHubIds": [
+            "36489"
+          ]
+        },
+        {
+          "nodeId": "47058",
+          "name": "Ahn's Might",
+          "stats": [
+            "20% more Accuracy Rating while at maximum Frenzy Charges",
+            "-1 to Maximum Frenzy Charges",
+            "+100% to Critical Strike Multiplier while you have no Frenzy Charges"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "10108",
+            "35936",
+            "22441",
+            "36489",
+            "52094",
+            "60582",
+            "12003",
+            "47058"
+          ],
+          "originalPathNodeNames": [
+            "Reliquarian",
+            "Passive Point",
+            "Passive Point",
+            "Armour Display",
+            "Passive Point",
+            "Passive Point",
+            "Martial Weapon Display",
+            "Ahn's Might"
+          ],
+          "originalChoiceHubIds": [
+            "36489",
+            "12003"
+          ]
+        },
+        {
+          "nodeId": "40276",
+          "name": "Shimmeron",
+          "stats": [
+            "+8% to Critical Strike Multiplier per Power Charge",
+            "+0.3% to Critical Strike Chance per Power Charge",
+            "+3% Chance to Block Spell Damage per Power Charge"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "10108",
+            "35936",
+            "22441",
+            "36489",
+            "16633",
+            "15544",
+            "2460",
+            "40276"
+          ],
+          "originalPathNodeNames": [
+            "Reliquarian",
+            "Passive Point",
+            "Passive Point",
+            "Armour Display",
+            "Passive Point",
+            "Passive Point",
+            "Caster Weapon Display",
+            "Shimmeron"
+          ],
+          "originalChoiceHubIds": [
+            "36489",
+            "2460"
+          ]
+        }
+      ],
+      "originalPathUnionPointCount": 11,
+      "additionalOriginalNotableDependencyIds": [
+        "12003",
+        "2460",
+        "35989",
+        "36489"
+      ],
+      "allocationCaveats": [
+        "Allocating all selected options along displayed original paths needs 11 original points, over the original 8-point cap. Duskbound milestone allocation must be labelled adaptation.",
+        "Additional original notable dependencies: Martial Weapon Display, Caster Weapon Display, Jewellery Display, Armour Display"
+      ],
+      "adaptationCaveat": "These are multiple-choice options of Display hubs. Must respect armour/weapon/jewellery categories. Kaom's Roots also removes evasion; Ahn's Might changes maximum Frenzy Charges."
+    },
+    {
+      "classId": "scion",
+      "className": "Scion",
+      "ascendancyId": "Luminary",
+      "ascendancyName": "Luminary",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Luminary",
+      "nodes": [
+        {
+          "nodeId": "46479",
+          "name": "Noble Blood",
+          "stats": [
+            "You can hire a Mercenary permanently"
+          ],
+          "reminderText": [
+            "(While you have this passive allocated, you will have the option to permanently hire Mercenaries found in the wild. Permanently hired Mercenaries and their Minions deal less Damage than temporarily hired Mercenaries, but you can change what gear they have equipped. Passives that affect your Mercenary do not affect temporarily hired Mercenaries. Permanently hired Mercenaries will only follow Luminaries with this passive allocated)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "15726",
+            "35877",
+            "46479"
+          ],
+          "originalPathNodeNames": [
+            "Luminary",
+            "Mercenary Damage, Light Radius",
+            "Noble Blood"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "1564",
+          "name": "Loyal Bodyguard",
+          "stats": [
+            "If your Mercenary's Life is higher than your own, 20% of Damage from Hits is\ntaken from your Mercenary's Life before you",
+            "If your Mercenary's Life is lower than your own, 40% of Damage they take is Recouped as Life"
+          ],
+          "reminderText": [
+            "(Only Damage from Hits can be Recouped, over 4 seconds following the Hit)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "15726",
+            "35877",
+            "46479",
+            "27123",
+            "1564"
+          ],
+          "originalPathNodeNames": [
+            "Luminary",
+            "Mercenary Damage, Light Radius",
+            "Noble Blood",
+            "Mercenary Life, Light Radius",
+            "Loyal Bodyguard"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "56292",
+          "name": "Bestowed Knighthood",
+          "stats": [
+            "Your Mercenary Taunts on Hit",
+            "Your Mercenary has 50% increased effect of Non-Curse Auras from Skills"
+          ],
+          "reminderText": [
+            "(Enemies you Taunt can only target you, and deal 10% less damage to anyone else. Taunt lasts for 3 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "15726",
+            "35877",
+            "46479",
+            "27123",
+            "1564",
+            "61133",
+            "56292"
+          ],
+          "originalPathNodeNames": [
+            "Luminary",
+            "Mercenary Damage, Light Radius",
+            "Noble Blood",
+            "Mercenary Life, Light Radius",
+            "Loyal Bodyguard",
+            "Mercenary Life, Light Radius",
+            "Bestowed Knighthood"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "25944",
+          "name": "Legendary Arms",
+          "stats": [
+            "Your Mercenary can equip Unique Weapons, Shields and Quivers",
+            "Your Mercenary and their Minions deal 8% more Damage for\neach Unique item they have equipped"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "15726",
+            "35877",
+            "46479",
+            "32669",
+            "25944"
+          ],
+          "originalPathNodeNames": [
+            "Luminary",
+            "Mercenary Damage, Light Radius",
+            "Noble Blood",
+            "Legendary Amulets",
+            "Legendary Arms"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Requires a real Mercenary subsystem, separate from ordinary minions. Do not silently substitute spectres or generic minions for Mercenary."
+    },
+    {
+      "classId": "marauder",
+      "className": "Marauder",
+      "ascendancyId": "Juggernaut",
+      "ascendancyName": "Juggernaut",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Juggernaut",
+      "nodes": [
+        {
+          "nodeId": "5819",
+          "name": "Unstoppable",
+          "stats": [
+            "10% increased Movement Speed",
+            "Cannot be Stunned",
+            "Action Speed cannot be modified to below Base Value",
+            "Movement Speed cannot be modified to below Base Value"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "17765",
+            "63417",
+            "5819"
+          ],
+          "originalPathNodeNames": [
+            "Juggernaut",
+            "Armour, Movement Speed",
+            "Unstoppable"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "44297",
+          "name": "Undeniable",
+          "stats": [
+            "+500 to Accuracy Rating",
+            "1% increased Attack Speed per 150 Accuracy Rating",
+            "Gain Accuracy Rating equal to twice your Strength"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "17765",
+            "32115",
+            "44297"
+          ],
+          "originalPathNodeNames": [
+            "Juggernaut",
+            "Armour, Attack Speed",
+            "Undeniable"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "17988",
+          "name": "Untiring",
+          "stats": [
+            "40% increased Life Regeneration rate",
+            "1.5% of Physical Damage prevented from Hits in the past\n10 seconds is Regenerated as Life per second"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "17765",
+            "16093",
+            "17988"
+          ],
+          "originalPathNodeNames": [
+            "Juggernaut",
+            "Armour, Life Regeneration",
+            "Untiring"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "53816",
+          "name": "Unbreakable",
+          "stats": [
+            "Armour from Equipped Body Armour is doubled",
+            "15% of Armour also applies to Chaos Damage taken from Hits"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "17765",
+            "51998",
+            "53816"
+          ],
+          "originalPathNodeNames": [
+            "Juggernaut",
+            "Armour, Chaos Resistance",
+            "Unbreakable"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Undeniable affects Attacks only. Untiring needs prevented Physical Hit damage history and regeneration rate, not generic healing."
+    },
+    {
+      "classId": "marauder",
+      "className": "Marauder",
+      "ascendancyId": "Berserker",
+      "ascendancyName": "Berserker",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Berserker",
+      "nodes": [
+        {
+          "nodeId": "59920",
+          "name": "Aspect of Carnage",
+          "stats": [
+            "10% increased Damage taken",
+            "40% more Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "29294",
+            "63673",
+            "59920"
+          ],
+          "originalPathNodeNames": [
+            "Berserker",
+            "Physical Damage, Attack Speed",
+            "Aspect of Carnage"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "29630",
+          "name": "Gore Dancer",
+          "stats": [
+            "30% of Life Leech is Instant"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "29294",
+            "63673",
+            "59920",
+            "48904",
+            "29630"
+          ],
+          "originalPathNodeNames": [
+            "Berserker",
+            "Physical Damage, Attack Speed",
+            "Aspect of Carnage",
+            "Physical Damage, Life Leeched per Second",
+            "Gore Dancer"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "24528",
+          "name": "Crave the Slaughter",
+          "stats": [
+            "Every Rage also grants 1% increased Attack Speed",
+            "Inherent Rage Loss starts 2 seconds later"
+          ],
+          "reminderText": [
+            "(This only affects the inherent loss of Rage when you haven't been Hit or gained Rage Recently)",
+            "(Every Rage grants 1% more Attack Damage. Maximum Rage is 30. Lose 10 Rage per second if you have not been Hit or gained Rage in the last 2 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "29294",
+            "63583",
+            "24528"
+          ],
+          "originalPathNodeNames": [
+            "Berserker",
+            "Physical Damage, Rage on Hit",
+            "Crave the Slaughter"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "57560",
+          "name": "Rite of Ruin",
+          "stats": [
+            "Lose 0.1% of Life per second per Rage while you are not losing Rage",
+            "50% increased Rage Effect"
+          ],
+          "reminderText": [
+            "(Every Rage has an inherent effect of 1% more Attack Damage, and modifiers can add extra effects to Rage)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "29294",
+            "63583",
+            "24528",
+            "42861",
+            "57560"
+          ],
+          "originalPathNodeNames": [
+            "Berserker",
+            "Physical Damage, Rage on Hit",
+            "Crave the Slaughter",
+            "Physical Damage, Rage on Hit",
+            "Rite of Ruin"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Aspect of Carnage must include increased Damage taken. Instant leech requires valid leech sources. Rage is a separate resource."
+    },
+    {
+      "classId": "marauder",
+      "className": "Marauder",
+      "ascendancyId": "Chieftain",
+      "ascendancyName": "Chieftain",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Chieftain",
+      "nodes": [
+        {
+          "nodeId": "1731",
+          "name": "Hinekora, Death's Fury",
+          "stats": [
+            "Enemies you or your Totems Kill have 10% chance to Explode, dealing 250% of their maximum Life as Fire Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24704",
+            "9971",
+            "1731"
+          ],
+          "originalPathNodeNames": [
+            "Chieftain",
+            "Life Regeneration, Fire Damage",
+            "Hinekora, Death's Fury"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "48480",
+          "name": "Tasalio, Cleansing Water",
+          "stats": [
+            "Modifiers to Fire Resistance also apply to Cold and Lightning Resistances at 50% of their Value",
+            "Unaffected by Ignite"
+          ],
+          "reminderText": [
+            "(Debuffs you are Unaffected by can still be placed on you, but will not actually apply their effect)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24704",
+            "5643",
+            "48480"
+          ],
+          "originalPathNodeNames": [
+            "Chieftain",
+            "Life Regeneration, Fire Resistance",
+            "Tasalio, Cleansing Water"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "61355",
+          "name": "Ramako, Sun's Light",
+          "stats": [
+            "Nearby Enemy Monsters' Fire Resistance against\nDamage over Time is -20% while you are Stationary"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24704",
+            "10238",
+            "61355"
+          ],
+          "originalPathNodeNames": [
+            "Chieftain",
+            "Life Regeneration, Fire Damage",
+            "Ramako, Sun's Light"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "32249",
+          "name": "Valako, Storm's Embrace",
+          "stats": [
+            "Modifiers to Maximum Fire Resistance also apply to Maximum Cold and Lightning Resistances"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24704",
+            "5643",
+            "48480",
+            "42659",
+            "32249"
+          ],
+          "originalPathNodeNames": [
+            "Chieftain",
+            "Life Regeneration, Fire Resistance",
+            "Tasalio, Cleansing Water",
+            "Life Regeneration, Fire Resistance",
+            "Valako, Storm's Embrace"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Hinekora requires kill-triggered maximum-enemy-Life explosions. Ramako only affects stationary player Damage over Time and sets resistance, rather than applying generic penetration."
+    },
+    {
+      "classId": "ranger",
+      "className": "Ranger",
+      "ascendancyId": "Raider",
+      "ascendancyName": "Warden",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Warden",
+      "nodes": [
+        {
+          "nodeId": "33645",
+          "name": "Oath of Summer",
+          "stats": [
+            "Hits that would Ignite instead Scorch",
+            "You can inflict an additional Scorch on each Enemy"
+          ],
+          "reminderText": [
+            "(Scorched Enemies have their Elemental Resistances lowered by up to 30%, based on the Fire Damage of the Hit, for 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58427",
+            "24432",
+            "33645"
+          ],
+          "originalPathNodeNames": [
+            "Warden",
+            "Evasion, Chance to Ignite",
+            "Oath of Summer"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "31364",
+          "name": "Oath of Spring",
+          "stats": [
+            "Maximum Effect of Shock is 2% increased Damage taken",
+            "You can apply up to 50 Shocks to each Enemy"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58427",
+            "5926",
+            "31364"
+          ],
+          "originalPathNodeNames": [
+            "Warden",
+            "Evasion, Chance to Shock",
+            "Oath of Spring"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "16848",
+          "name": "Oath of Winter",
+          "stats": [
+            "Enemies you Freeze remain Frozen for at least 2 seconds",
+            "Hits that fail to Freeze due to insufficient Freeze Duration inflict Hoarfrost"
+          ],
+          "reminderText": [
+            "(Freeze lowers Enemy Action Speed to zero, preventing them from acting. Duration is based on the Cold Damage of the Hit)",
+            "(Freezes that would have a duration of 0.3 seconds or below are not inflicted)",
+            "(Hoarfrost lasts 10 seconds and can be inflicted multiple times, each refreshing the duration of existing Hoarfrost on the target. Each Hoarfost increases Freeze Duration on the target by 20%. All Hoarfrost is removed if the target is Frozen)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58427",
+            "53421",
+            "16848"
+          ],
+          "originalPathNodeNames": [
+            "Warden",
+            "Evasion, Chance to Freeze",
+            "Oath of Winter"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "55509",
+          "name": "Avatar of the Wilds",
+          "stats": [
+            "Grants Level 20 Unbound Avatar Skill",
+            "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment\nCannot gain Unbound Fury while Unbound",
+            "Your Hits always inflict Freeze, Shock and Ignite while Unbound",
+            "100% more Elemental Damage while Unbound"
+          ],
+          "reminderText": [
+            "(Unbound Avatar requires 100 Unbound Fury to use and causes you to become Unbound for 10 seconds, which has no effects beyond those listed here)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58427",
+            "5926",
+            "31364",
+            "63940",
+            "55509"
+          ],
+          "originalPathNodeNames": [
+            "Warden",
+            "Evasion, Chance to Shock",
+            "Oath of Spring",
+            "Evasion, Elemental Ailment Duration",
+            "Avatar of the Wilds"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "The current displayed class is Warden. Preserve internal Raider ID for tree linkage. Scorch/Shock/Freeze and Hoarfrost require their own ailment rules."
+    },
+    {
+      "classId": "ranger",
+      "className": "Ranger",
+      "ascendancyId": "Deadeye",
+      "ascendancyName": "Deadeye",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Deadeye",
+      "nodes": [
+        {
+          "nodeId": "26067",
+          "name": "Endless Munitions",
+          "stats": [
+            "Skills fire 2 additional Projectiles"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "56856",
+            "5082",
+            "61627",
+            "56134",
+            "26067"
+          ],
+          "originalPathNodeNames": [
+            "Deadeye",
+            "Projectile Damage, Accuracy",
+            "Ricochet",
+            "Projectile Damage, Accuracy",
+            "Endless Munitions"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "61627",
+          "name": "Ricochet",
+          "stats": [
+            "Skills Chain +1 times",
+            "Projectiles have 30% chance to be able to Chain when colliding with terrain"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "56856",
+            "5082",
+            "61627"
+          ],
+          "originalPathNodeNames": [
+            "Deadeye",
+            "Projectile Damage, Accuracy",
+            "Ricochet"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "45313",
+          "name": "Far Shot",
+          "stats": [
+            "Projectiles gain Damage as they travel farther, dealing up\nto 30% more Damage with Hits and Ailments",
+            "Projectile Barrages have no spread"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "56856",
+            "28995",
+            "45313"
+          ],
+          "originalPathNodeNames": [
+            "Deadeye",
+            "Projectile Damage, Projectile Speed",
+            "Far Shot"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "24848",
+          "name": "Gathering Winds",
+          "stats": [
+            "Gain 1 Gale Force when you use a Skill\n10% increased Effect of Tailwind on you per Gale Force",
+            "You and nearby Allies have Tailwind"
+          ],
+          "reminderText": [
+            "(Each instance of Gale Force lasts 4 seconds. Maximum 10 Gale Force)",
+            "(Tailwind increases Action Speed by 8%)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "56856",
+            "59837",
+            "24848"
+          ],
+          "originalPathNodeNames": [
+            "Deadeye",
+            "Projectile Damage, Attack Speed",
+            "Gathering Winds"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Endless Munitions adds exactly 2 projectiles only to projectile skills. Ricochet requires chain targeting; Far Shot depends on actual projectile travel distance."
+    },
+    {
+      "classId": "ranger",
+      "className": "Ranger",
+      "ascendancyId": "Pathfinder",
+      "ascendancyName": "Pathfinder",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Pathfinder",
+      "nodes": [
+        {
+          "nodeId": "40813",
+          "name": "Nature's Reprisal",
+          "stats": [
+            "25% chance to inflict Withered for 2 seconds on Hit",
+            "50% increased Effect of Withered"
+          ],
+          "reminderText": [
+            "(Withered applies 6% increased Chaos Damage Taken, and can be inflicted up to 15 times)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "64111",
+            "32662",
+            "40813"
+          ],
+          "originalPathNodeNames": [
+            "Pathfinder",
+            "Flask Effect, Chaos Damage",
+            "Nature's Reprisal"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "1697",
+          "name": "Master Toxicist",
+          "stats": [
+            "When you kill a Poisoned Enemy during any Flask Effect, Enemies within 1.5 metres are Poisoned",
+            "Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "64111",
+            "20480",
+            "1697"
+          ],
+          "originalPathNodeNames": [
+            "Pathfinder",
+            "Flask Effect, Poison Duration",
+            "Master Toxicist"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "51101",
+          "name": "Nature's Adrenaline",
+          "stats": [
+            "Flasks gain 3 Charges every 3 seconds"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "64111",
+            "14156",
+            "51101"
+          ],
+          "originalPathNodeNames": [
+            "Pathfinder",
+            "Flask Effect and Duration",
+            "Nature's Adrenaline"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "65296",
+          "name": "Nature's Boon",
+          "stats": [
+            "Magic Utility Flasks applied to you have 30% increased Effect"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "64111",
+            "32640",
+            "65296"
+          ],
+          "originalPathNodeNames": [
+            "Pathfinder",
+            "Flask Effect and Charges Gained",
+            "Nature's Boon"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Withered and Poison are different effects. Master Toxicist requires any Flask Effect and poisoned kills. Flask charges alone do not provide active flask effects."
+    },
+    {
+      "classId": "witch",
+      "className": "Witch",
+      "ascendancyId": "Occultist",
+      "ascendancyName": "Occultist",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Occultist",
+      "nodes": [
+        {
+          "nodeId": "37127",
+          "name": "Profane Bloom",
+          "stats": [
+            "Cursed Enemies you or your Minions Kill have a 50% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18378",
+            "31984",
+            "37127"
+          ],
+          "originalPathNodeNames": [
+            "Occultist",
+            "Energy Shield, Curse Effect",
+            "Profane Bloom"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "27096",
+          "name": "Void Beacon",
+          "stats": [
+            "Nearby Enemies have -20% to Cold Resistance",
+            "Nearby Enemies have -20% to Chaos Resistance",
+            "Nearby Enemies have 100% reduced Life Regeneration rate"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18378",
+            "32417",
+            "27096"
+          ],
+          "originalPathNodeNames": [
+            "Occultist",
+            "Energy Shield, Cold and Chaos Damage",
+            "Void Beacon"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "47630",
+          "name": "Frigid Wake",
+          "stats": [
+            "Cannot be Chilled",
+            "Cannot be Frozen",
+            "15% more Cold Damage",
+            "Every 4 seconds, 50% chance to Freeze nearby Non-Frozen Enemies for 0.4 seconds",
+            "Nearby Chilled Enemies deal 10% reduced Damage with Hits"
+          ],
+          "reminderText": [
+            "(Freeze lowers Enemy Action Speed to zero, preventing them from acting. Duration is based on the Cold Damage of the Hit)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18378",
+            "32417",
+            "27096",
+            "43242",
+            "47630"
+          ],
+          "originalPathNodeNames": [
+            "Occultist",
+            "Energy Shield, Cold and Chaos Damage",
+            "Void Beacon",
+            "Energy Shield, Cold Damage",
+            "Frigid Wake"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "25309",
+          "name": "Withering Presence",
+          "stats": [
+            "+60% to Chaos Resistance",
+            "15% more Chaos Damage",
+            "Every second, inflict Withered on nearby Enemies for 15 seconds",
+            "Nearby Hindered Enemies deal 15% reduced Damage over Time"
+          ],
+          "reminderText": [
+            "(Withered applies 6% increased Chaos Damage Taken, and can be inflicted up to 15 times)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18378",
+            "32417",
+            "27096",
+            "31316",
+            "25309"
+          ],
+          "originalPathNodeNames": [
+            "Occultist",
+            "Energy Shield, Cold and Chaos Damage",
+            "Void Beacon",
+            "Energy Shield, Chaos Damage",
+            "Withering Presence"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Profane Bloom requires cursed enemies killed by player or minions. Frigid Wake includes its timing, freeze chance, immunity and chilled-hit mitigation."
+    },
+    {
+      "classId": "witch",
+      "className": "Witch",
+      "ascendancyId": "Elementalist",
+      "ascendancyName": "Elementalist",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Elementalist",
+      "nodes": [
+        {
+          "nodeId": "53123",
+          "name": "Shaper of Flames",
+          "stats": [
+            "Hits always Ignite",
+            "All Damage can Ignite",
+            "Enemies Ignited by you have 40% of Physical Damage they deal converted to Fire"
+          ],
+          "reminderText": [
+            "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "16023",
+            "12738",
+            "53123"
+          ],
+          "originalPathNodeNames": [
+            "Elementalist",
+            "Elemental Damage, Fire Damage over Time Multiplier",
+            "Shaper of Flames"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "27038",
+          "name": "Shaper of Storms",
+          "stats": [
+            "Hits always Shock",
+            "Shocks from your Hits always increase Damage taken by at least 25%",
+            "All Damage can Shock"
+          ],
+          "reminderText": [
+            "(Shock increases Damage taken by up to 50%, depending on the amount of Lightning Damage in the hit, for 2 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "16023",
+            "58998",
+            "27038"
+          ],
+          "originalPathNodeNames": [
+            "Elementalist",
+            "Elemental Damage, Lightning Ailment Effect",
+            "Shaper of Storms"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "40810",
+          "name": "Shaper of Winter",
+          "stats": [
+            "All Damage with Hits can Chill",
+            "Your Chills can reduce Action Speed by up to a maximum of 40%",
+            "Enemies Chilled by your Hits lessen their Damage dealt by half of Chill Effect"
+          ],
+          "reminderText": [
+            "(Chill reduces Enemy Action Speed by up to 30%, depending on the amount of Cold Damage in the hit, for 2 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "16023",
+            "12475",
+            "40810"
+          ],
+          "originalPathNodeNames": [
+            "Elementalist",
+            "Elemental Damage, Cold Ailment Effect",
+            "Shaper of Winter"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "61259",
+          "name": "Mastermind of Discord",
+          "stats": [
+            "Exposure you inflict applies an extra -25% to the affected Resistance",
+            "Regenerate 1% of Mana per second if you've inflicted Exposure Recently"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "16023",
+            "37114",
+            "61259"
+          ],
+          "originalPathNodeNames": [
+            "Elementalist",
+            "Elemental Damage, Attack and Cast Speed",
+            "Mastermind of Discord"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "All damage can inflict the named ailment; always inflict alone is insufficient without an ailment system. Do not retain older 3.25 numeric stats."
+    },
+    {
+      "classId": "witch",
+      "className": "Witch",
+      "ascendancyId": "Necromancer",
+      "ascendancyName": "Necromancer",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Necromancer",
+      "nodes": [
+        {
+          "nodeId": "54159",
+          "name": "Mindless Aggression",
+          "stats": [
+            "Minions have 20% more Maximum Life",
+            "Minions deal 10% more Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "60791",
+            "26298",
+            "54159"
+          ],
+          "originalPathNodeNames": [
+            "Necromancer",
+            "Minion Damage and Life",
+            "Mindless Aggression"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "36017",
+          "name": "Commander of Darkness",
+          "stats": [
+            "Auras from your Skills grant 3% increased Attack and Cast\nSpeed to you and Allies",
+            "You and nearby Allies deal 30% increased Damage",
+            "You and nearby Allies have +30% to Elemental Resistances"
+          ],
+          "reminderText": [
+            "(Auras can only grant bonuses to things they affect)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "60791",
+            "5415",
+            "36017"
+          ],
+          "originalPathNodeNames": [
+            "Necromancer",
+            "Minion Damage, Aura Effect",
+            "Commander of Darkness"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "14603",
+          "name": "Bone Barrier",
+          "stats": [
+            "1% additional Physical Damage Reduction per Minion, up to 10%",
+            "1% of Damage Dealt by your Minions is Leeched to you as Life",
+            "Minions gain 40% of Maximum Life as Extra Maximum Energy Shield"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "60791",
+            "26298",
+            "54159",
+            "55646",
+            "14603"
+          ],
+          "originalPathNodeNames": [
+            "Necromancer",
+            "Minion Damage and Life",
+            "Mindless Aggression",
+            "Minion Damage and Life",
+            "Bone Barrier"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "11490",
+          "name": "Plaguebringer",
+          "stats": [
+            "If you've Consumed a corpse Recently, you and your Minions have 30% increased Area of Effect",
+            "With at least one nearby corpse, you and nearby Allies deal 10% more Damage",
+            "With at least one nearby corpse, nearby Enemies deal 10% reduced Damage"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "60791",
+            "60547",
+            "11490"
+          ],
+          "originalPathNodeNames": [
+            "Necromancer",
+            "Minion Damage, Cast Speed",
+            "Plaguebringer"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Mindless Aggression is minion-only. Commander of Darkness needs aura counting for its speed line; Bone Barrier needs minion damage leech and Extra Maximum Energy Shield."
+    },
+    {
+      "classId": "duelist",
+      "className": "Duelist",
+      "ascendancyId": "Slayer",
+      "ascendancyName": "Slayer",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Slayer",
+      "nodes": [
+        {
+          "nodeId": "3184",
+          "name": "Headsman",
+          "stats": [
+            "Kill Enemies that have 20% or lower Life when Hit by your Skills",
+            "Gain 10% increased Attack Speed for 20 seconds when you Kill a Rare or Unique Enemy",
+            "Gain 10% increased Movement Speed for 20 seconds when you Kill an Enemy"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "33795",
+            "42293",
+            "62817",
+            "15286",
+            "3184"
+          ],
+          "originalPathNodeNames": [
+            "Slayer",
+            "Attack Damage, Attack Speed",
+            "Bane of Legends",
+            "Attack Damage, Attack Speed",
+            "Headsman"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "62817",
+          "name": "Bane of Legends",
+          "stats": [
+            "10% more Damage if you've Killed Recently",
+            "Cannot take Reflected Physical Damage",
+            "20% more Damage with Hits and Ailments against Unique Enemies"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "33795",
+            "42293",
+            "62817"
+          ],
+          "originalPathNodeNames": [
+            "Slayer",
+            "Attack Damage, Attack Speed",
+            "Bane of Legends"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "10143",
+          "name": "Brutal Fervour",
+          "stats": [
+            "100% increased Maximum Recovery per Life Leech",
+            "Life Leech effects are not removed when Unreserved Life is Filled",
+            "10% reduced Damage taken while Leeching"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "33795",
+            "45696",
+            "10143"
+          ],
+          "originalPathNodeNames": [
+            "Slayer",
+            "Attack Damage, Life Leech",
+            "Brutal Fervour"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "17315",
+          "name": "Overwhelm",
+          "stats": [
+            "Base Critical Strike Chance for Attacks with Weapons is 8%",
+            "+10% to Critical Strike Multiplier per Nearby Enemy, up to +100%",
+            "Nearby Enemies have -30% to Critical Strike Multiplier"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "33795",
+            "61393",
+            "17315"
+          ],
+          "originalPathNodeNames": [
+            "Slayer",
+            "Attack Damage, Critical Strike Chance",
+            "Overwhelm"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Headsman is a 20%-life execution and its attack/movement speed conditions differ. Overleech needs persistent leech instances, not unconditional regeneration."
+    },
+    {
+      "classId": "duelist",
+      "className": "Duelist",
+      "ascendancyId": "Gladiator",
+      "ascendancyName": "Gladiator",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Gladiator",
+      "nodes": [
+        {
+          "nodeId": "27864",
+          "name": "Gratuitous Violence",
+          "stats": [
+            "Bleeding Enemies you Kill Explode, dealing 20% of\ntheir Maximum Life as Physical Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "32730",
+            "48760",
+            "27864"
+          ],
+          "originalPathNodeNames": [
+            "Gladiator",
+            "Attack Speed, Bleed Chance",
+            "Gratuitous Violence"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "15616",
+          "name": "Jagged Technique",
+          "stats": [
+            "Bleeding you inflict is Aggravated"
+          ],
+          "reminderText": [
+            "(Bleeding which has been Aggravated always deals higher Damage as though the target was moving)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "32730",
+            "48760",
+            "27864",
+            "33179",
+            "15616"
+          ],
+          "originalPathNodeNames": [
+            "Gladiator",
+            "Attack Speed, Bleed Chance",
+            "Gratuitous Violence",
+            "Attack Speed, Bleed Chance",
+            "Jagged Technique"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "758",
+          "name": "War of Attrition",
+          "stats": [
+            "Deal 1% more Damage with Hits and Ailments to Rare and Unique Enemies for each second they've ever been in your Presence, up to a maximum of 100%"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "32730",
+            "14726",
+            "758"
+          ],
+          "originalPathNodeNames": [
+            "Gladiator",
+            "Attack Speed, Attack Damage",
+            "War of Attrition"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "8419",
+          "name": "Determined Survivor",
+          "stats": [
+            "Gain 50% Chance to Block from Equipped Shield instead of the Shield's value",
+            "Inherent Bonuses from Dual Wielding are doubled"
+          ],
+          "reminderText": [
+            "(Dual Wielding inherently grants +20% chance to Block Attack Damage and 10% more Attack Speed)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "32730",
+            "1675",
+            "8419"
+          ],
+          "originalPathNodeNames": [
+            "Gladiator",
+            "Attack Speed, Block Chance",
+            "Determined Survivor"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Bleeding, Aggravated and physical death explosions are separate mechanics. War of Attrition tracks seconds each Rare/Unique enemy has ever been in Presence, capped at 100%."
+    },
+    {
+      "classId": "duelist",
+      "className": "Duelist",
+      "ascendancyId": "Champion",
+      "ascendancyName": "Champion",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Champion",
+      "nodes": [
+        {
+          "nodeId": "56967",
+          "name": "Worthy Foe",
+          "stats": [
+            "Taunt on Hit",
+            "Enemies Taunted by you take 15% increased Damage",
+            "Enemies Taunted by you cannot Evade Attacks"
+          ],
+          "reminderText": [
+            "(Enemies you Taunt can only target you, and deal 10% less damage to anyone else. Taunt lasts for 3 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24984",
+            "6982",
+            "56967"
+          ],
+          "originalPathNodeNames": [
+            "Champion",
+            "Armour and Evasion, Taunt Duration",
+            "Worthy Foe"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "31700",
+          "name": "Fortitude",
+          "stats": [
+            "Nearby Allies count as having Fortification equal to yours",
+            "You have your maximum Fortification"
+          ],
+          "reminderText": [
+            "(Take 1% less Damage from Hits per Fortification. Maximum 20 Fortification)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24984",
+            "60508",
+            "31700"
+          ],
+          "originalPathNodeNames": [
+            "Champion",
+            "Armour and Evasion, Attack Damage while Fortified",
+            "Fortitude"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "13374",
+          "name": "Master of Metal",
+          "stats": [
+            "Impales you inflict last 1 additional Hit",
+            "If you've Impaled an Enemy Recently, you\nand nearby Allies have +1000 to Armour",
+            "You and nearby Allies deal 6 to 12 added Physical Damage for\neach Impale on Enemy"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24984",
+            "41433",
+            "13374"
+          ],
+          "originalPathNodeNames": [
+            "Champion",
+            "Armour and Evasion, Impale Chance",
+            "Master of Metal"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "27604",
+          "name": "First to Strike, Last to Fall",
+          "stats": [
+            "Your Hits permanently Intimidate Enemies that are on Full Life",
+            "Gain Adrenaline for 20 seconds when you reach Low Life",
+            "Recover 25% of Life when you gain Adrenaline",
+            "Remove all Ailments and Burning when you gain Adrenaline"
+          ],
+          "reminderText": [
+            "(Intimidated enemies take 10% increased Attack Damage)",
+            "(Adrenaline grants 100% increased Damage, 25% increased Attack, Cast and Movement Speed and 10% additional Physical Damage Reduction. You cannot gain Adrenaline if you already have it)",
+            "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "24984",
+            "43725",
+            "27604"
+          ],
+          "originalPathNodeNames": [
+            "Champion",
+            "Armour and Evasion, Attack Damage",
+            "First to Strike, Last to Fall"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Taunt, Cannot Evade and increased Damage taken must remain separate effects. Fortitude needs current maximum Fortification. Impale needs stored physical damage and hit counters."
+    },
+    {
+      "classId": "templar",
+      "className": "Templar",
+      "ascendancyId": "Inquisitor",
+      "ascendancyName": "Inquisitor",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Inquisitor",
+      "nodes": [
+        {
+          "nodeId": "48214",
+          "name": "Inevitable Judgement",
+          "stats": [
+            "Critical Strikes ignore Enemy Monster Elemental Resistances",
+            "Non-Critical Strikes Penetrate 10% of Enemy Elemental Resistances"
+          ],
+          "reminderText": [
+            "(Ignoring Resistances means your Damage cannot be modified in any way by any Resistance stats)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "61871",
+            "662",
+            "53884",
+            "37486",
+            "48214"
+          ],
+          "originalPathNodeNames": [
+            "Inquisitor",
+            "Elemental Damage, Critical Strike Multiplier",
+            "Righteous Providence",
+            "Elemental Damage, Critical Strike Multiplier",
+            "Inevitable Judgement"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "53884",
+          "name": "Righteous Providence",
+          "stats": [
+            "1% increased Critical Strike Chance per point of Strength or Intelligence, whichever is lower",
+            "+50 to Strength and Intelligence"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "61871",
+            "662",
+            "53884"
+          ],
+          "originalPathNodeNames": [
+            "Inquisitor",
+            "Elemental Damage, Critical Strike Multiplier",
+            "Righteous Providence"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "40059",
+          "name": "Augury of Penitence",
+          "stats": [
+            "Nearby Enemies take 16% increased Elemental Damage",
+            "Nearby Enemies deal 8% less Elemental Damage"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "61871",
+            "60769",
+            "40059"
+          ],
+          "originalPathNodeNames": [
+            "Inquisitor",
+            "Elemental Damage and Resistances",
+            "Augury of Penitence"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "39790",
+          "name": "Sanctuary",
+          "stats": [
+            "Consecrated Ground you create applies 15% increased Damage taken to Enemies",
+            "You have Consecrated Ground around you while stationary"
+          ],
+          "reminderText": [
+            "(Allies on your Consecrated Ground Regenerate a percentage of their Maximum Life per second, and Curses have 50% reduced effect on them)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "61871",
+            "10635",
+            "39790"
+          ],
+          "originalPathNodeNames": [
+            "Inquisitor",
+            "Elemental Damage, Life Regeneration",
+            "Sanctuary"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Inevitable Judgement criticals ignore elemental resistance; non-critical hits penetrate 10%. Righteous Providence scales with the lower of STR/INT, not their sum."
+    },
+    {
+      "classId": "templar",
+      "className": "Templar",
+      "ascendancyId": "Hierophant",
+      "ascendancyName": "Hierophant",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Hierophant",
+      "nodes": [
+        {
+          "nodeId": "40510",
+          "name": "Arcane Blessing",
+          "stats": [
+            "Arcane Surge also grants 20% more Spell Damage to you",
+            "Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell"
+          ],
+          "reminderText": [
+            "(Arcane Surge grants 20% increased Cast Speed and 30% increased Mana Regeneration rate, for 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "30940",
+            "44797",
+            "40510"
+          ],
+          "originalPathNodeNames": [
+            "Hierophant",
+            "Mana Regeneration, Arcane Surge Effect",
+            "Arcane Blessing"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "922",
+          "name": "Divine Guidance",
+          "stats": [
+            "30% increased maximum Mana",
+            "10% of Damage is taken from Mana before Life",
+            "Transfiguration of Mind"
+          ],
+          "reminderText": [
+            "(Increases and Reductions to Maximum Mana also apply to Damage at 30% of their value)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "30940",
+            "11046",
+            "922"
+          ],
+          "originalPathNodeNames": [
+            "Hierophant",
+            "Mana Regeneration, Mana",
+            "Divine Guidance"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "1105",
+          "name": "Pursuit of Faith",
+          "stats": [
+            "100% increased Totem Duration",
+            "+1 to maximum number of Summoned Totems",
+            "100% increased Totem Placement speed"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "30940",
+            "26714",
+            "1105"
+          ],
+          "originalPathNodeNames": [
+            "Hierophant",
+            "Mana Regeneration, Totem Placement Speed",
+            "Pursuit of Faith"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "25651",
+          "name": "Conviction of Power",
+          "stats": [
+            "+4 to Minimum Endurance Charges",
+            "+4 to Minimum Power Charges",
+            "+1 to Maximum Power Charges and Maximum Endurance Charges"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "30940",
+            "22637",
+            "25651"
+          ],
+          "originalPathNodeNames": [
+            "Hierophant",
+            "Mana Regeneration, Mana",
+            "Conviction of Power"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Arcane Blessing requires Arcane Surge; Divine Guidance includes Transfiguration of Mind and mana-before-life. Totem count bonus is not a minion count bonus."
+    },
+    {
+      "classId": "templar",
+      "className": "Templar",
+      "ascendancyId": "Guardian",
+      "ascendancyName": "Guardian",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Guardian",
+      "nodes": [
+        {
+          "nodeId": "4494",
+          "name": "Radiant Crusade",
+          "stats": [
+            "Grants Level 20 Summon Sentinel of Radiance Skill",
+            "20% of Damage from Hits is taken from your Sentinel of Radiance's Life before you"
+          ],
+          "reminderText": [
+            "(Summons a Sentinel of Radiance which follows you and attacks enemies in melee, while burning enemies around it and taking a portion of damage from hits for you. You can only have one Sentinel of Radiance)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "409",
+            "40010",
+            "4494"
+          ],
+          "originalPathNodeNames": [
+            "Guardian",
+            "Armour and Energy Shield, Minion Damage",
+            "Radiant Crusade"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "55146",
+          "name": "Time of Need",
+          "stats": [
+            "Every 4 seconds, remove Curses and Ailments from you",
+            "Every 4 seconds, Regenerate 100% of Life over one second"
+          ],
+          "reminderText": [
+            "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "409",
+            "32364",
+            "55146"
+          ],
+          "originalPathNodeNames": [
+            "Guardian",
+            "Armour and Energy Shield, Life Regeneration",
+            "Time of Need"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "39728",
+          "name": "Bastion of Hope",
+          "stats": [
+            "If you've Attacked Recently, you and nearby Allies have +25% Chance to Block Attack Damage",
+            "If you've Cast a Spell Recently, you and nearby Allies have +25% Chance to Block Spell Damage"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "409",
+            "32992",
+            "39728"
+          ],
+          "originalPathNodeNames": [
+            "Guardian",
+            "Armour and Energy Shield, Block Recovery",
+            "Bastion of Hope"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "42264",
+          "name": "Radiant Faith",
+          "stats": [
+            "Grants Armour equal to 25% of your Reserved Mana to you and nearby Allies",
+            "Grants maximum Energy Shield equal to 10% of your Reserved Mana to\nyou and nearby Allies"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "409",
+            "37419",
+            "42264"
+          ],
+          "originalPathNodeNames": [
+            "Guardian",
+            "Armour and Energy Shield, Aura Effect",
+            "Radiant Faith"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Sentinel is a granted level-20 skill with its own stats, not a generic invulnerable summon. Time of Need is regeneration over one second each 4 seconds."
+    },
+    {
+      "classId": "shadow",
+      "className": "Shadow",
+      "ascendancyId": "Assassin",
+      "ascendancyName": "Assassin",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Assassin",
+      "nodes": [
+        {
+          "nodeId": "19083",
+          "name": "Opportunistic",
+          "stats": [
+            "25% more Damage while there is at most one Rare or Unique Enemy nearby",
+            "Damage cannot be Reflected",
+            "35% less Damage taken while there are at least two Rare or Unique Enemies nearby"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58229",
+            "6064",
+            "46676",
+            "9014",
+            "19083"
+          ],
+          "originalPathNodeNames": [
+            "Assassin",
+            "Critical Strike Chance and Multiplier",
+            "Assassination Style",
+            "Critical Strike Chance and Multiplier",
+            "Opportunistic"
+          ],
+          "originalChoiceHubIds": [
+            "46676"
+          ]
+        },
+        {
+          "nodeId": "28782",
+          "name": "Mistwalker",
+          "stats": [
+            "Gain Elusive on Critical Strike",
+            "100% increased Elusive Effect",
+            "You take no Extra Damage from Critical Strikes while Elusive"
+          ],
+          "reminderText": [
+            "(Elusive initially grants 15% chance to Avoid All Damage from Hits, and 30% increased Movement Speed. The buff reduces its effect over time, removing itself at 0% effect. If you already have an Elusive buff, you cannot gain Elusive)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58229",
+            "43215",
+            "28782"
+          ],
+          "originalPathNodeNames": [
+            "Assassin",
+            "Critical Strike Chance, Elusive Effect",
+            "Mistwalker"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "21264",
+          "name": "Knife in the Back",
+          "stats": [
+            "100% more Critical Strike Chance against Enemies that are not on Low Life",
+            "+100% to Critical Strike Multiplier against Enemies that are on Low Life",
+            "Critical Strikes have Culling Strike"
+          ],
+          "reminderText": [
+            "(You are on Low Life if you have 50% of your Maximum Life or less)",
+            "(Culling Strike means enemies that are on 10% or lower life after your Hit are Killed)"
+          ],
+          "isMultipleChoiceOption": true,
+          "originalShortestGraphPath": [
+            "58229",
+            "6064",
+            "46676",
+            "21264"
+          ],
+          "originalPathNodeNames": [
+            "Assassin",
+            "Critical Strike Chance and Multiplier",
+            "Assassination Style",
+            "Knife in the Back"
+          ],
+          "originalChoiceHubIds": [
+            "46676"
+          ]
+        },
+        {
+          "nodeId": "19598",
+          "name": "Toxic Delivery",
+          "stats": [
+            "Poison you inflict with Critical Strikes deals 20% more Damage",
+            "5% increased Poison Duration for each Poison you have inflicted Recently, up\nto a maximum of 100%",
+            "Recover 0.5% of Life per Poison affecting Enemies you Kill"
+          ],
+          "reminderText": [
+            "(Recently refers to the past 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "58229",
+            "23024",
+            "19598"
+          ],
+          "originalPathNodeNames": [
+            "Assassin",
+            "Critical Strike Chance, Poison Chance",
+            "Toxic Delivery"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [
+        "46676"
+      ],
+      "allocationCaveats": [
+        "Additional original notable dependencies: Assassination Style"
+      ],
+      "adaptationCaveat": "Opportunistic uses nearby Rare/Unique count. Mistwalker requires full Elusive rules. Knife in the Back and For the Jugular are mutually exclusive options of Assassination Style."
+    },
+    {
+      "classId": "shadow",
+      "className": "Shadow",
+      "ascendancyId": "Trickster",
+      "ascendancyName": "Trickster",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Trickster",
+      "nodes": [
+        {
+          "nodeId": "23225",
+          "name": "One Step Ahead",
+          "stats": [
+            "Your Action Speed is at least 90% of base value",
+            "Nearby Enemy Monsters' Action Speed is at most 90% of base value"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "55236",
+            "35598",
+            "23225"
+          ],
+          "originalPathNodeNames": [
+            "Trickster",
+            "Evasion and Energy Shield, Attack and Cast Speed",
+            "One Step Ahead"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "55867",
+          "name": "Polymath",
+          "stats": [
+            "2% more Damage for each different type of Mastery you have Allocated",
+            "Recover 1% of Life on Kill for each different type of Mastery you have Allocated",
+            "Recover 1% of Energy Shield on Kill for each different type of Mastery you have Allocated",
+            "Recover 1% of Mana on Kill for each different type of Mastery you have Allocated"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "55236",
+            "13219",
+            "55867"
+          ],
+          "originalPathNodeNames": [
+            "Trickster",
+            "Evasion and Energy Shield, Damage",
+            "Polymath"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "28884",
+          "name": "Heartstopper",
+          "stats": [
+            "Every 10 seconds:\nTake 50% less Damage from Hits for 5 seconds\nTake 50% less Damage over Time for 5 seconds"
+          ],
+          "reminderText": [
+            "(These are consecutive)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "55236",
+            "63908",
+            "28884"
+          ],
+          "originalPathNodeNames": [
+            "Trickster",
+            "Evasion and Energy Shield, Movement Speed",
+            "Heartstopper"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "29825",
+          "name": "Escape Artist",
+          "stats": [
+            "+4 to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet",
+            "+1 to maximum Energy Shield per 8 Evasion Rating on Equipped Body Armour"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "55236",
+            "19587",
+            "29825"
+          ],
+          "originalPathNodeNames": [
+            "Trickster",
+            "Evasion and Energy Shield, Movement Speed",
+            "Escape Artist"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "One Step Ahead is action speed, not just movement. Polymath counts distinct allocated Mastery types. Heartstopper alternates hit/DoT mitigation in exact 5-second halves."
+    },
+    {
+      "classId": "shadow",
+      "className": "Shadow",
+      "ascendancyId": "Saboteur",
+      "ascendancyName": "Saboteur",
+      "sourceUrl": "https://www.pathofexile.com/ascendancy/classes/Saboteur",
+      "nodes": [
+        {
+          "nodeId": "47778",
+          "name": "Bomb Specialist",
+          "stats": [
+            "Hits have 30% chance to deal 50% more Area Damage",
+            "30% chance to take 50% less Area Damage from Hits"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18635",
+            "62067",
+            "47778"
+          ],
+          "originalPathNodeNames": [
+            "Saboteur",
+            "Area of Effect, Area Damage",
+            "Bomb Specialist"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "5087",
+          "name": "Born in the Shadows",
+          "stats": [
+            "Cannot be Blinded",
+            "15% reduced Damage taken from Blinded Enemies",
+            "Nearby Enemies are Blinded",
+            "Blind Enemies on Hit"
+          ],
+          "reminderText": [
+            "(Being Blinded causes 20% less Accuracy Rating and Evasion Rating)",
+            "(Being Blinded causes 20% less Accuracy Rating and Evasion Rating, for 4 seconds)"
+          ],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18635",
+            "64842",
+            "5087"
+          ],
+          "originalPathNodeNames": [
+            "Saboteur",
+            "Area of Effect, Blind Effect",
+            "Born in the Shadows"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "51462",
+          "name": "Like Clockwork",
+          "stats": [
+            "50% increased Cooldown Recovery Rate",
+            "Nearby Enemies have 10% reduced Cooldown Recovery Rate"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18635",
+            "41081",
+            "51462"
+          ],
+          "originalPathNodeNames": [
+            "Saboteur",
+            "Area of Effect, Movement Speed",
+            "Like Clockwork"
+          ],
+          "originalChoiceHubIds": []
+        },
+        {
+          "nodeId": "57175",
+          "name": "Shrapnel Specialist",
+          "stats": [
+            "Projectiles have 50% chance to Return to you",
+            "Projectiles are fired in random directions"
+          ],
+          "reminderText": [],
+          "isMultipleChoiceOption": false,
+          "originalShortestGraphPath": [
+            "18635",
+            "64785",
+            "57175"
+          ],
+          "originalPathNodeNames": [
+            "Saboteur",
+            "Projectile Speed, Projectile Damage",
+            "Shrapnel Specialist"
+          ],
+          "originalChoiceHubIds": []
+        }
+      ],
+      "originalPathUnionPointCount": 8,
+      "additionalOriginalNotableDependencyIds": [],
+      "allocationCaveats": [],
+      "adaptationCaveat": "Bomb Specialist is a chance for more/less Area Hit damage, not a guaranteed 15% modifier. Blind requires accuracy/evasion; cooldown recovery is not direct cooldown subtraction."
+    }
+  ]
+}

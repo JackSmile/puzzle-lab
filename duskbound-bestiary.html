@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111513"><title>Duskbound — бестиарий и реликвии</title>
+  <link rel="stylesheet" href="./games/duskbound/style.css"><link rel="stylesheet" href="./games/duskbound/bestiary.css">
+</head>
+<body class="bestiary-body">
+  <main class="bestiary-page">
+    <header class="bestiary-heading"><a class="back-link" href="./duskbound.html">← Войти в ночь</a><p class="eyebrow">DUSKBOUND · ХРОНИКИ РЭКЛАСТА</p><h1>Они уже ждут тебя.</h1><p>Знакомые чудовища. Смертельные приёмы. Реликвии, меняющие сборку.</p></header>
+    <nav class="bestiary-tabs" aria-label="Раздел бестиария"><button data-tab="bosses" aria-pressed="true">Четыре босса <span>01—04</span></button><button data-tab="monsters" aria-pressed="false">Восемь угроз <span>БЕСТИАРИЙ</span></button><button data-tab="uniques" aria-pressed="false">Уникальные предметы <span>17 РЕЛИКВИЙ</span></button></nav>
+    <div class="bestiary-content"><nav class="bestiary-picker" id="bestiaryPicker" aria-label="Выбор противника или предмета"></nav><section class="bestiary-stage" aria-labelledby="sceneTitle"><div class="bestiary-scene"><div class="scene-copy"><span id="sceneKicker"></span><h2 id="sceneTitle"></h2><p id="sceneDescription"></p></div><canvas id="bestiaryCanvas" aria-label="Демонстрация атак противника"></canvas><div class="scene-readout" id="sceneReadout"></div></div><div class="bestiary-controls"><button id="scenePause" aria-pressed="false">Пауза</button><button id="scenePhase">Следующая форма</button><label><input type="checkbox" id="sceneMovement"> Манёвр</label><label><input type="checkbox" id="sceneLow"> Меньше эффектов</label></div><p class="demo-note">Демонстрационная сцена с усиленной защитой героя. Не влияет на твой забег. В бою уклоняйся от отмеченных областей.</p><article class="item-card selected-relic" id="selectedRelic" hidden></article></section></div>
+    <footer class="bestiary-footer"><a href="./duskbound-skills.html">Камни умений ↗</a><a href="./docs/poe-expansion-monster-sources.md" target="_blank" rel="noopener">Источники монстров и боссов ↗</a><a href="./docs/poe-expansion-unique-sources.md" target="_blank" rel="noopener">Свойства предметов ↗</a></footer>
+    <div class="status-announcer" id="bestiaryAnnouncer" role="status" aria-live="polite"></div>
+  </main><script type="module" src="./games/duskbound/bestiary.mjs"></script>
+</body></html>

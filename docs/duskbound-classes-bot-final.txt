@@ -1,0 +1,22 @@
+{"seed":42,"classId":"scion","ascendancy":"Ascendant","phase":"won","time":480,"level":31,"kills":3081,"nodes":2,"trials":4,"hp":580,"bossDefeated":true}
+{"seed":42,"classId":"scion","ascendancy":"Reliquarian","phase":"won","time":487.5,"level":31,"kills":3176,"nodes":3,"trials":4,"hp":850,"bossDefeated":true}
+{"seed":42,"classId":"scion","ascendancy":"Luminary","phase":"won","time":480,"level":31,"kills":3027,"nodes":4,"trials":4,"hp":615,"bossDefeated":true}
+{"seed":42,"classId":"marauder","ascendancy":"Juggernaut","phase":"won","time":486.9,"level":31,"kills":3094,"nodes":4,"trials":4,"hp":676,"bossDefeated":true}
+{"seed":42,"classId":"marauder","ascendancy":"Berserker","phase":"won","time":480,"level":31,"kills":3041,"nodes":4,"trials":4,"hp":680,"bossDefeated":true}
+{"seed":42,"classId":"marauder","ascendancy":"Chieftain","phase":"won","time":480,"level":31,"kills":2982,"nodes":4,"trials":4,"hp":641,"bossDefeated":true}
+{"seed":42,"classId":"ranger","ascendancy":"Warden","phase":"won","time":480,"level":32,"kills":3050,"nodes":4,"trials":4,"hp":691,"bossDefeated":true}
+{"seed":42,"classId":"ranger","ascendancy":"Deadeye","phase":"won","time":483,"level":31,"kills":3088,"nodes":4,"trials":4,"hp":642,"bossDefeated":true}
+{"seed":42,"classId":"ranger","ascendancy":"Pathfinder","phase":"won","time":480,"level":30,"kills":2992,"nodes":4,"trials":4,"hp":640,"bossDefeated":true}
+{"seed":42,"classId":"witch","ascendancy":"Occultist","phase":"won","time":480,"level":31,"kills":2995,"nodes":4,"trials":4,"hp":667,"bossDefeated":true}
+{"seed":42,"classId":"witch","ascendancy":"Elementalist","phase":"won","time":484.7,"level":30,"kills":3135,"nodes":4,"trials":4,"hp":600,"bossDefeated":true}
+{"seed":42,"classId":"witch","ascendancy":"Necromancer","phase":"won","time":480,"level":31,"kills":3007,"nodes":4,"trials":4,"hp":612,"bossDefeated":true}
+{"seed":42,"classId":"duelist","ascendancy":"Slayer","phase":"won","time":480,"level":32,"kills":3035,"nodes":4,"trials":4,"hp":634,"bossDefeated":true}
+{"seed":42,"classId":"duelist","ascendancy":"Gladiator","phase":"won","time":480,"level":31,"kills":3068,"nodes":4,"trials":4,"hp":657,"bossDefeated":true}
+{"seed":42,"classId":"duelist","ascendancy":"Champion","phase":"won","time":480,"level":32,"kills":3047,"nodes":4,"trials":4,"hp":707,"bossDefeated":true}
+{"seed":42,"classId":"templar","ascendancy":"Inquisitor","phase":"won","time":480,"level":31,"kills":3073,"nodes":4,"trials":4,"hp":809,"bossDefeated":true}
+{"seed":42,"classId":"templar","ascendancy":"Hierophant","phase":"won","time":480,"level":31,"kills":3067,"nodes":4,"trials":4,"hp":765,"bossDefeated":true}
+{"seed":42,"classId":"templar","ascendancy":"Guardian","phase":"won","time":480,"level":32,"kills":3050,"nodes":4,"trials":4,"hp":684,"bossDefeated":true}
+{"seed":42,"classId":"shadow","ascendancy":"Assassin","phase":"won","time":480,"level":31,"kills":3004,"nodes":4,"trials":4,"hp":722,"bossDefeated":true}
+{"seed":42,"classId":"shadow","ascendancy":"Trickster","phase":"won","time":480,"level":32,"kills":3033,"nodes":4,"trials":4,"hp":634,"bossDefeated":true}
+{"seed":42,"classId":"shadow","ascendancy":"Saboteur","phase":"won","time":480,"level":31,"kills":3075,"nodes":4,"trials":4,"hp":690,"bossDefeated":true}
+SUMMARY {"runs":21,"won":21,"dead":0,"playing":0}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101613">
+  <meta name="description" content="Duskbound — переживи ночь среди руин. Магия, орды нежити и новый билд в каждом забеге. Играй в браузере на компьютере и телефоне.">
+  <title>Duskbound — Puzzle Lab</title>
+  <link rel="stylesheet" href="./games/duskbound/style.css">
+</head>
+<body>
+  <main id="game" class="game-shell">
+    <canvas id="arena" aria-label="Арена Duskbound. Передвигайся клавишами WASD, стрелками или экранным джойстиком. Атаки автоматические."></canvas>
+    <div class="screen-grain" aria-hidden="true"></div>
+    <header class="topbar" id="topbar">
+      <a class="back-link" href="./index.html"><span aria-hidden="true">←</span> <span>Puzzle Lab</span></a>
+      <div class="top-brand"><span class="small-rune" aria-hidden="true">✧</span> DUSKBOUND</div>
+      <div class="top-actions"><button class="icon-button" id="soundButton" title="Включить звук" aria-label="Включить звук">♪</button><button class="icon-button" id="helpButton" title="Как играть" aria-label="Как играть">?</button><button class="icon-button" id="buildButton" title="Камни и экипировка — B" aria-label="Камни и экипировка" hidden>◈</button><button class="icon-button" id="pauseButton" title="Пауза — Esc" aria-label="Пауза" hidden>Ⅱ</button></div>
+    </header>
+
+    <section class="menu" id="menu" aria-labelledby="gameTitle">
+      <div class="menu-content">
+        <div class="eyebrow"><span></span> ДОЖИВИ ДО РАССВЕТА</div>
+        <h1 id="gameTitle">DUSK<span>BOUND</span></h1>
+        <p class="menu-tagline">Одна искра против бесконечной тьмы.</p>
+        <p class="menu-description">Камни умений. Связки поддержки. Редкая добыча.<br>Собери свою силу — и переживи ночь.</p>
+        <div class="hero-select-heading"><span>ВЫБЕРИ ИЗГНАННИКА</span><span id="heroCount">01 / 07</span></div>
+        <div class="hero-options" id="heroOptions" role="group" aria-label="Выбор класса"></div>
+        <div class="hero-description"><strong id="heroName"></strong><span id="heroDescription"></span><div class="base-attributes" id="baseAttributes"></div></div>
+        <button class="start-button" id="startButton"><span class="start-rune" aria-hidden="true">✦</span><span>Войти в ночь</span><span aria-hidden="true">↗</span></button>
+        <div class="run-facts"><span><i aria-hidden="true">◷</i> 8 минут до рассвета</span><span><i aria-hidden="true">✧</i> Атаки автоматически</span></div>
+        <div class="personal-best" id="personalBest"></div>
+      </div>
+      <div class="scene-caption" aria-hidden="true"><span class="caption-line"></span><span>ЗАБЫТЫЕ РУИНЫ</span><small>Тьма уже чувствует твоё присутствие</small></div>
+      <div class="menu-bottom"><span>РОГАЛИК НА ВЫЖИВАНИЕ</span><span>W A S D <b>/</b> СТРЕЛКИ <b>/</b> ДЖОЙСТИК</span></div>
+    </section>
+
+    <section class="hud" id="hud" aria-label="Состояние забега" hidden>
+      <div class="hud-top">
+        <div class="health-panel"><div class="health-heading"><span>ЖИЗНЬ</span><span id="healthText">100 / 100</span></div><div class="health-track"><div id="healthFill"></div></div></div>
+        <div class="timer-panel"><span class="timer-caption" id="waveLabel">НОЧЬ НАЧИНАЕТСЯ</span><strong id="timer">00:00</strong></div>
+        <div class="kill-panel"><span>ПОВЕРЖЕНО</span><strong id="killCount">0</strong></div>
+      </div>
+      <div class="resource-globe life-globe"><div class="globe-well"><div class="globe-liquid" id="lifeGlobeFill"></div><div class="globe-shine"></div><strong id="lifeGlobeText"></strong></div><span>ЖИЗНЬ</span></div>
+      <div class="resource-globe mana-globe"><div class="globe-well"><div class="globe-liquid" id="manaGlobeFill"></div><div class="globe-shine"></div><strong id="manaGlobeText"></strong></div><span>МАНА <b id="energyShieldText"></b></span></div>
+      <div class="xp-track"><div id="xpFill"></div><span id="levelLabel">УРОВЕНЬ 1</span></div>
+      <div class="boss-panel" id="bossPanel" hidden><div><span id="bossName">ХРАНИТЕЛЬ БЕЗДНЫ</span><span id="bossHealthText"></span></div><div class="boss-track"><i id="bossFill"></i></div><small id="bossPhase"></small></div>
+      <div class="wave-notice" id="waveNotice" aria-live="polite"></div>
+      <div class="combat-status" id="combatStatus" aria-label="Боевые эффекты"></div>
+      <div class="weapon-bar" id="weaponBar" aria-label="Твои улучшения"></div>
+      <div class="controls-caption" id="controlsCaption"><span>WASD / ↑↓←→ <b>движение</b></span><span>ESC <b>пауза</b> · B <b>персонаж</b></span></div>
+      <div class="first-tip" id="firstTip"><span>✧</span> Собирай светящиеся кристаллы, чтобы стать сильнее</div>
+    </section>
+
+    <div class="joystick" id="joystick" aria-label="Джойстик передвижения" hidden><div class="joystick-ring"></div><div class="joystick-thumb" id="joystickThumb"></div><span>ДВИЖЕНИЕ</span></div>
+    <div class="status-announcer" id="announcer" role="status" aria-live="polite"></div>
+
+    <section class="overlay" id="upgradeScreen" role="dialog" aria-modal="true" aria-labelledby="upgradeTitle" hidden>
+      <div class="upgrade-dialog"><div class="dialog-rune" aria-hidden="true">✦</div><div class="eyebrow centered">ТВОЯ СИЛА ПРОБУЖДАЕТСЯ</div><h2 id="upgradeTitle">Выбери дар</h2><p class="dialog-subtitle">Ночь подождёт. Какой станет твоя магия?</p><div class="upgrade-cards" id="upgradeCards"></div><div class="dialog-footnote">Выбери карту или нажми 1, 2, 3</div></div>
+    </section>
+
+    <section class="overlay" id="pauseScreen" role="dialog" aria-modal="true" aria-labelledby="pauseTitle" hidden>
+      <div class="panel-dialog"><div class="dialog-rune" aria-hidden="true">☾</div><div class="eyebrow centered">ТИШИНА МЕЖДУ БИТВАМИ</div><h2 id="pauseTitle">Ночь замерла</h2><p class="dialog-subtitle">Переведи дух. Твоя история ещё не закончена.</p><button class="start-button" id="resumeButton">Продолжить <span aria-hidden="true">→</span></button><button class="secondary-button" id="restartButton">Новый забег</button><button class="text-button" id="menuButton">К выбору класса</button><label class="effects-setting"><input type="checkbox" id="lowEffects"> Меньше частиц и вспышек</label></div>
+    </section>
+
+    <section class="overlay" id="resultScreen" role="dialog" aria-modal="true" aria-labelledby="resultTitle" hidden>
+      <div class="panel-dialog result-dialog"><div class="dialog-rune" id="resultRune" aria-hidden="true">☾</div><div class="eyebrow centered" id="resultKicker">КАЖДАЯ НОЧЬ УЧИТ</div><h2 id="resultTitle">До следующей искры</h2><p class="dialog-subtitle" id="resultDescription"></p><div class="result-stats"><div><strong id="resultTime"></strong><span>ПРОЖИТО</span></div><div><strong id="resultKills"></strong><span>ПОВЕРЖЕНО</span></div><div><strong id="resultLevel"></strong><span>УРОВЕНЬ</span></div></div><div class="record-banner" id="recordBanner" hidden>✦ Новый личный рекорд</div><button class="start-button" id="retryButton">Ещё один рассвет <span aria-hidden="true">↗</span></button><button class="text-button" id="resultMenuButton">Выбрать другого хранителя</button></div>
+    </section>
+
+    <section class="overlay" id="lootScreen" role="dialog" aria-modal="true" aria-labelledby="lootTitle" hidden>
+      <div class="loot-dialog"><div class="dialog-rune" aria-hidden="true">♜</div><div class="eyebrow centered">ДОБЫЧА ПОВЕРЖЕННОГО ВРАГА</div><h2 id="lootTitle">Сила в твоих руках</h2><p class="dialog-subtitle">Замени предмет или оставь текущий. Время остановлено.</p><div class="loot-compare"><div><div class="item-caption" id="replacementCaption">НАДЕТО</div><div class="item-card" id="currentItem"></div></div><div><div class="item-caption">НАЙДЕНО</div><div class="item-card" id="newItem"></div></div></div><div class="equipment-delta" id="equipmentDelta"></div><div class="loot-actions"><button class="start-button" id="equipButton">Надеть предмет <span aria-hidden="true">↗</span></button><button class="secondary-button" id="skipItemButton">Оставить текущий</button></div></div>
+    </section>
+
+    <section class="overlay" id="buildScreen" role="dialog" aria-modal="true" aria-labelledby="buildTitle" hidden>
+      <div class="build-dialog"><div class="eyebrow centered">ПЕРСОНАЖ · КАМНИ · СНАРЯЖЕНИЕ</div><h2 id="buildTitle">Магия и сталь</h2><div class="character-sheet" id="characterSheet"></div><div class="attribute-actions" id="attributeActions"></div><div class="ascendancy-allocated" id="allocatedAscendancy"></div><div class="build-content"><section><h3>КАМНИ И СВЯЗИ</h3><div id="buildSkills"></div></section><section><h3>ЭКИПИРОВКА</h3><div id="buildEquipment"></div></section></div><button class="start-button" id="buildCloseButton">Вернуться в ночь <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="overlay" id="ascendancyScreen" role="dialog" aria-modal="true" aria-labelledby="ascendancyTitle" hidden>
+      <div class="ascendancy-dialog"><div class="dialog-rune" aria-hidden="true">♜</div><div class="eyebrow centered">ИСПЫТАНИЕ ВОСХОЖДЕНИЯ</div><h2 id="ascendancyTitle">За пределом смертного</h2><p class="dialog-subtitle" id="ascendancyDescription"></p><div class="ascendancy-path" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="ascendancy-options" id="ascendancyOptions"></div><div class="ascendancy-footer"><span id="ascendancyPoints"></span><button class="secondary-button" id="ascendancyContinue">Сохранить очки и продолжить →</button></div></div>
+    </section>
+
+    <section class="overlay" id="helpScreen" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+      <div class="panel-dialog help-dialog"><div class="eyebrow centered">ПРАВИЛА ВЫЖИВАНИЯ</div><h2 id="helpTitle">Стань сильнее ночи</h2><ol class="help-steps"><li><span>01</span><div><b>Двигайся, магия сделает остальное</b><p>WASD, стрелки или джойстик. Атаки автоматические. Для ауры и вращающихся клинков придётся подойти ближе.</p></div></li><li><span>02</span><div><b>Собирай кристаллы, выбирай камни</b><p>Новый уровень даёт выбор из трёх улучшений и очко характеристик на экране ◈. Камень поддержки нужно связать с подходящим умением.</p></div></li><li><span>03</span><div><b>Охоться за добычей</b><p>Золотая обводка отмечает элитных врагов. Подбери их трофеи и сравни с экипировкой. Кнопка ◈ или B открывает сборку.</p></div></li><li><span>04</span><div><b>Выбери восхождение</b><p>Первое испытание наступит через 90 секунд. Четыре испытания дают восемь очков. Можно выбрать ключевой узел или сохранить очки для более длинного пути.</p></div></li><li><span>05</span><div><b>Встреть рассвет</b><p>Продержись 8 минут и победи четырёх боссов: Brutus, Merveil, Dominus и Kitava. За каждого — уникальный предмет. Пауза и выбор наград останавливают время. В следующем забеге уровень, вещи и восхождение начинаются заново.</p></div></li></ol><p class="source-note">Умения и связки вдохновлены PoE 1. Баланс и свойства предметов адаптированы для этой игры. <a href="./duskbound-bestiary.html">Бестиарий и уникальные предметы</a> · <a href="./duskbound-skills.html">Камни умений</a> · <a href="./docs/poe-references.md" target="_blank" rel="noopener">Источники</a></p><button class="start-button" id="helpCloseButton">Понятно <span aria-hidden="true">✦</span></button></div>
+    </section>
+  </main>
+  <script type="module" src="./games/duskbound/app.mjs"></script>
+</body>
+</html>

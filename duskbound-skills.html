@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101613">
+  <title>Duskbound — умения</title>
+  <link rel="stylesheet" href="./games/duskbound/style.css">
+  <link rel="stylesheet" href="./games/duskbound/showcase.css">
+</head>
+<body class="showcase-body">
+  <main class="showcase">
+    <header class="showcase-heading">
+      <a class="back-link" href="./duskbound.html">← Войти в ночь</a>
+      <p class="eyebrow">DUSKBOUND · КАМНИ УМЕНИЙ</p>
+      <h1>Пять граней магии</h1>
+      <p>Выбери умение и посмотри, как оно оживает в руинах.</p>
+    </header>
+    <div class="showcase-content">
+      <nav class="skill-picker" id="skillPicker" aria-label="Выбор умения"></nav>
+      <section class="preview-panel" aria-labelledby="previewTitle">
+        <div class="preview-copy"><h2 id="previewTitle">Winter Orb</h2><p id="previewDescription"></p></div>
+        <canvas id="previewCanvas" aria-label="Демонстрация выбранного умения на манекенах"></canvas>
+        <div class="preview-controls">
+          <button class="secondary-button" id="previewPause" aria-pressed="false">Пауза</button>
+          <label><input type="checkbox" id="previewMovement"> Движение</label>
+          <label><input type="checkbox" id="previewLowEffects"> Меньше эффектов</label>
+        </div>
+      </section>
+    </div>
+    <footer class="showcase-footer"><span>Собери свою связку в настоящем забеге.</span><a href="./docs/duskbound-vfx-sources.md" target="_blank" rel="noopener">Референсы эффектов PoE 1 ↗</a></footer>
+    <div class="status-announcer" id="previewAnnouncer" role="status" aria-live="polite"></div>
+  </main>
+  <script type="module" src="./games/duskbound/showcase.mjs"></script>
+</body>
+</html>

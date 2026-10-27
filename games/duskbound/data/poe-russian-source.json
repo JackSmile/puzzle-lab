@@ -1,0 +1,5169 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "retrievedDate": "2026-10-27",
+    "language": "ru",
+    "treeUrl": "https://ru.pathofexile.com/passive-skill-tree",
+    "overviewUrl": "https://ru.pathofexile.com/ascendancy/classes",
+    "pageVersion": "3.29.3b",
+    "treeName": "Default",
+    "realm": "pc",
+    "mode": "Normal (Default), not Ruthless",
+    "treeHtmlSha256": "46c591f7a61a8598efef65f72dc5f9669b95ac5354da7b6aebb11bbddf4000c1",
+    "overviewHtmlSha256": "4355b14198f07494e990e597beb5afc00e57de695ca808b5dd7b4f85efb3d7f3",
+    "statsPolicy": "Exact official Russian name/stats/reminderText. Preserve source typos, punctuation, markup and line breaks. Runtime mechanics must keep EN parsing/IDs; this file supplies UI text only."
+  },
+  "classes": [
+    {
+      "id": "scion",
+      "name": "Дворянка",
+      "nameEnglish": "Scion",
+      "treeClassIndex": 0,
+      "baseAttributes": {
+        "strength": 20,
+        "dexterity": 20,
+        "intelligence": 20
+      },
+      "ascendancies": [
+        {
+          "id": "Ascendant",
+          "name": "Вознесшаяся",
+          "nameEnglish": "Ascendant"
+        },
+        {
+          "id": "Reliquarian",
+          "name": "Реликварианка",
+          "nameEnglish": "Reliquarian"
+        },
+        {
+          "id": "Luminary",
+          "name": "Светоч",
+          "nameEnglish": "Luminary"
+        }
+      ]
+    },
+    {
+      "id": "marauder",
+      "name": "Дикарь",
+      "nameEnglish": "Marauder",
+      "treeClassIndex": 1,
+      "baseAttributes": {
+        "strength": 32,
+        "dexterity": 14,
+        "intelligence": 14
+      },
+      "ascendancies": [
+        {
+          "id": "Juggernaut",
+          "name": "Покоритель",
+          "nameEnglish": "Juggernaut"
+        },
+        {
+          "id": "Berserker",
+          "name": "Берсерк",
+          "nameEnglish": "Berserker"
+        },
+        {
+          "id": "Chieftain",
+          "name": "Вождь",
+          "nameEnglish": "Chieftain"
+        }
+      ]
+    },
+    {
+      "id": "ranger",
+      "name": "Охотница",
+      "nameEnglish": "Ranger",
+      "treeClassIndex": 2,
+      "baseAttributes": {
+        "strength": 14,
+        "dexterity": 32,
+        "intelligence": 14
+      },
+      "ascendancies": [
+        {
+          "id": "Raider",
+          "name": "Хранитель",
+          "nameEnglish": "Warden"
+        },
+        {
+          "id": "Deadeye",
+          "name": "Снайпер",
+          "nameEnglish": "Deadeye"
+        },
+        {
+          "id": "Pathfinder",
+          "name": "Следопыт",
+          "nameEnglish": "Pathfinder"
+        }
+      ]
+    },
+    {
+      "id": "witch",
+      "name": "Ведьма",
+      "nameEnglish": "Witch",
+      "treeClassIndex": 3,
+      "baseAttributes": {
+        "strength": 14,
+        "dexterity": 14,
+        "intelligence": 32
+      },
+      "ascendancies": [
+        {
+          "id": "Occultist",
+          "name": "Оккультист",
+          "nameEnglish": "Occultist"
+        },
+        {
+          "id": "Elementalist",
+          "name": "Маг стихий",
+          "nameEnglish": "Elementalist"
+        },
+        {
+          "id": "Necromancer",
+          "name": "Некромант",
+          "nameEnglish": "Necromancer"
+        }
+      ]
+    },
+    {
+      "id": "duelist",
+      "name": "Дуэлянт",
+      "nameEnglish": "Duelist",
+      "treeClassIndex": 4,
+      "baseAttributes": {
+        "strength": 23,
+        "dexterity": 23,
+        "intelligence": 14
+      },
+      "ascendancies": [
+        {
+          "id": "Slayer",
+          "name": "Рубака",
+          "nameEnglish": "Slayer"
+        },
+        {
+          "id": "Gladiator",
+          "name": "Гладиатор",
+          "nameEnglish": "Gladiator"
+        },
+        {
+          "id": "Champion",
+          "name": "Чемпион",
+          "nameEnglish": "Champion"
+        }
+      ]
+    },
+    {
+      "id": "templar",
+      "name": "Жрец",
+      "nameEnglish": "Templar",
+      "treeClassIndex": 5,
+      "baseAttributes": {
+        "strength": 23,
+        "dexterity": 14,
+        "intelligence": 23
+      },
+      "ascendancies": [
+        {
+          "id": "Inquisitor",
+          "name": "Инквизитор",
+          "nameEnglish": "Inquisitor"
+        },
+        {
+          "id": "Hierophant",
+          "name": "Иерофант",
+          "nameEnglish": "Hierophant"
+        },
+        {
+          "id": "Guardian",
+          "name": "Защитник",
+          "nameEnglish": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "name": "Бандит",
+      "nameEnglish": "Shadow",
+      "treeClassIndex": 6,
+      "baseAttributes": {
+        "strength": 14,
+        "dexterity": 23,
+        "intelligence": 23
+      },
+      "ascendancies": [
+        {
+          "id": "Assassin",
+          "name": "Убийца",
+          "nameEnglish": "Assassin"
+        },
+        {
+          "id": "Trickster",
+          "name": "Плут",
+          "nameEnglish": "Trickster"
+        },
+        {
+          "id": "Saboteur",
+          "name": "Диверсант",
+          "nameEnglish": "Saboteur"
+        }
+      ]
+    }
+  ],
+  "nodes": {
+    "5865": {
+      "skill": 5865,
+      "name": "Физический урон, броня",
+      "nameEnglish": "Physical Damage, Armour",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "15% повышение брони",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": []
+    },
+    "38999": {
+      "skill": 38999,
+      "name": "Ярость предков",
+      "nameEnglish": "Ancestral Fury",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Умения ударов также выбирают целью прежнее место своего использования"
+      ],
+      "reminderText": []
+    },
+    "24528": {
+      "skill": 24528,
+      "name": "Жажда бойни",
+      "nameEnglish": "Crave the Slaughter",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "1% повышение скорости атаки за 1 свирепости",
+        "Изначальная потеря свирепости начинается на 2 секунд(-ы) позже"
+      ],
+      "reminderText": [
+        "(Это влияет только на естественную потерю свирепости, когда вы не получали удар или не набирали свирепость недавно)",
+        "(Каждый заряд свирепости дарует на 1% больше урона от атак. Максимум 30 свирепости. Вы теряете 10 свирепости в секунду, если вы не получали удар или не набирали свирепость за последние 2 секунды)"
+      ]
+    },
+    "59920": {
+      "skill": 59920,
+      "name": "Аспект резни",
+      "nameEnglish": "Aspect of Carnage",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "10% увеличение получаемого урона",
+        "На 40% больше урона"
+      ],
+      "reminderText": []
+    },
+    "63673": {
+      "skill": 63673,
+      "name": "Физический урон, скорость атаки",
+      "nameEnglish": "Physical Damage, Attack Speed",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "5% повышение скорости атаки",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": []
+    },
+    "29630": {
+      "skill": 29630,
+      "name": "Танцующий в крови",
+      "nameEnglish": "Gore Dancer",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "30% похищения здоровья применяется мгновенно"
+      ],
+      "reminderText": []
+    },
+    "48904": {
+      "skill": 48904,
+      "name": "Физический урон, похищение здоровья в секунду",
+      "nameEnglish": "Physical Damage, Life Leeched per Second",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "30% увеличение итогового восстановления в секунду от похищения здоровья",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": []
+    },
+    "8592": {
+      "skill": 8592,
+      "name": "Физический урон, дальность удара в ближнем бою",
+      "nameEnglish": "Physical Damage, Melee Strike Range",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "+0.2 м к дальности ударов ближнего боя",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": [
+        "(Влияет на удары ближнего боя, включая обычную атаку. Не влияет на области действия)"
+      ]
+    },
+    "63583": {
+      "skill": 63583,
+      "name": "Физический урон, свирепость при ударе",
+      "nameEnglish": "Physical Damage, Rage on Hit",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Дарует 1 свирепости при нанесении удара атаками",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": [
+        "(Каждый заряд свирепости дарует на 1% больше урона от атак. Максимум 30 свирепости. Вы теряете 10 свирепости в секунду, если вы не получали удар или не набирали свирепость за последние 2 секунды)",
+        "(Только один удар раз в 0,5 секунды позволяет накапливать свирепость)"
+      ]
+    },
+    "42861": {
+      "skill": 42861,
+      "name": "Физический урон, свирепость при ударе",
+      "nameEnglish": "Physical Damage, Rage on Hit",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Дарует 1 свирепости при нанесении удара атаками",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": [
+        "(Каждый заряд свирепости дарует на 1% больше урона от атак. Максимум 30 свирепости. Вы теряете 10 свирепости в секунду, если вы не получали удар или не набирали свирепость за последние 2 секунды)",
+        "(Только один удар раз в 0,5 секунды позволяет накапливать свирепость)"
+      ]
+    },
+    "50024": {
+      "skill": 50024,
+      "name": "Физический урон, скорость применения боевых кличей",
+      "nameEnglish": "Physical Damage, Warcry Speed",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "20% повышение скорости применения боевых кличей",
+        "10% увеличение физического урона"
+      ],
+      "reminderText": []
+    },
+    "32251": {
+      "skill": 32251,
+      "name": "Вестник войны",
+      "nameEnglish": "War Bringer",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Боевые кличи улучшают вдвое больше атак"
+      ],
+      "reminderText": []
+    },
+    "57560": {
+      "skill": 57560,
+      "name": "Ритуал разрушения",
+      "nameEnglish": "Rite of Ruin",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Отнимает 0.1% здоровья в секунду за заряд свирепости, пока вы не теряете Свирепость",
+        "50% усиление эффекта свирепости"
+      ],
+      "reminderText": [
+        "(Каждый заряд свирепости изначально дарует на 1% больше урона от атак, и свойства могут добавлять свирепости дополнительные эффекты)"
+      ]
+    },
+    "9271": {
+      "skill": 9271,
+      "name": "Пренебрежение к боли",
+      "nameEnglish": "Defy Pain",
+      "ascendancyName": "Berserker",
+      "stats": [
+        "Дарует Непокорность на 10 секунд при потере здоровья от удара врага, но не чаще одного раза в 0.3 секунды.",
+        "Теряет всю Непокорность при достижении вами 10 Непокорности",
+        "Дарует 3% от недостающего неудержанного здоровья за заряд Непокорности перед получением удара от врага"
+      ],
+      "reminderText": []
+    },
+    "29294": {
+      "skill": 29294,
+      "name": "Берсерк",
+      "nameEnglish": "Berserker",
+      "ascendancyName": "Berserker",
+      "stats": [],
+      "reminderText": []
+    },
+    "32992": {
+      "skill": 32992,
+      "name": "Броня и энергетический щит, восстановление после блока",
+      "nameEnglish": "Armour and Energy Shield, Block Recovery",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "30% ускорение восстановления блока",
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "61372": {
+      "skill": 61372,
+      "name": "Благое намерение",
+      "nameEnglish": "Harmony of Purpose",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Каждые 10 секунд(-ы) дарует положительный эффект случайного алтаря"
+      ],
+      "reminderText": [
+        "(Положительные эффекты случайного алтаря имеют базовую длительность 20 секунд)"
+      ]
+    },
+    "64768": {
+      "skill": 64768,
+      "name": "Непоколебимая вера",
+      "nameEnglish": "Unwavering Faith",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "50% увеличение эффективности удержания ресурсов умениями"
+      ],
+      "reminderText": []
+    },
+    "16745": {
+      "skill": 16745,
+      "name": "Броня и энергетический щит, урон приспешников",
+      "nameEnglish": "Armour and Energy Shield, Minion Damage",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "4494": {
+      "skill": 4494,
+      "name": "Лучезарная защита",
+      "nameEnglish": "Radiant Crusade",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Дарует умение Призыв стража света 20 уровня",
+        "20% получаемого урона от ударов берется сначала из здоровья вашего Стража света вместо вас"
+      ],
+      "reminderText": [
+        "(Призывает Стража света, который следует за вами и атакует противников в ближнем бою, при этом нанося урон от горения врагам вокруг себя и принимая на себя часть урона от ударов вместо вас. Одновременно может быть активен только один Страж света)"
+      ]
+    },
+    "40010": {
+      "skill": 40010,
+      "name": "Броня и энергетический щит, урон приспешников",
+      "nameEnglish": "Armour and Energy Shield, Minion Damage",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "19641": {
+      "skill": 19641,
+      "name": "Непоколебимая защита",
+      "nameEnglish": "Unwavering Crusade",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "25% шанс вызвать срабатывание Призыва стихийной реликвии 20 уровня, когда вы или ближайший союзник убиваете врага или наносите удар по редкому или уникальному врагу"
+      ],
+      "reminderText": [
+        "(Призывает Реликвию случайной стихии, которая держится вблизи вас. В зависимости от выбранной стихии реликвия будет обладать аурой Жгучей злобы, Холодной ненависти или Грозного гнева. Реликвии взрываются при смерти, нанося урон от стихий врагам вокруг. Если у вас уже есть Реликвия выбранной стихии, то вместо призыва новой будет обновлено время действия существующей Реликвии)"
+      ]
+    },
+    "5929": {
+      "skill": 5929,
+      "name": "Эффект Освящающего пламени",
+      "nameEnglish": "Hallowing Flame Effect",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "20% увеличение силы накладываемого вами Освящающего пламени"
+      ],
+      "reminderText": [
+        "(Атаки по врагам под действием Освящающего пламени наносят 25% физического урона в виде дополнительного урона от огня.",
+        "Освящающее пламя исчезает после успешного совершения атаки, способной нанести данный дополнительный урон.",
+        "Освящающее пламя длится шесть секунд и не действует на того, кто его наложил)"
+      ]
+    },
+    "3458": {
+      "skill": 3458,
+      "name": "Маршал божественности",
+      "nameEnglish": "Marshal of Divinity",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Накладывает Освящающее пламя при нанесении удара в ближнем бою",
+        "Вы можете наложить +1 заряд Освящающего пламени на врагов",
+        "Наносит 10% физического урона в виде дополнительного урона от молнии за каждое ваше Освящающее пламя, недавно удаленное союзником , вплоть до 80%"
+      ],
+      "reminderText": [
+        "(Атаки по врагам под действием Освящающего пламени наносят 25% физического урона в виде дополнительного урона от огня.",
+        "Освящающее пламя исчезает после успешного совершения атаки, способной нанести данный дополнительный урон.",
+        "Освящающее пламя длится шесть секунд и не действует на того, кто его наложил)",
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "55146": {
+      "skill": 55146,
+      "name": "Час нужды",
+      "nameEnglish": "Time of Need",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Каждые 4 секунды удаляет с вас проклятия и состояния",
+        "Каждые 4 секунды регенерирует 100% здоровья в течение 1 секунды"
+      ],
+      "reminderText": [
+        "(Состояния - кровотечение, поджог, опаление, охлаждение, заморозка, хрупкость, шок, ошеломление и яд)"
+      ]
+    },
+    "42264": {
+      "skill": 42264,
+      "name": "Лучезарная вера",
+      "nameEnglish": "Radiant Faith",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Вы и ваши союзники получаете броню в размере 25% от вашей удержанной маны",
+        "Вы и ближайшие союзники получаете максимум энергетического щита\nв размере 10% от вашей удержанной маны"
+      ],
+      "reminderText": []
+    },
+    "39728": {
+      "skill": 39728,
+      "name": "Оплот надежды",
+      "nameEnglish": "Bastion of Hope",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "Если вы недавно атаковали, то вы\nи ближайшие союзники имеете +25% шанс блокировать урон от атак",
+        "Если вы недавно сотворяли чары, то вы\nи ближайшие союзники имеете +25% шанс блокировать урон от чар"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "32364": {
+      "skill": 32364,
+      "name": "Броня и энергетический щит, регенерация здоровья",
+      "nameEnglish": "Armour and Energy Shield, Life Regeneration",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "37419": {
+      "skill": 37419,
+      "name": "Броня и энергетический щит, эффекты аур",
+      "nameEnglish": "Armour and Energy Shield, Aura Effect",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "5% усиление эффекта аур не-проклятий от ваших умений"
+      ],
+      "reminderText": []
+    },
+    "46952": {
+      "skill": 46952,
+      "name": "Броня и энергетический щит, эффект алтарей",
+      "nameEnglish": "Armour and Energy Shield, Shrine Buff Effect",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "10% усиление эффектов алтарей на вас"
+      ],
+      "reminderText": []
+    },
+    "20050": {
+      "skill": 20050,
+      "name": "Броня и энергетический щит, эффекты аур",
+      "nameEnglish": "Armour and Energy Shield, Aura Effect",
+      "ascendancyName": "Guardian",
+      "stats": [
+        "14% повышение брони",
+        "5% увеличение максимума энергетического щита",
+        "5% усиление эффекта аур не-проклятий от ваших умений"
+      ],
+      "reminderText": []
+    },
+    "409": {
+      "skill": 409,
+      "name": "Защитник",
+      "nameEnglish": "Guardian",
+      "ascendancyName": "Guardian",
+      "stats": [],
+      "reminderText": []
+    },
+    "17988": {
+      "skill": 17988,
+      "name": "Неустанный",
+      "nameEnglish": "Untiring",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "40% повышение скорости регенерации здоровья",
+        "Регенерация 1.5% общего предотвращённого физического урона от ударов за последние 10 секунд в виде здоровья"
+      ],
+      "reminderText": []
+    },
+    "16093": {
+      "skill": 16093,
+      "name": "Броня, регенерация здоровья",
+      "nameEnglish": "Armour, Life Regeneration",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "63417": {
+      "skill": 63417,
+      "name": "Броня, скорость передвижения",
+      "nameEnglish": "Armour, Movement Speed",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "4% повышение скорости передвижения"
+      ],
+      "reminderText": []
+    },
+    "51998": {
+      "skill": 51998,
+      "name": "Броня, сопротивление хаосу",
+      "nameEnglish": "Armour, Chaos Resistance",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "+11% к сопротивлению хаосу"
+      ],
+      "reminderText": []
+    },
+    "5819": {
+      "skill": 5819,
+      "name": "Неудержимый",
+      "nameEnglish": "Unstoppable",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "10% повышение скорости передвижения",
+        "Не может быть оглушен",
+        "Скорость действий не может быть уменьшена ниже базового значения",
+        "Скорость передвижения не может быть ниже своего базового значения"
+      ],
+      "reminderText": []
+    },
+    "53816": {
+      "skill": 53816,
+      "name": "Несокрушимый",
+      "nameEnglish": "Unbreakable",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "Значение брони, полученное от надетого нательного доспеха, удваивается",
+        "15% брони также применяется к урону хаосом, полученному от ударов"
+      ],
+      "reminderText": []
+    },
+    "23972": {
+      "skill": 23972,
+      "name": "Броня, длительность заряда выносливости",
+      "nameEnglish": "Armour, Endurance Charge Duration",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "15% увеличение длительности заряда выносливости"
+      ],
+      "reminderText": []
+    },
+    "44297": {
+      "skill": 44297,
+      "name": "Недрогнувший",
+      "nameEnglish": "Undeniable",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "+500 к меткости",
+        "1% повышение скорости атаки за 150 меткости",
+        "Дарует меткость в размере двойного значения вашей силы"
+      ],
+      "reminderText": []
+    },
+    "1734": {
+      "skill": 1734,
+      "name": "Непоколебимый",
+      "nameEnglish": "Unflinching",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "30% шанс получить заряд выносливости при получении удара",
+        "25% шанс, что при получении зарядов выносливости, вы получите максимум зарядов выносливости",
+        "Дарует зарядов выносливости каждую секунду, если вы недавно получали удар: 1",
+        "+1 к максимуму зарядов выносливости"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "56789": {
+      "skill": 56789,
+      "name": "Неумолимый",
+      "nameEnglish": "Unrelenting",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "1% дополнительного уменьшения получаемого урона от стихий за заряд выносливости",
+        "1% дополнительного уменьшения получаемого физического урона за заряд выносливости"
+      ],
+      "reminderText": []
+    },
+    "49153": {
+      "skill": 49153,
+      "name": "Броня, длительность заряда выносливости",
+      "nameEnglish": "Armour, Endurance Charge Duration",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "15% увеличение длительности заряда выносливости"
+      ],
+      "reminderText": []
+    },
+    "32115": {
+      "skill": 32115,
+      "name": "Броня, скорость атаки",
+      "nameEnglish": "Armour, Attack Speed",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "5% повышение скорости атаки",
+        "15% повышение брони"
+      ],
+      "reminderText": []
+    },
+    "62349": {
+      "skill": 62349,
+      "name": "Броня, длительность оглушения",
+      "nameEnglish": "Armour, Stun Duration",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "15% повышение брони",
+        "20% увеличение длительности оглушения на врагах"
+      ],
+      "reminderText": []
+    },
+    "62595": {
+      "skill": 62595,
+      "name": "Несгибаемый",
+      "nameEnglish": "Unyielding",
+      "ascendancyName": "Juggernaut",
+      "stats": [
+        "8% увеличение урона за заряд выносливости",
+        "6% увеличение области действия за заряд выносливости",
+        "25% шанс получить заряд выносливости при оглушении врага",
+        "10% увеличение длительности оглушения на врагах за заряд выносливости"
+      ],
+      "reminderText": []
+    },
+    "17765": {
+      "skill": 17765,
+      "name": "Покоритель",
+      "nameEnglish": "Juggernaut",
+      "ascendancyName": "Juggernaut",
+      "stats": [],
+      "reminderText": []
+    },
+    "44797": {
+      "skill": 44797,
+      "name": "Регенерация маны, эффект Колдовского выброса",
+      "nameEnglish": "Mana Regeneration, Arcane Surge Effect",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "20% повышение скорости регенерации маны",
+        "20% усиление эффекта Колдовского выброса на вас"
+      ],
+      "reminderText": [
+        "(Колдовской выброс дарует на 20% повышение скорости сотворения чар и 30% повышение скорости регенерации маны на 4 секунды)"
+      ]
+    },
+    "34434": {
+      "skill": 34434,
+      "name": "Ритуал пробуждения",
+      "nameEnglish": "Ritual of Awakening",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "На 3% больше урона за каждый установленный тотем",
+        "Регенерация 0.5% маны в секунду за каждый установленный тотем",
+        "Вы и ваши тотемы регенерируете 1% здоровья в секунду за каждый установленный тотем"
+      ],
+      "reminderText": []
+    },
+    "25651": {
+      "skill": 25651,
+      "name": "Властолюбие",
+      "nameEnglish": "Conviction of Power",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "+4 к минимуму зарядов выносливости",
+        "+4 к минимуму зарядов энергии",
+        "+1 к максимуму зарядов энергии и выносливости"
+      ],
+      "reminderText": []
+    },
+    "60462": {
+      "skill": 60462,
+      "name": "Просветленная набожность",
+      "nameEnglish": "Illuminated Devotion",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "50% ослабление эффекта не-наносящих урон состояний на вас под действием Колдовского выброса",
+        "30% увеличение области действия, пока на вас действует Колдовской выброс",
+        "0.5% урона от чар похищается в виде здоровья, пока на вас действует Колдовской выброс"
+      ],
+      "reminderText": [
+        "(Состояния, не наносящие урон - опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "33167": {
+      "skill": 33167,
+      "name": "Регенерация маны, эффект Колдовского выброса",
+      "nameEnglish": "Mana Regeneration, Arcane Surge Effect",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "20% повышение скорости регенерации маны",
+        "20% усиление эффекта Колдовского выброса на вас"
+      ],
+      "reminderText": [
+        "(Колдовской выброс дарует на 20% повышение скорости сотворения чар и 30% повышение скорости регенерации маны на 4 секунды)"
+      ]
+    },
+    "40510": {
+      "skill": 40510,
+      "name": "Колдовское благословение",
+      "nameEnglish": "Arcane Blessing",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "Колдовской выброс также дарует вам на 20% больше урона от чар",
+        "Дарует Колдовской выброс, когда вы или ваши тотемы наносите удар чарами по врагу"
+      ],
+      "reminderText": [
+        "(Колдовской выброс дарует на 20% повышение скорости сотворения чар и 30% повышение скорости регенерации маны на 4 секунды)"
+      ]
+    },
+    "38387": {
+      "skill": 38387,
+      "name": "Регенерация маны, урон клейма",
+      "nameEnglish": "Mana Regeneration, Brand Damage",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "20% повышение скорости регенерации маны",
+        "14% увеличение урона клеймами"
+      ],
+      "reminderText": [
+        "(Урон клеймами - любой урон, наносимый умениями клейм или умениями, срабатывание которых было вызвано клеймом)"
+      ]
+    },
+    "51492": {
+      "skill": 51492,
+      "name": "Знамение предназначения",
+      "nameEnglish": "Sign of Purpose",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "Частота активации клейм на 100% больше, если истекло 75% длительности прикрепления",
+        "100% повышение скорости перезарядки Возврата клейм"
+      ],
+      "reminderText": []
+    },
+    "26714": {
+      "skill": 26714,
+      "name": "Регенерация маны, скорость установки тотемов",
+      "nameEnglish": "Mana Regeneration, Totem Placement Speed",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "20% повышение скорости регенерации маны",
+        "20% повышение скорости установки тотемов"
+      ],
+      "reminderText": []
+    },
+    "14870": {
+      "skill": 14870,
+      "name": "Регенерация маны, скорость установки тотемов",
+      "nameEnglish": "Mana Regeneration, Totem Placement Speed",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "20% повышение скорости регенерации маны",
+        "20% повышение скорости установки тотемов"
+      ],
+      "reminderText": []
+    },
+    "29994": {
+      "skill": 29994,
+      "name": "Регенерация маны, мана",
+      "nameEnglish": "Mana Regeneration, Mana",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "8% увеличение максимума маны",
+        "20% повышение скорости регенерации маны"
+      ],
+      "reminderText": []
+    },
+    "11046": {
+      "skill": 11046,
+      "name": "Регенерация маны, мана",
+      "nameEnglish": "Mana Regeneration, Mana",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "8% увеличение максимума маны",
+        "20% повышение скорости регенерации маны"
+      ],
+      "reminderText": []
+    },
+    "22637": {
+      "skill": 22637,
+      "name": "Регенерация маны, мана",
+      "nameEnglish": "Mana Regeneration, Mana",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "8% увеличение максимума маны",
+        "20% повышение скорости регенерации маны"
+      ],
+      "reminderText": []
+    },
+    "922": {
+      "skill": 922,
+      "name": "Божественное провидение",
+      "nameEnglish": "Divine Guidance",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "30% увеличение максимума маны",
+        "10% от получаемого урона берется сначала из маны вместо здоровья",
+        "Преображение разума"
+      ],
+      "reminderText": [
+        "(Увеличения и уменьшения максимума маны также влияют на наносимый урон в размере 30% от их значения)"
+      ]
+    },
+    "29026": {
+      "skill": 29026,
+      "name": "Храм мысли",
+      "nameEnglish": "Sanctuary of Thought",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "Дарует 20% от максимума маны в виде дополнительного максимума энергетического щита",
+        "1% увеличение области действия за 50 неудержанного максимума маны, вплоть до 100%",
+        "Регенерация 1% маны в секунду"
+      ],
+      "reminderText": []
+    },
+    "1105": {
+      "skill": 1105,
+      "name": "Поиск веры",
+      "nameEnglish": "Pursuit of Faith",
+      "ascendancyName": "Hierophant",
+      "stats": [
+        "100% увеличение времени существования тотема",
+        "+1 к максимальному количеству установленных тотемов",
+        "100% повышение скорости установки тотемов"
+      ],
+      "reminderText": []
+    },
+    "30940": {
+      "skill": 30940,
+      "name": "Иерофант",
+      "nameEnglish": "Hierophant",
+      "ascendancyName": "Hierophant",
+      "stats": [],
+      "reminderText": []
+    },
+    "24704": {
+      "skill": 24704,
+      "name": "Вождь",
+      "nameEnglish": "Chieftain",
+      "ascendancyName": "Chieftain",
+      "stats": [],
+      "reminderText": []
+    },
+    "47486": {
+      "skill": 47486,
+      "name": "Регенерация здоровья, урон в ближнем бою",
+      "nameEnglish": "Life Regeneration, Melee Damage",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "10% увеличение урона в ближнем бою",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "48480": {
+      "skill": 48480,
+      "name": "Тасалио, очищающие воды",
+      "nameEnglish": "Tasalio, Cleansing Water",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Свойства сопротивления огню также применяются к сопротивлениям холода и молнии в размере 50% от их значения",
+        "Невосприимчивость к поджогу"
+      ],
+      "reminderText": [
+        "(Отрицательные эффекты, не имеющие воздействия, все ещё будут накладываться на вас, но их эффект не будет действовать)"
+      ]
+    },
+    "53095": {
+      "skill": 53095,
+      "name": "Тукохама, вестник войны",
+      "nameEnglish": "Tukohama, War's Herald",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Умения в надетом нательном доспехе усилены Зовом предков 30 уровня",
+        "Умения в надетом нательном доспехе усилены Кулаком войны 20 уровня"
+      ],
+      "reminderText": []
+    },
+    "14996": {
+      "skill": 14996,
+      "name": "Регенерация здоровья, урон от огня",
+      "nameEnglish": "Life Regeneration, Fire Damage",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "10% увеличение урона от огня",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "61355": {
+      "skill": 61355,
+      "name": "Рамако, свет солнца",
+      "nameEnglish": "Ramako, Sun's Light",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "У ближайших вражеских монстров сопротивление огню против\nпостепенного урона равно -20%, пока вы находитесь на одном месте"
+      ],
+      "reminderText": []
+    },
+    "32249": {
+      "skill": 32249,
+      "name": "Валако, объятья шторма",
+      "nameEnglish": "Valako, Storm's Embrace",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Свойства максимума сопротивления огню также применяются к максимумам сопротивлений холоду и молнии"
+      ],
+      "reminderText": []
+    },
+    "10238": {
+      "skill": 10238,
+      "name": "Регенерация здоровья, урон от огня",
+      "nameEnglish": "Life Regeneration, Fire Damage",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "10% увеличение урона от огня",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "42659": {
+      "skill": 42659,
+      "name": "Регенерация здоровья, сопротивление огню",
+      "nameEnglish": "Life Regeneration, Fire Resistance",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "+15% к сопротивлению огню",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "982": {
+      "skill": 982,
+      "name": "Регенерация здоровья, урон в ближнем бою",
+      "nameEnglish": "Life Regeneration, Melee Damage",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "10% увеличение урона в ближнем бою",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "9971": {
+      "skill": 9971,
+      "name": "Регенерация здоровья, урон от огня",
+      "nameEnglish": "Life Regeneration, Fire Damage",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "10% увеличение урона от огня",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "5643": {
+      "skill": 5643,
+      "name": "Регенерация здоровья, сопротивление огню",
+      "nameEnglish": "Life Regeneration, Fire Resistance",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "+15% к сопротивлению огню",
+        "Регенерация 0.5% здоровья в секунду"
+      ],
+      "reminderText": []
+    },
+    "6028": {
+      "skill": 6028,
+      "name": "Регенерация здоровья, длительность боевого клича",
+      "nameEnglish": "Life Regeneration, Warcry Duration",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Регенерация 0.5% здоровья в секунду",
+        "15% увеличение длительности боевых кличей"
+      ],
+      "reminderText": []
+    },
+    "31667": {
+      "skill": 31667,
+      "name": "Сиона, рёв солнца",
+      "nameEnglish": "Sione, Sun's Roar",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "30% усиление положительного эффекта боевого клича",
+        "Боевые кличи учитывают безграничное влияние"
+      ],
+      "reminderText": [
+        "(Обычные монстры имеют 1 влияния,  волшебные - 2, редкие - 10, уникальные - 20, игроки - 5)"
+      ]
+    },
+    "50692": {
+      "skill": 50692,
+      "name": "Нгамаху, натиск пламени",
+      "nameEnglish": "Ngamahu, Flame's Advance",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Неуникальные самоцветы заставляют увеличения и уменьшения типов урона в большом радиусе вместо этого влиять на урон от огня",
+        "Неуникальные самоцветы заставляют малые и значимые пассивные умения\nв большом радиусе также даровать +4 к силе"
+      ],
+      "reminderText": [
+        "(Малыми пассивными умениями считаются все пассивные умения кроме значимых, ключевых, умений мастерства или гнёзд под самоцветы)"
+      ]
+    },
+    "1731": {
+      "skill": 1731,
+      "name": "Хинекора, ярость смерти",
+      "nameEnglish": "Hinekora, Death's Fury",
+      "ascendancyName": "Chieftain",
+      "stats": [
+        "Убитые вами или вашими тотемами враги с 10% шансом могут взорваться, нанося 250% от их максимума здоровья в виде урона от огня"
+      ],
+      "reminderText": []
+    },
+    "43193": {
+      "skill": 43193,
+      "name": "Урон от стихий, скорость атаки и сотворения чар",
+      "nameEnglish": "Elemental Damage, Attack and Cast Speed",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "3154": {
+      "skill": 3154,
+      "name": "Орудия справедливости",
+      "nameEnglish": "Instruments of Justice",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Базовый шанс критического удара у чар равен шансу критического удара у оружия в правой руке"
+      ],
+      "reminderText": []
+    },
+    "39790": {
+      "skill": 39790,
+      "name": "Святилище",
+      "nameEnglish": "Sanctuary",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Враги на созданной вами освящённой земле получают увеличенный на 15% урон",
+        "Пока вы находитесь на одном месте, вокруг вас создаётся освящённая земля"
+      ],
+      "reminderText": [
+        "(Союзники, находящиеся на вашей освящённой земле, регенерируют часть от их максимума здоровья в секунду, и эффект проклятий на них ослабляется на 50%)"
+      ]
+    },
+    "32816": {
+      "skill": 32816,
+      "name": "Благочестивый путь",
+      "nameEnglish": "Pious Path",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Созданная вами освященная земля позволяет регенерации здоровья также восстанавливать энергетический щит вам и вашим союзникам",
+        "Эффекты создаваемой вами освященной земли не пропадают в течение 4 секунд"
+      ],
+      "reminderText": [
+        "(Эффекты земли после выхода из области её действия все еще действуют на вас, ваших союзников и ваших врагов)"
+      ]
+    },
+    "27055": {
+      "skill": 27055,
+      "name": "Урон от стихий, скорость атаки и сотворения чар",
+      "nameEnglish": "Elemental Damage, Attack and Cast Speed",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "13851": {
+      "skill": 13851,
+      "name": "Орудия рвения",
+      "nameEnglish": "Instruments of Zeal",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Дарует Фанатичность на 5 секунды при достижении максимума зарядов фанатизма",
+        "Дарует 1 заряда(-ов) фанатизма каждую секунду, если вы атаковали за последнюю секунду",
+        "Теряет все заряды фанатизма по достижении максимума зарядов фанатизма",
+        "+3 к максимуму зарядов фанатизма"
+      ],
+      "reminderText": [
+        "(Фанатичность дарует самостоятельно сотворяемым вами чарам на 75% больше скорости сотворения, на 75% меньше затрат ресурсов и 75% увеличение области действия)"
+      ]
+    },
+    "19417": {
+      "skill": 19417,
+      "name": "Орудия добродетели",
+      "nameEnglish": "Instruments of Virtue",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "На 10% больше урона от атак за каждые не мгновенные чары, которые вы сотворили за последние 8 секунд, вплоть до максимума в 30%",
+        "Боевой маг"
+      ],
+      "reminderText": [
+        "(Дарует добавленный урон от чар, равный урону от оружия в вашей правой руке)"
+      ]
+    },
+    "35739": {
+      "skill": 35739,
+      "name": "Урон от стихий, скорость атаки и сотворения чар",
+      "nameEnglish": "Elemental Damage, Attack and Cast Speed",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "57222": {
+      "skill": 57222,
+      "name": "Урон от стихий, регенерация здоровья",
+      "nameEnglish": "Elemental Damage, Life Regeneration",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Регенерация 0.5% здоровья в секунду",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "10635": {
+      "skill": 10635,
+      "name": "Урон от стихий, регенерация здоровья",
+      "nameEnglish": "Elemental Damage, Life Regeneration",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Регенерация 0.5% здоровья в секунду",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "60769": {
+      "skill": 60769,
+      "name": "Урон от стихий и сопротивления стихиям",
+      "nameEnglish": "Elemental Damage and Resistances",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "+6% к сопротивлению всем стихиям",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "662": {
+      "skill": 662,
+      "name": "Урон от стихий, множитель критического удара",
+      "nameEnglish": "Elemental Damage, Critical Strike Multiplier",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "+10% к множителю критического удара"
+      ],
+      "reminderText": []
+    },
+    "37486": {
+      "skill": 37486,
+      "name": "Урон от стихий, множитель критического удара",
+      "nameEnglish": "Elemental Damage, Critical Strike Multiplier",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "+10% к множителю критического удара"
+      ],
+      "reminderText": []
+    },
+    "53884": {
+      "skill": 53884,
+      "name": "Благочестивая предусмотрительность",
+      "nameEnglish": "Righteous Providence",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "1% повышение шанса критического удара за единицу силы или интеллекта, смотря что ниже",
+        "+50 к силе и интеллекту"
+      ],
+      "reminderText": []
+    },
+    "48214": {
+      "skill": 48214,
+      "name": "Неминуемое правосудие",
+      "nameEnglish": "Inevitable Judgement",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Критические удары игнорируют сопротивления стихиям вражеских монстров",
+        "Некритические удары пробивают 10% вражеского сопротивления стихиям"
+      ],
+      "reminderText": [
+        "(Игнорирование сопротивлений означает, что ваш урон не может быть изменен ни одним показателем сопротивления)"
+      ]
+    },
+    "40059": {
+      "skill": 40059,
+      "name": "Предзнаменование раскаяния",
+      "nameEnglish": "Augury of Penitence",
+      "ascendancyName": "Inquisitor",
+      "stats": [
+        "Ближайшие враги получают увеличенный на 16% урон от стихий",
+        "Ближайшие враги наносят на 8% меньше урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "61871": {
+      "skill": 61871,
+      "name": "Инквизитор",
+      "nameEnglish": "Inquisitor",
+      "ascendancyName": "Inquisitor",
+      "stats": [],
+      "reminderText": []
+    },
+    "32669": {
+      "skill": 32669,
+      "name": "Легендарные амулеты",
+      "nameEnglish": "Legendary Amulets",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальные амулеты"
+      ],
+      "reminderText": []
+    },
+    "43645": {
+      "skill": 43645,
+      "name": "Легендарные кольца",
+      "nameEnglish": "Legendary Rings",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальные кольца"
+      ],
+      "reminderText": []
+    },
+    "1977": {
+      "skill": 1977,
+      "name": "Легендарные пояса",
+      "nameEnglish": "Legendary Belts",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальные пояса"
+      ],
+      "reminderText": []
+    },
+    "61133": {
+      "skill": 61133,
+      "name": "Здоровье наёмников, радиус обзора",
+      "nameEnglish": "Mercenary Life, Light Radius",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник и их приспешники имеют 15% увеличение максимума здоровья",
+        "5% увеличение радиуса обзора"
+      ],
+      "reminderText": []
+    },
+    "15900": {
+      "skill": 15900,
+      "name": "Клятва верности",
+      "nameEnglish": "Oath of Fealty",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "На 50% меньше расхода ресурсов умениями связей",
+        "Умения связи имеют бесконечную длительность прикрепления",
+        "Если связанный с вами наёмник умирает, владелец связи не умирает"
+      ],
+      "reminderText": []
+    },
+    "31517": {
+      "skill": 31517,
+      "name": "Золотая слава",
+      "nameEnglish": "Golden Glory",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Увеличения и уменьшения радиуса обзора влияют\nна положительные эффекта ваших умений связи на вашем наёмнике"
+      ],
+      "reminderText": []
+    },
+    "1564": {
+      "skill": 1564,
+      "name": "Верный телохранитель",
+      "nameEnglish": "Loyal Bodyguard",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Если максимум здоровья вашего наёмника выше вашего, 20% получаемого урона от ударов\nберется из здоровья вашего наёмника вместо вашего",
+        "Если максимум здоровья вашего наёмника ниже вашего, 40% получаемого ими урона восполняется в виде здоровья"
+      ],
+      "reminderText": [
+        "(Восполнение работает только с уроном от ударов в течение 4 секунд после удара)"
+      ]
+    },
+    "56292": {
+      "skill": 56292,
+      "name": "Пожалованное рыцарство",
+      "nameEnglish": "Bestowed Knighthood",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник провоцирует врагов при нанесении удара",
+        "50% усиление эффекта аур не-проклятий от умений ваших наёмников"
+      ],
+      "reminderText": [
+        "(Спровоцированные вами враги выбирают целью только вас и наносят на 10% меньше урона по всем остальным целям. Продолжительность провокации - 3 секунды.)"
+      ]
+    },
+    "25944": {
+      "skill": 25944,
+      "name": "Легендарное оружие",
+      "nameEnglish": "Legendary Arms",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальное оружие, щиты и колчаны",
+        "Ваш наёмник и их приспешники наносят на 8% больше урона\nза каждый надетый на них уникальный предмет"
+      ],
+      "reminderText": []
+    },
+    "63954": {
+      "skill": 63954,
+      "name": "Скорость сотворения связи, радиус обзора",
+      "nameEnglish": "Link Cast Speed, Light Radius",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "10% повышение скорости сотворения чар умений связи",
+        "5% увеличение радиуса обзора"
+      ],
+      "reminderText": []
+    },
+    "27123": {
+      "skill": 27123,
+      "name": "Здоровье наёмников, радиус обзора",
+      "nameEnglish": "Mercenary Life, Light Radius",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник и их приспешники имеют 15% увеличение максимума здоровья",
+        "5% увеличение радиуса обзора"
+      ],
+      "reminderText": []
+    },
+    "30675": {
+      "skill": 30675,
+      "name": "Скорость сотворения связи, радиус обзора",
+      "nameEnglish": "Link Cast Speed, Light Radius",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "10% повышение скорости сотворения чар умений связи",
+        "5% увеличение радиуса обзора"
+      ],
+      "reminderText": []
+    },
+    "35877": {
+      "skill": 35877,
+      "name": "Урон наёмников, радиус обзора",
+      "nameEnglish": "Mercenary Damage, Light Radius",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник и их приспешники наносят увеличенный на 15% урон",
+        "5% увеличение радиуса обзора"
+      ],
+      "reminderText": []
+    },
+    "46479": {
+      "skill": 46479,
+      "name": "Благородная кровь",
+      "nameEnglish": "Noble Blood",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Вы можете нанять наёмника на постоянной основе"
+      ],
+      "reminderText": [
+        "(Пока у вас выбрано это пассивное умение, вы имеете возможность навсегда нанимать встреченных наёмников. Наёмники, нанятые на постоянной основе, и их приспешники наносят меньше урона, чем временно нанятые наёмники, но вы можете менять используемое ими снаряжение. Пассивные умения, влияющие на вашего наёмника, не влияют на временно нанятых наёмников. Наёмники, нанятые на постоянной основе, будут сопровождать только Светочей, у которых выбрано это умение)"
+      ]
+    },
+    "15726": {
+      "skill": 15726,
+      "name": "Светоч",
+      "nameEnglish": "Luminary",
+      "ascendancyName": "Luminary",
+      "stats": [],
+      "reminderText": []
+    },
+    "52633": {
+      "skill": 52633,
+      "name": "Легендарные перчатки",
+      "nameEnglish": "Legendary Gloves",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальные перчатки"
+      ],
+      "reminderText": []
+    },
+    "32095": {
+      "skill": 32095,
+      "name": "Легендарные шлемы",
+      "nameEnglish": "Legendary Helmets",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальные шлемы"
+      ],
+      "reminderText": []
+    },
+    "19993": {
+      "skill": 19993,
+      "name": "Легендарные сапоги",
+      "nameEnglish": "Legendary Boots",
+      "ascendancyName": "Luminary",
+      "stats": [
+        "Ваш наёмник может носить уникальную обувь"
+      ],
+      "reminderText": []
+    },
+    "4194": {
+      "skill": 4194,
+      "name": "Берсерк",
+      "nameEnglish": "Berserker",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "5% увеличение получаемого урона",
+        "На 15% больше урона",
+        "2% урона от атак похищается в виде здоровья или маны, если вы недавно совершали убийство",
+        "Вас невозможно оглушить, пока у вас как минимум 25 свирепости",
+        "Изначальная потеря свирепости начинается на 1 секунду позже"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Похищенное здоровье восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)",
+        "(Похищенная мана восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)",
+        "(Это влияет только на естественную потерю свирепости, когда вы не получали удар или не набирали свирепость недавно)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дикаря)",
+        "(Базовый максимум зарядов свирепости: 30)",
+        "(Вы теряете 10 свирепости в секунду, если вы не получали удар или не набирали свирепость за последние 2 секунды)",
+        "(Каждый заряд свирепости дарует на 1% больше урона от атак. Максимум 30 свирепости. Вы теряете 10 свирепости в секунду, если вы не получали удар или не набирали свирепость за последние 2 секунды)"
+      ]
+    },
+    "57052": {
+      "skill": 57052,
+      "name": "Вождь",
+      "nameEnglish": "Chieftain",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "20% шанс на 10 секунд покрыть пеплом редких или уникальных врагов при нанесении удара по ним",
+        "Невосприимчивость к поджогу",
+        "20% усиление положительного эффекта боевого клича",
+        "10% повышение силы"
+      ],
+      "reminderText": [
+        "(Покрытие пеплом даёт на 20% меньше скорости передвижения и увеличивает получаемый урон от огня на 20%)",
+        "(Отрицательные эффекты, не имеющие воздействия, все ещё будут накладываться на вас, но их эффект не будет действовать)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дикаря)"
+      ]
+    },
+    "42144": {
+      "skill": 42144,
+      "name": "Иерофант",
+      "nameEnglish": "Hierophant",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "25% увеличение максимума маны",
+        "+1 к максимальному количеству установленных тотемов",
+        "8% от получаемого урона берется сначала из маны вместо здоровья",
+        "Колдовской выброс также дарует вам на 10% больше урона от чар",
+        "Дарует Колдовской выброс, когда вы или ваши тотемы наносите удар чарами по врагу"
+      ],
+      "reminderText": [
+        "(Колдовской выброс дарует на 20% повышение скорости сотворения чар и 30% повышение скорости регенерации маны на 4 секунды)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Жреца)"
+      ]
+    },
+    "61072": {
+      "skill": 61072,
+      "name": "Покоритель",
+      "nameEnglish": "Juggernaut",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+1000 к меткости",
+        "Не может быть охлажден",
+        "Не может быть оглушен",
+        "5% увеличение урона за заряд выносливости",
+        "Дарует зарядов выносливости каждую секунду, если вы недавно получали удар: 1"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дикаря)"
+      ]
+    },
+    "43962": {
+      "skill": 43962,
+      "name": "Инквизитор",
+      "nameEnglish": "Inquisitor",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Урон пробивает 8% вражеского сопротивления стихиям",
+        "10% шанс на 8 секунд создать освящённую землю при нанесении удара по редкому или уникальному врагу",
+        "Эффекты создаваемой вами освященной земли не пропадают в течение 4 секунд",
+        "Ближайшие враги получают увеличенный на 10% урон от стихий"
+      ],
+      "reminderText": [
+        "(Союзники, находящиеся на вашей освящённой земле, регенерируют часть от их максимума здоровья в секунду, и эффект проклятий на них ослабляется на 50%)",
+        "(Эффекты земли после выхода из области её действия все еще действуют на вас, ваших союзников и ваших врагов)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Жреца)"
+      ]
+    },
+    "41534": {
+      "skill": 41534,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "22551": {
+      "skill": 22551,
+      "name": "Сила и интеллект",
+      "nameEnglish": "Strength and Intelligence",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+20 к силе и интеллекту"
+      ],
+      "reminderText": []
+    },
+    "15435": {
+      "skill": 15435,
+      "name": "Восхождение Жреца",
+      "nameEnglish": "Templar Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "54877": {
+      "skill": 54877,
+      "name": "Путь Жреца",
+      "nameEnglish": "Path of the Templar",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Жреца",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "57429": {
+      "skill": 57429,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "33875": {
+      "skill": 33875,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "30690": {
+      "skill": 30690,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "193": {
+      "skill": 193,
+      "name": "Сила",
+      "nameEnglish": "Strength",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+40 к силе"
+      ],
+      "reminderText": []
+    },
+    "61437": {
+      "skill": 61437,
+      "name": "Восхождение Дикаря",
+      "nameEnglish": "Marauder Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "24755": {
+      "skill": 24755,
+      "name": "Путь Дикаря",
+      "nameEnglish": "Path of the Marauder",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Дикаря",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "30919": {
+      "skill": 30919,
+      "name": "Защитник",
+      "nameEnglish": "Guardian",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "25% увеличение эффективности удержания ресурсов умениями",
+        "Каждые 4 секунды регенерирует 50% здоровья в течение 1 секунды",
+        "Если вы недавно атаковали, то вы\nи ближайшие союзники имеете +10% шанс блокировать урон от атак",
+        "Если вы недавно сотворяли чары, то вы\nи ближайшие союзники имеете +10% шанс блокировать урон от чар"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Жреца)"
+      ]
+    },
+    "43195": {
+      "skill": 43195,
+      "name": "Рубака",
+      "nameEnglish": "Slayer",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Добивание",
+        "Эффекты похищения здоровья не прекращаются при заполнении не удержанного здоровья",
+        "30% увеличение области действия, если вы недавно совершали убийство",
+        "Не может получать отражённый физический урон"
+      ],
+      "reminderText": [
+        "(Добивание означает, что враги с 10% здоровья или ниже умирают после вашего удара)",
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дуэлянта)"
+      ]
+    },
+    "34774": {
+      "skill": 34774,
+      "name": "Гладиатор",
+      "nameEnglish": "Gladiator",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "25% шанс усугубить кровотечение на врагах ударами атак",
+        "Базовый шанс блока от щита в руках равен 50% вместо значения щита",
+        "Изначальные бонусы от ношения парного оружия удваиваются",
+        "Наносит на 1% больше урона от ударов и состояний по редким и уникальным врага за каждые 2 секунды их нахождения в вашем присутствии, вплоть до 50%"
+      ],
+      "reminderText": [
+        "(Усугублённое кровотечение всегда наносит повышенный урон как если бы цель двигалась)",
+        "(Парное оружие в руках изначально дарует +20% к шансу блокировать урон от атак и на 10% больше скорости атаки)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дуэлянта)"
+      ]
+    },
+    "39598": {
+      "skill": 39598,
+      "name": "Чемпион",
+      "nameEnglish": "Champion",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Удары в ближнем бою с 50% шансом могут наложить Укрепление",
+        "Провоцирует врага при нанесении удара",
+        "15% усиление эффекта аур не-проклятий от ваших умений",
+        "Ваши удары навсегда устрашают врагов с полным здоровьем",
+        "Спровоцированные вами враги получают увеличенный на 10% урон"
+      ],
+      "reminderText": [
+        "(Укрепляющий удар дарует заряды Укрепления в зависимости от урона данного удара)",
+        "(На 1% меньше получаемого урона от ударов за каждый заряд Укрепления. Максимум 20 Укрепления. Укрепление длится 6 секунд)",
+        "(Спровоцированные вами враги выбирают целью только вас и наносят на 10% меньше урона по всем остальным целям. Продолжительность провокации - 3 секунды.)",
+        "(Устрашённые враги получают увеличенный на 10% урон от атак)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Дуэлянта)"
+      ]
+    },
+    "35754": {
+      "skill": 35754,
+      "name": "Вознесшаяся",
+      "nameEnglish": "Ascendant",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": []
+    },
+    "17445": {
+      "skill": 17445,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "41996": {
+      "skill": 41996,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "607": {
+      "skill": 607,
+      "name": "Сила и ловкость",
+      "nameEnglish": "Strength and Dexterity",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+20 к силе и ловкости"
+      ],
+      "reminderText": []
+    },
+    "24798": {
+      "skill": 24798,
+      "name": "Восхождение Дуэлянта",
+      "nameEnglish": "Duelist Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "63357": {
+      "skill": 63357,
+      "name": "Путь Дуэлянта",
+      "nameEnglish": "Path of the Duelist",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Дуэлянта",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "2521": {
+      "skill": 2521,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "56722": {
+      "skill": 56722,
+      "name": "Путь Ведьмы",
+      "nameEnglish": "Path of the Witch",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Ведьмы",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "58029": {
+      "skill": 58029,
+      "name": "Интеллект",
+      "nameEnglish": "Intelligence",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+40 к интеллекту"
+      ],
+      "reminderText": []
+    },
+    "51782": {
+      "skill": 51782,
+      "name": "Восхождение Ведьмы",
+      "nameEnglish": "Witch Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "62162": {
+      "skill": 62162,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "56940": {
+      "skill": 56940,
+      "name": "Отступник",
+      "nameEnglish": "The Apostate",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Удаляет весь энергетический щит",
+        "Дарует максимум здоровья вместо максимума энергетического от надетых предметов брони",
+        "-12 к максимуму здоровья за уровень"
+      ],
+      "reminderText": []
+    },
+    "8281": {
+      "skill": 8281,
+      "name": "Маг стихий",
+      "nameEnglish": "Elementalist",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Шок, наложенный вашими ударами, всегда увеличивает получаемый урон минимум на 10%",
+        "Не может получать отражённый урон от стихий",
+        "Накладываемая вами восприимчивость добавляет дополнительные -20% к соответствующему сопротивлению",
+        "+1 к максимальному количеству големов"
+      ],
+      "reminderText": [
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Ведьмы)"
+      ]
+    },
+    "48040": {
+      "skill": 48040,
+      "name": "Поедатель стихий",
+      "nameEnglish": "Elevore",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "+25% шанс подавить урон от чар",
+        "25% шанс избежать стихийных состояний",
+        "Восстанавливает 200 здоровья, когда вы подавляете урон от чар"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)",
+        "(Стихийные состояния - поджог, опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "35448": {
+      "skill": 35448,
+      "name": "Корни Каома",
+      "nameEnglish": "Kaom's Roots",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "+100 к максимуму здоровья",
+        "Не может быть отброшен",
+        "Скорость действий не может быть уменьшена ниже базового значения",
+        "Невозможно уклониться от вражеских атак\nНевозможно получить оглушение"
+      ],
+      "reminderText": []
+    },
+    "10099": {
+      "skill": 10099,
+      "name": "Некромант",
+      "nameEnglish": "Necromancer",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Ваши умения Подношений действуют и на вас",
+        "Ваши Подношения имеют 50% ослабление эффекта на вас",
+        "Приспешники имеют 30% увеличение урона",
+        "Ауры от ваших умений даруют вам и вашим союзникам 2% повышение скорости атаки и сотворения чар",
+        "Вы и ваши приспешники имеете 30% увеличение области действия, если вы недавно поглотили труп"
+      ],
+      "reminderText": [
+        "(Ауры даруют бонусы только тому, на что влияют)",
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Ведьмы)"
+      ]
+    },
+    "16994": {
+      "skill": 16994,
+      "name": "Ласка ваал",
+      "nameEnglish": "Vaal Caress",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Боевой раж на 20 секунд при использовании умения ваал",
+        "+2 к уровню всех камней умений ваал"
+      ],
+      "reminderText": [
+        "(Боевой раж дарует 20% повышение скорости атаки, сотворения чар и передвижения)"
+      ]
+    },
+    "22628": {
+      "skill": 22628,
+      "name": "Рассветный прорыв",
+      "nameEnglish": "Dawnbreaker",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "25% получаемого урона от холода становится уроном от огня",
+        "25% получаемого урона от молнии становится уроном от огня",
+        "25% получаемого физического урона становится уроном от огня"
+      ],
+      "reminderText": []
+    },
+    "12597": {
+      "skill": 12597,
+      "name": "Оккультист",
+      "nameEnglish": "Occultist",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Вы можете наложить дополнительное проклятие",
+        "10% усиление эффекта ваших проклятий",
+        "Регенерация 1.5% энергетического щита в секунду",
+        "Вас нельзя оглушить, пока у вас есть энергетический щит"
+      ],
+      "reminderText": [
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Ведьмы)"
+      ]
+    },
+    "8656": {
+      "skill": 8656,
+      "name": "Хранитель",
+      "nameEnglish": "Warden",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+20% шанс подавить урон от чар",
+        "Урон от атак пробивает 8% вражеского сопротивления стихиям",
+        "Вы можете активировать дополнительную микстуру"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Охотницы)"
+      ]
+    },
+    "42546": {
+      "skill": 42546,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "45403": {
+      "skill": 45403,
+      "name": "Ловкость и интеллект",
+      "nameEnglish": "Dexterity and Intelligence",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+20 к ловкости и интеллекту"
+      ],
+      "reminderText": []
+    },
+    "772": {
+      "skill": 772,
+      "name": "Восхождение Бандита",
+      "nameEnglish": "Shadow Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "53992": {
+      "skill": 53992,
+      "name": "Путь Бандита",
+      "nameEnglish": "Path of the Shadow",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Бандита",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "43336": {
+      "skill": 43336,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "7618": {
+      "skill": 7618,
+      "name": "Путь Охотницы",
+      "nameEnglish": "Path of the Ranger",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Можно выбрать пассивные умения из начальной точки Охотницы",
+        "Дарует 2 очка(-ов) пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "42671": {
+      "skill": 42671,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "38689": {
+      "skill": 38689,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "31598": {
+      "skill": 31598,
+      "name": "Ловкость",
+      "nameEnglish": "Dexterity",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+40 к ловкости"
+      ],
+      "reminderText": []
+    },
+    "49532": {
+      "skill": 49532,
+      "name": "Восхождение Охотницы",
+      "nameEnglish": "Ranger Ascendancy",
+      "ascendancyName": "Ascendant",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из трех предложенных вариантов)"
+      ]
+    },
+    "9327": {
+      "skill": 9327,
+      "name": "Следопыт",
+      "nameEnglish": "Pathfinder",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "10% повышение скорости передвижения во время действия эффекта любого флакона",
+        "10% повышение скорости атаки во время действия эффекта любого флакона",
+        "Снимает кровотечение при использовании флакона",
+        "Флаконы получают 3 заряда(-ов) каждые 3 секунды",
+        "25% шанс сохранить заряды флаконов при их использовании"
+      ],
+      "reminderText": [
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Охотницы)"
+      ]
+    },
+    "34567": {
+      "skill": 34567,
+      "name": "Снайпер",
+      "nameEnglish": "Deadeye",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "25% усиление эффекта ваших меток",
+        "Дарует заряд ярости каждые 3 секунды при передвижении",
+        "Умения выпускают дополнительный снаряд",
+        "На вас и ближайших союзников действует Попутный ветер"
+      ],
+      "reminderText": [
+        "(Попутный ветер повышает скорость действий на 8%)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Охотницы)"
+      ]
+    },
+    "43122": {
+      "skill": 43122,
+      "name": "Убийца",
+      "nameEnglish": "Assassin",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "+0.75% к шансу критического удара",
+        "10% шанс получить заряд энергии при нанесении критического удара",
+        "10% шанс получить Неуловимость при нанесении критического удара",
+        "Урон не может быть отражён"
+      ],
+      "reminderText": [
+        "(Неуловимость дарует 15% шанс избежать весь урон от ударов и 30% повышение скорости передвижения. Положительный эффект ослабевает со временем и исчезает с персонажа при нулевом эффекте. Вы не можете получить Неуловимость, если она уже активна)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Бандита)"
+      ]
+    },
+    "6778": {
+      "skill": 6778,
+      "name": "Плут",
+      "nameEnglish": "Trickster",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "Предотвращает +6% урона от подавленных чар при полном энергетическом щите",
+        "На 2% больше урона за каждый тип выбранного вами мастерства",
+        "2% от урона похищается в виде энергетического щита",
+        "Скорость действий ближайших врагов-монстров не может превышать 90% от базового значения"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)",
+        "(Похищенный энергетический щит восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Бандита)"
+      ]
+    },
+    "8081": {
+      "skill": 8081,
+      "name": "Пески времени",
+      "nameEnglish": "The Sands of Time",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Вызывает срабатывание Застывания во времени 1 уровня при сотворении чар"
+      ],
+      "reminderText": [
+        "(Герой создаёт Застывший мираж – астрально насыщенную копию себя, которая застыла во времени непосредственно перед высвобождением чар, создавших её. По достижении трёх Застывших миражей все активные Застывшие миражи освободятся, вызывая срабатывание чар, путём сотворения которых они возникли. Застывшие миражи не создаются чарами ваал, поддерживаемыми чарами, мгновенными чарами или чарами, создающими приспешников)"
+      ]
+    },
+    "20160": {
+      "skill": 20160,
+      "name": "Шип Фиделиса",
+      "nameEnglish": "Fidelitas' Spike",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Ваши удары всегда накладывают шок",
+        "Не наносит физического урона",
+        "100% усиление положительного эффекта Вестника Грома",
+        "100% увеличение эффективности удержания маны Вестником грома"
+      ],
+      "reminderText": [
+        "(Шок повышает получаемый урон до 50%, в зависимости от количества урона от молнии от удара, на 2 секунды)"
+      ]
+    },
+    "43857": {
+      "skill": 43857,
+      "name": "Клык Аракаали",
+      "nameEnglish": "Arakaali's Fang",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Вызывает срабатывание Призыва пауков 20 уровня при убийстве"
+      ],
+      "reminderText": [
+        "(Призывает двух призрачных пауков из каждого ближайшего трупа, атакующих ваших врагов с помощью Удара гадюки. Каждый призванный паук дарует вам повышение скорости атаки и увеличение урона от отравления. Враги не будут вступать в прямой контакт с пауками, и они невосприимчивы к урону)"
+      ]
+    },
+    "59067": {
+      "skill": 59067,
+      "name": "Мощи святых",
+      "nameEnglish": "Femurs of the Saints",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "+1% шанс блокировать урон от атак за каждого сотворенного скелета",
+        "2% повышение скорости атаки и сотворения чар за каждого призванного неистового духа",
+        "Регенерация 0.6% здоровья в секунду за каждого поднятого зомби",
+        "30% повышение скорости регенерации маны за каждого сотворенного призрака"
+      ],
+      "reminderText": []
+    },
+    "47058": {
+      "skill": 47058,
+      "name": "Мощь Ахна",
+      "nameEnglish": "Ahn's Might",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "На 20% больше меткости при максимуме зарядов ярости",
+        "-1 к максимуму зарядов ярости",
+        "+100% к множителю критического удара, если у вас нет зарядов ярости"
+      ],
+      "reminderText": []
+    },
+    "26055": {
+      "skill": 26055,
+      "name": "Расколотая божественность",
+      "nameEnglish": "The Shattered Divinity",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует умение Призыв Великого Предвестника направлений",
+        "+40 к силе и ловкости"
+      ],
+      "reminderText": [
+        "(Призывает бессмертного союзного Предвестника. Предвестник будет накладывать на героя случайное усиление с одним или всеми из следующих эффектов: +2 дополнительных снаряда, +2 цели при нанесении ударов по цепи, пронзание +2 дополнительных целей и двойное разветвление снарядов)"
+      ]
+    },
+    "58827": {
+      "skill": 58827,
+      "name": "Диверсант",
+      "nameEnglish": "Saboteur",
+      "ascendancyName": "Ascendant",
+      "stats": [
+        "30% увеличение области действия",
+        "15% повышение скорости перезарядки умений",
+        "20% шанс нанести на 50% больше урона ударами по области",
+        "25% шанс ослепить врагов при нанесении удара"
+      ],
+      "reminderText": [
+        "(Ослепление даёт на 20% меньше меткости и уклонения на 4 секунды)",
+        "(Вы можете выбрать только одно из трех пассивных умений Восхождения Бандита)",
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "35936": {
+      "skill": 35936,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "12003": {
+      "skill": 12003,
+      "name": "Витрина боевого оружия",
+      "nameEnglish": "Martial Weapon Display",
+      "ascendancyName": "Reliquarian",
+      "stats": [],
+      "reminderText": []
+    },
+    "36489": {
+      "skill": 36489,
+      "name": "Витрина брони",
+      "nameEnglish": "Armour Display",
+      "ascendancyName": "Reliquarian",
+      "stats": [],
+      "reminderText": []
+    },
+    "35989": {
+      "skill": 35989,
+      "name": "Витрина бижутерии",
+      "nameEnglish": "Jewellery Display",
+      "ascendancyName": "Reliquarian",
+      "stats": [],
+      "reminderText": []
+    },
+    "22441": {
+      "skill": 22441,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "16633": {
+      "skill": 16633,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "15544": {
+      "skill": 15544,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "18147": {
+      "skill": 18147,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "9258": {
+      "skill": 9258,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "52094": {
+      "skill": 52094,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "60582": {
+      "skill": 60582,
+      "name": "Очко пассивных умений",
+      "nameEnglish": "Passive Point",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Дарует 1 очко пассивных умений"
+      ],
+      "reminderText": []
+    },
+    "2460": {
+      "skill": 2460,
+      "name": "Витрина чародейского оружия",
+      "nameEnglish": "Caster Weapon Display",
+      "ascendancyName": "Reliquarian",
+      "stats": [],
+      "reminderText": []
+    },
+    "10108": {
+      "skill": 10108,
+      "name": "Реликварианка",
+      "nameEnglish": "Reliquarian",
+      "ascendancyName": "Reliquarian",
+      "stats": [],
+      "reminderText": []
+    },
+    "17386": {
+      "skill": 17386,
+      "name": "Рычаг Ксергилия",
+      "nameEnglish": "Xirgil's Crank",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "+1 к уровню всех камней умений чар",
+        "30% шанс начала перезарядки энергетического щита при блоке"
+      ],
+      "reminderText": []
+    },
+    "40276": {
+      "skill": 40276,
+      "name": "Звёздный блеск",
+      "nameEnglish": "Shimmeron",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "+8% к множителю критического удара за заряд энергии",
+        "+0.3% к шансу критического удара за заряд энергии",
+        "+3% шанс блокировать урон от чар за заряд энергии"
+      ],
+      "reminderText": []
+    },
+    "25795": {
+      "skill": 25795,
+      "name": "Пламя Нгамаху",
+      "nameEnglish": "Ngamahu's Flame",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Вызывает срабатывание Взрыва лавы 20 уровня при нанесении удара в ближнем бою",
+        "Урон пробивает 20% сопротивления огню"
+      ],
+      "reminderText": [
+        "(Взрыв лавы выпускает магмовые снаряды в месте удара, которые наносят урон от атаки в области приземления)"
+      ]
+    },
+    "54928": {
+      "skill": 54928,
+      "name": "Священная чаша",
+      "nameEnglish": "The Sacred Chalice",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Получает заряд флакона, когда вы наносите критический удар",
+        "Наносит 20% физического урона в виде дополнительного урона от холода, если недавно вы использовали сапфировый флакон",
+        "Наносит 20% физического урона в виде дополнительного урона от огня, если недавно вы использовали рубиновый флакон",
+        "Наносит 20% физического урона в виде дополнительного урона от молнии, если недавно вы использовали топазовый флакон"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "37303": {
+      "skill": 37303,
+      "name": "Чёрная трость",
+      "nameEnglish": "The Black Cane",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Каждый призванный фантом дарует вам Призрачную мощь"
+      ],
+      "reminderText": [
+        "(Призрачная мощь дарует добавленный физический урон для чар, зависящий от уровня фантома. Множественные эффекты Призрачной мощи складываются)"
+      ]
+    },
+    "27054": {
+      "skill": 27054,
+      "name": "Аль-Дих",
+      "nameEnglish": "Al Dhih",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Спровоцированные вашими боевыми кличами враги взрываются при смерти, нанося 8% от их максимума здоровья в виде урона хаосом",
+        "Время перезарядки боевых кличей составляет 4 секунды"
+      ],
+      "reminderText": []
+    },
+    "2768": {
+      "skill": 2768,
+      "name": "Слияние плоти",
+      "nameEnglish": "Melding of the Flesh",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "-5% к максимуму сопротивлений всем стихиям",
+        "Максимальные сопротивления стихиям теперь равны наибольшему максимальному сопротивлению стихии"
+      ],
+      "reminderText": [
+        "(Максимум сопротивлений не может превышать 90%)"
+      ]
+    },
+    "33467": {
+      "skill": 33467,
+      "name": "Путы Каома",
+      "nameEnglish": "Kaom's Binding",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "25% физического урона ближайших врагов становится уроном от огня",
+        "15% повышение силы"
+      ],
+      "reminderText": []
+    },
+    "48410": {
+      "skill": 48410,
+      "name": "Полюс опустошения",
+      "nameEnglish": "Polaric Devastation",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "40% увеличение длительности состояний на врагах",
+        "Покрывает врагов пеплом на 5 секунд(-ы), когда вы их поджигаете",
+        "Покрывает врагов инеем на 5 секунд(-ы), когда вы замораживаете их"
+      ],
+      "reminderText": [
+        "(Состояния - кровотечение, поджог, опаление, охлаждение, заморозка, хрупкость, шок, ошеломление и яд)",
+        "(Покрытие пеплом даёт на 20% меньше скорости передвижения и увеличивает получаемый урон от огня на 20%)",
+        "(Покрытие инеем даёт на 50% меньший шанс критического удара и увеличивает получаемый урон от холода на 20%)"
+      ]
+    },
+    "8967": {
+      "skill": 8967,
+      "name": "Крики иссохших",
+      "nameEnglish": "Screams of the Desiccated",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Пока на вас не действуют флаконы, на вас действует эффект алтаря неуязвимости"
+      ],
+      "reminderText": []
+    },
+    "36072": {
+      "skill": 36072,
+      "name": "Клык мрака",
+      "nameEnglish": "Gloomfang",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Умения поражают целей по цепи: +1",
+        "Снаряды, поразившие цель по цепи, наносят 20% от урона не-хаосом в виде урона хаосом"
+      ],
+      "reminderText": []
+    },
+    "54569": {
+      "skill": 54569,
+      "name": "Присутствие Чаюлы",
+      "nameEnglish": "Presence of Chayula",
+      "ascendancyName": "Reliquarian",
+      "stats": [
+        "Не может быть оглушен",
+        "20% от максимума здоровья становится энергетическим щитом"
+      ],
+      "reminderText": []
+    },
+    "33179": {
+      "skill": 33179,
+      "name": "Скорость атаки, шанс кровотечения",
+      "nameEnglish": "Attack Speed, Bleed Chance",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "Атаки имеют 15% шанс вызвать кровотечение"
+      ],
+      "reminderText": [
+        "(Кровотечение наносит постепенный физический урон, основанный на базовом физическом уроне от удара. Во время перемещения урон увеличен на 200%)"
+      ]
+    },
+    "8419": {
+      "skill": 8419,
+      "name": "Упорный выживший",
+      "nameEnglish": "Determined Survivor",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Базовый шанс блока от щита в руках равен 50% вместо значения щита",
+        "Изначальные бонусы от ношения парного оружия удваиваются"
+      ],
+      "reminderText": [
+        "(Парное оружие в руках изначально дарует +20% к шансу блокировать урон от атак и на 10% больше скорости атаки)"
+      ]
+    },
+    "63490": {
+      "skill": 63490,
+      "name": "Расчётливая расплата",
+      "nameEnglish": "Measured Retaliation",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Умения ответного удара остаются доступными для использования на 2 секунды дольше",
+        "Использованные умения ответного удара с 50% шансом могут остаться доступными для использования и не потратить свой заряд"
+      ],
+      "reminderText": [
+        "(Они также не будут иметь времени перезарядки, если остаются доступными для использования)"
+      ]
+    },
+    "2598": {
+      "skill": 2598,
+      "name": "Не только умение",
+      "nameEnglish": "More Than Skill",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Шанс блока атак или чар удачлив, если недавно вы блокировали удар"
+      ],
+      "reminderText": [
+        "(Проверка на удачливые события происходит дважды, выбирается наилучший из исходов)",
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "14726": {
+      "skill": 14726,
+      "name": "Скорость атаки, урон от атак",
+      "nameEnglish": "Attack Speed, Attack Damage",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "10% увеличение урона от атак",
+        "5% повышение скорости атаки"
+      ],
+      "reminderText": []
+    },
+    "758": {
+      "skill": 758,
+      "name": "Война на истощение",
+      "nameEnglish": "War of Attrition",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Наносит на 1% больше урона от ударов и состояний по редким и уникальным врагам за каждую секунду в вашем присутствии, вплоть до максимума в 100%"
+      ],
+      "reminderText": []
+    },
+    "48760": {
+      "skill": 48760,
+      "name": "Скорость атаки, шанс кровотечения",
+      "nameEnglish": "Attack Speed, Bleed Chance",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "Атаки имеют 15% шанс вызвать кровотечение"
+      ],
+      "reminderText": [
+        "(Кровотечение наносит постепенный физический урон, основанный на базовом физическом уроне от удара. Во время перемещения урон увеличен на 200%)"
+      ]
+    },
+    "37623": {
+      "skill": 37623,
+      "name": "Скорость атаки, шанс блока",
+      "nameEnglish": "Attack Speed, Block Chance",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "+3% шанс блокировать урон от атак"
+      ],
+      "reminderText": []
+    },
+    "3651": {
+      "skill": 3651,
+      "name": "Скорость атаки и урон одноручным оружием",
+      "nameEnglish": "Attack Speed and One Handed Damage",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "10% увеличение урона одноручным оружием"
+      ],
+      "reminderText": []
+    },
+    "24538": {
+      "skill": 24538,
+      "name": "Скорость атаки, шанс блока",
+      "nameEnglish": "Attack Speed, Block Chance",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "+3% шанс блокировать урон от атак"
+      ],
+      "reminderText": []
+    },
+    "1675": {
+      "skill": 1675,
+      "name": "Скорость атаки, шанс блока",
+      "nameEnglish": "Attack Speed, Block Chance",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "5% повышение скорости атаки",
+        "+3% шанс блокировать урон от атак"
+      ],
+      "reminderText": []
+    },
+    "27864": {
+      "skill": 27864,
+      "name": "Беспричинное насилие",
+      "nameEnglish": "Gratuitous Violence",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Истекающие кровью враги взрываются при убийстве, нанося 20%\nот их максимума здоровья в виде физического урона"
+      ],
+      "reminderText": []
+    },
+    "15616": {
+      "skill": 15616,
+      "name": "Кромсающая техника",
+      "nameEnglish": "Jagged Technique",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "Вызванные вами кровотечения усугубляются"
+      ],
+      "reminderText": [
+        "(Усугублённое кровотечение всегда наносит повышенный урон как если бы цель двигалась)"
+      ]
+    },
+    "52575": {
+      "skill": 52575,
+      "name": "Мастер оружия",
+      "nameEnglish": "Weapon Master",
+      "ascendancyName": "Gladiator",
+      "stats": [
+        "На 25% больше меткости с мечом в руках",
+        "На 20% больше области действия с булавой или скипетром в руках",
+        "На 20% больше шанса критического удара с кинжалом в руках",
+        "20% похищения применяется мгновенно с когтями в руках",
+        "На 30% больше урона от ударов и состояний с топором в руках по врагам с малым количеством здоровья"
+      ],
+      "reminderText": [
+        "(Рунические кинжалы считаются кинжалами)",
+        "(Малое количество здоровья - 50% от максимума здоровья или ниже)"
+      ]
+    },
+    "32730": {
+      "skill": 32730,
+      "name": "Гладиатор",
+      "nameEnglish": "Gladiator",
+      "ascendancyName": "Gladiator",
+      "stats": [],
+      "reminderText": []
+    },
+    "31984": {
+      "skill": 31984,
+      "name": "Энергетический щит, эффект проклятий",
+      "nameEnglish": "Energy Shield, Curse Effect",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "5% усиление эффекта ваших проклятий"
+      ],
+      "reminderText": []
+    },
+    "37492": {
+      "skill": 37492,
+      "name": "Оплот зла",
+      "nameEnglish": "Vile Bastion",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Регенерация 100 энергетического щита в секунду",
+        "Вас нельзя оглушить, пока у вас есть энергетический щит",
+        "Максимум энергетического щита увеличивается на значение, равное шансу блока урона от чар"
+      ],
+      "reminderText": []
+    },
+    "27096": {
+      "skill": 27096,
+      "name": "Светоч пустоты",
+      "nameEnglish": "Void Beacon",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Ближайшие враги имеют -20% к сопротивлению холоду",
+        "Ближайшие враги имеют -20% сопротивления хаосу",
+        "Ближайшие враги имеют 100% снижение скорости регенерации здоровья"
+      ],
+      "reminderText": []
+    },
+    "62504": {
+      "skill": 62504,
+      "name": "Запретная сила",
+      "nameEnglish": "Forbidden Power",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение области действия за заряд энергии",
+        "6% увеличение урона за заряд энергии",
+        "Дарует заряд энергии после расхода 200 маны",
+        "+1 к максимуму зарядов энергии"
+      ],
+      "reminderText": []
+    },
+    "31316": {
+      "skill": 31316,
+      "name": "Энергетический щит, урон хаосом",
+      "nameEnglish": "Energy Shield, Chaos Damage",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "10% увеличение урона хаосом",
+        "6% увеличение максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "43242": {
+      "skill": 43242,
+      "name": "Энергетический щит, урон от холода",
+      "nameEnglish": "Energy Shield, Cold Damage",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "10% увеличение урона от холода",
+        "6% увеличение максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "25309": {
+      "skill": 25309,
+      "name": "Истощающее присутствие",
+      "nameEnglish": "Withering Presence",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "+60% к сопротивлению хаосу",
+        "На 15% больше урона хаосом",
+        "Каждую секунду накладывает Истощение на ближайших врагов на 15 секунд(-ы)",
+        "Ближайшие скованные враги наносят уменьшенный на 15% постепенный урон"
+      ],
+      "reminderText": [
+        "(Истощение дает 6% увеличение получаемого урона от хаоса и может быть наложено до 15 раз)"
+      ]
+    },
+    "47630": {
+      "skill": 47630,
+      "name": "Морозный след",
+      "nameEnglish": "Frigid Wake",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Не может быть охлажден",
+        "Не может быть заморожен",
+        "На 15% больше урона от холода",
+        "Каждые 4 секунды имеет 50% шанс наложить заморозку на ближайших не замороженных врагов на 0,4 секунды",
+        "Ближайшие охлажденные враги наносят уменьшенный на 10% урон от ударов"
+      ],
+      "reminderText": [
+        "(Заморозка снижает скорость действий врагов до нуля, не давая им совершать действия. Длительность зависит от урона от холода нанесенного удара)"
+      ]
+    },
+    "29161": {
+      "skill": 29161,
+      "name": "Энергетический щит, скорость перезарядки энергетического щита",
+      "nameEnglish": "Energy Shield, Energy Shield Recharge Rate",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "15% повышение скорости перезарядки энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "17018": {
+      "skill": 17018,
+      "name": "Энергетический щит, эффект проклятий",
+      "nameEnglish": "Energy Shield, Curse Effect",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "5% усиление эффекта ваших проклятий"
+      ],
+      "reminderText": []
+    },
+    "32417": {
+      "skill": 32417,
+      "name": "Энергетический щит, урон хаосом и урон от холода",
+      "nameEnglish": "Energy Shield, Cold and Chaos Damage",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "10% увеличение урона от холода",
+        "10% увеличение урона хаосом",
+        "6% увеличение максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "6728": {
+      "skill": 6728,
+      "name": "Энергетический щит, длительность заряда энергии",
+      "nameEnglish": "Energy Shield, Power Charge Duration",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "15% увеличение длительности заряда энергии"
+      ],
+      "reminderText": []
+    },
+    "48124": {
+      "skill": 48124,
+      "name": "Энергетический щит, скорость перезарядки энергетического щита",
+      "nameEnglish": "Energy Shield, Energy Shield Recharge Rate",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "15% повышение скорости перезарядки энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "50935": {
+      "skill": 50935,
+      "name": "Энергетический щит, скорость перезарядки энергетического щита",
+      "nameEnglish": "Energy Shield, Energy Shield Recharge Rate",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "6% увеличение максимума энергетического щита",
+        "15% повышение скорости перезарядки энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "37127": {
+      "skill": 37127,
+      "name": "Расцвет греха",
+      "nameEnglish": "Profane Bloom",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Проклятые враги, убитые вами или вашими приспешниками, имеют 50% шанс взорваться, нанеся четверть от их максимума здоровья в виде урона хаосом"
+      ],
+      "reminderText": []
+    },
+    "31344": {
+      "skill": 31344,
+      "name": "Нечестивая власть",
+      "nameEnglish": "Unholy Authority",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Вы можете наложить дополнительное проклятие",
+        "Ваши порчи могут влиять на врагов со свойством Заговорённый"
+      ],
+      "reminderText": []
+    },
+    "5502": {
+      "skill": 5502,
+      "name": "Грешный ритуал",
+      "nameEnglish": "Unhallowed Rite",
+      "ascendancyName": "Occultist",
+      "stats": [
+        "Дарует [SpiritInfusion|Насыщение духом] каждые 0.5 секунд(-ы) при поддержании чар"
+      ],
+      "reminderText": []
+    },
+    "18378": {
+      "skill": 18378,
+      "name": "Оккультист",
+      "nameEnglish": "Occultist",
+      "ascendancyName": "Occultist",
+      "stats": [],
+      "reminderText": []
+    },
+    "61259": {
+      "skill": 61259,
+      "name": "Зачинщик раздора",
+      "nameEnglish": "Mastermind of Discord",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Накладываемая вами восприимчивость добавляет дополнительные -25% к соответствующему сопротивлению",
+        "Регенерирует 1% маны в секунду, если недавно вы накладывали восприимчивость"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "57197": {
+      "skill": 57197,
+      "name": "Сердце разрушения",
+      "nameEnglish": "Heart of Destruction",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Дарует Концентрацию при нанесении вами удара по уникальному врагу, но не чаще одного раза в 8 секунд",
+        "60% увеличение области действия, пока на вас не действует Концентрация"
+      ],
+      "reminderText": [
+        "(Концентрация дарует на 30% больше урона от стихий и длится 4 секунды)"
+      ]
+    },
+    "4917": {
+      "skill": 4917,
+      "name": "Бастион стихий",
+      "nameEnglish": "Bastion of Elements",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Вызывает срабатывание Первородной эгиды 20 уровня при выборе\nПервородная эгида может поглотить 75 урона от стихий за каждое выбранное значимое пассивное умение",
+        "Другие умения Эгиды отключены",
+        "Не может получать отражённый урон от стихий"
+      ],
+      "reminderText": [
+        "(Первобытная эгида сотворяет защитную эгиду, которая вместо вас получает урон от стихий от ударов до тех пор, пока не рассеется. Эгида полностью восстановится через короткий промежуток времени, если вы не будете получать урон от стихий от ударов, или если истощится)"
+      ]
+    },
+    "47873": {
+      "skill": 47873,
+      "name": "Урон от стихий и сопротивления стихиям",
+      "nameEnglish": "Elemental Damage and Resistances",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "+6% к сопротивлению всем стихиям",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "258": {
+      "skill": 258,
+      "name": "Несущая разорение",
+      "nameEnglish": "Bringer of Ruin",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "66% усиление положительных эффектов Вестника на вас",
+        "66% увеличение эффективности удержания маны Вестниками"
+      ],
+      "reminderText": []
+    },
+    "12738": {
+      "skill": 12738,
+      "name": "Урон от стихий, множитель постепенного урона от огня",
+      "nameEnglish": "Elemental Damage, Fire Damage over Time Multiplier",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "+4% к множителю постепенного урона от огня",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "58998": {
+      "skill": 58998,
+      "name": "Урон от стихий, эффект состояний молнии",
+      "nameEnglish": "Elemental Damage, Lightning Ailment Effect",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "10% усиление эффектов состояний молнии"
+      ],
+      "reminderText": [
+        "(Состояния молнии - это шок и Ошеломление)"
+      ]
+    },
+    "12475": {
+      "skill": 12475,
+      "name": "Урон от стихий, эффект состояний холода",
+      "nameEnglish": "Elemental Damage, Cold Ailment Effect",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "10% усиление эффектов состояний холода"
+      ],
+      "reminderText": [
+        "(Состояния холода - это охлаждение, заморозка и Хрупкость)"
+      ]
+    },
+    "53123": {
+      "skill": 53123,
+      "name": "Несущая пламя",
+      "nameEnglish": "Shaper of Flames",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Ваши удары всегда накладывают поджог",
+        "Весь урон может наложить поджог",
+        "40% наносимого физического урона подожженных вами врагов становится уроном от огня"
+      ],
+      "reminderText": [
+        "(Поджог наносит постепенный урон от огня в течение 4 секунд, рассчитанный от базового урона от огня умения)"
+      ]
+    },
+    "27038": {
+      "skill": 27038,
+      "name": "Несущая бурю",
+      "nameEnglish": "Shaper of Storms",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Ваши удары всегда накладывают шок",
+        "Шок, наложенный вашими ударами, всегда увеличивает получаемый урон минимум на 25%",
+        "Весь урон может наложить шок"
+      ],
+      "reminderText": [
+        "(Шок повышает получаемый урон до 50%, в зависимости от количества урона от молнии от удара, на 2 секунды)"
+      ]
+    },
+    "40810": {
+      "skill": 40810,
+      "name": "Несущая зиму",
+      "nameEnglish": "Shaper of Winter",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Весь урон от ударов может наложить охлаждение",
+        "Ваши охлаждения могут снизить скорость действий вплоть до максимума в 40%",
+        "Урон, наносимый охлажденными от ваших ударов врагами, уменьшается на величину, равную половине эффекта охлаждения"
+      ],
+      "reminderText": [
+        "(Охлаждение на 2 секунды снижает скорость действий врагов максимум на 30%, в зависимости от количества урона от холода от удара)"
+      ]
+    },
+    "37114": {
+      "skill": 37114,
+      "name": "Урон от стихий, скорость атаки и сотворения чар",
+      "nameEnglish": "Elemental Damage, Attack and Cast Speed",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "19595": {
+      "skill": 19595,
+      "name": "Урон от стихий, скорость атаки и сотворения чар",
+      "nameEnglish": "Elemental Damage, Attack and Cast Speed",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "10% увеличение урона от стихий",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "6052": {
+      "skill": 6052,
+      "name": "Урон от стихий и сопротивления стихиям",
+      "nameEnglish": "Elemental Damage and Resistances",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "+6% к сопротивлению всем стихиям",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "54279": {
+      "skill": 54279,
+      "name": "Урон от стихий и сопротивления стихиям",
+      "nameEnglish": "Elemental Damage and Resistances",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "+6% к сопротивлению всем стихиям",
+        "10% увеличение урона от стихий"
+      ],
+      "reminderText": []
+    },
+    "56461": {
+      "skill": 56461,
+      "name": "Слуга стихий",
+      "nameEnglish": "Liege of the Primordial",
+      "ascendancyName": "Elementalist",
+      "stats": [
+        "Призванные големы иммунны к урону от стихий",
+        "Призванные големы призываются повторно спустя 4 секунд(-ы) после их убийства",
+        "+2 к максимальному количеству големов"
+      ],
+      "reminderText": []
+    },
+    "16023": {
+      "skill": 16023,
+      "name": "Маг стихий",
+      "nameEnglish": "Elementalist",
+      "ascendancyName": "Elementalist",
+      "stats": [],
+      "reminderText": []
+    },
+    "6982": {
+      "skill": 6982,
+      "name": "Броня, уклонение и длительность провокации",
+      "nameEnglish": "Armour and Evasion, Taunt Duration",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "20% увеличение длительности провокации"
+      ],
+      "reminderText": [
+        "(Спровоцированные вами враги выбирают целью только вас и наносят на 10% меньше урона по всем остальным целям. Продолжительность провокации - 3 секунды.)"
+      ]
+    },
+    "56967": {
+      "skill": 56967,
+      "name": "Достойный противник",
+      "nameEnglish": "Worthy Foe",
+      "ascendancyName": "Champion",
+      "stats": [
+        "Провоцирует врага при нанесении удара",
+        "Спровоцированные вами враги получают увеличенный на 15% урон",
+        "Спровоцированные вами враги не могут уклониться от атак"
+      ],
+      "reminderText": [
+        "(Спровоцированные вами враги выбирают целью только вас и наносят на 10% меньше урона по всем остальным целям. Продолжительность провокации - 3 секунды.)"
+      ]
+    },
+    "11412": {
+      "skill": 11412,
+      "name": "Вдохновенный",
+      "nameEnglish": "Inspirational",
+      "ascendancyName": "Champion",
+      "stats": [
+        "30% усиление эффекта аур не-проклятий от ваших умений",
+        "Вы и союзники рядом с вашим знаменем регенерируете 0.1% здоровья в секунду за каждый заряд доблести, затраченный на размещение этого знамени",
+        "Когда вы покидаете область действия вашего знамени, вы восстанавливаете 30% от затраченной на установку этого знамени доблести"
+      ],
+      "reminderText": []
+    },
+    "27604": {
+      "skill": 27604,
+      "name": "Бьёт первым, погибает последним",
+      "nameEnglish": "First to Strike, Last to Fall",
+      "ascendancyName": "Champion",
+      "stats": [
+        "Ваши удары навсегда устрашают врагов с полным здоровьем",
+        "Дарует Адреналин на 20 секунд(-ы) при достижении вами малого количества здоровья",
+        "Восстанавливает 25% здоровья при получении Адреналина",
+        "При получении Адреналина снимает все состояния и горение"
+      ],
+      "reminderText": [
+        "(Устрашённые враги получают увеличенный на 10% урон от атак)",
+        "(Адреналин дарует вам 100% увеличение урона, 25% повышение скорости атаки, передвижения и сотворения чар, и 10% дополнительного уменьшения получаемого физического урона, вы не можете получить Адреналин, если он уже действует на вас)",
+        "(Состояния - кровотечение, поджог, опаление, охлаждение, заморозка, хрупкость, шок, ошеломление и яд)"
+      ]
+    },
+    "41433": {
+      "skill": 41433,
+      "name": "Броня и уклонение, шанс Прокола",
+      "nameEnglish": "Armour and Evasion, Impale Chance",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "10% шанс наложить на врагов Прокол при нанесении удара атаками"
+      ],
+      "reminderText": [
+        "(Когда враг с наложенным на него Проколом получает удар, Прокол отражает 10% от физического урона прокалывающего удара этому же врагу. Эффект Прокола длится 5 ударов или 8 секунд.)"
+      ]
+    },
+    "13374": {
+      "skill": 13374,
+      "name": "Мастер металла",
+      "nameEnglish": "Master of Metal",
+      "ascendancyName": "Champion",
+      "stats": [
+        "Наложенные вами Проколы длятся 1 дополнительный удар",
+        "+1000 к вашей броне и броне ваших союзников, если вы недавно накладывали Прокол на врага",
+        "Вы и ближайшие союзники наносите от 6 до 12 добавленного физического урона за каждый Прокол на враге"
+      ],
+      "reminderText": []
+    },
+    "61478": {
+      "skill": 61478,
+      "name": "Броня, уклонение и эффект аур",
+      "nameEnglish": "Armour and Evasion, Aura Effect",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "5% усиление эффекта аур не-проклятий от ваших умений"
+      ],
+      "reminderText": []
+    },
+    "60508": {
+      "skill": 60508,
+      "name": "Броня и уклонение, урон от атак под действием Укрепления",
+      "nameEnglish": "Armour and Evasion, Attack Damage while Fortified",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "10% увеличение урона от умений атак под действием Укрепления"
+      ],
+      "reminderText": []
+    },
+    "35185": {
+      "skill": 35185,
+      "name": "Броня и уклонение, урон от атак под действием Укрепления",
+      "nameEnglish": "Armour and Evasion, Attack Damage while Fortified",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "10% увеличение урона от умений атак под действием Укрепления"
+      ],
+      "reminderText": []
+    },
+    "25111": {
+      "skill": 25111,
+      "name": "Броня, уклонение и эффект аур",
+      "nameEnglish": "Armour and Evasion, Aura Effect",
+      "ascendancyName": "Champion",
+      "stats": [
+        "15% увеличение уклонения и брони",
+        "5% усиление эффекта аур не-проклятий от ваших умений"
+      ],
+      "reminderText": []
+    },
+    "43725": {
+      "skill": 43725,
+      "name": "Броня и уклонение, урон от атак",
+      "nameEnglish": "Armour and Evasion, Attack Damage",
+      "ascendancyName": "Champion",
+      "stats": [
+        "10% увеличение урона от атак",
+        "15% увеличение уклонения и брони"
+      ],
+      "reminderText": []
+    },
+    "31700": {
+      "skill": 31700,
+      "name": "Стойкость",
+      "nameEnglish": "Fortitude",
+      "ascendancyName": "Champion",
+      "stats": [
+        "Ближайшие союзники считаются имеющими Укрепление, равное вашему",
+        "На вас действует максимум зарядов Укрепления"
+      ],
+      "reminderText": [
+        "(На 1% меньше получаемого урона от ударов за каждый заряд Укрепления. Максимум 20 Укрепления)"
+      ]
+    },
+    "33940": {
+      "skill": 33940,
+      "name": "Несокрушимый герой",
+      "nameEnglish": "Unstoppable Hero",
+      "ascendancyName": "Champion",
+      "stats": [
+        "На 3% больше брони и уклонения за каждый заряд Укрепления выше 20",
+        "3% повышение скорости атаки за каждый заряд Укрепления выше 20"
+      ],
+      "reminderText": []
+    },
+    "35750": {
+      "skill": 35750,
+      "name": "Достойные цели",
+      "nameEnglish": "Worthy Causes",
+      "ascendancyName": "Champion",
+      "stats": [
+        "Размещение знамени не предотвращает получение вами доблести",
+        "100% увеличение длительности умений знамён"
+      ],
+      "reminderText": []
+    },
+    "24984": {
+      "skill": 24984,
+      "name": "Чемпион",
+      "nameEnglish": "Champion",
+      "ascendancyName": "Champion",
+      "stats": [],
+      "reminderText": []
+    },
+    "55646": {
+      "skill": 55646,
+      "name": "Урон приспешников и здоровье",
+      "nameEnglish": "Minion Damage and Life",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Приспешники имеют 10% увеличение максимума здоровья",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "48719": {
+      "skill": 48719,
+      "name": "Госпожа жертвоприношений",
+      "nameEnglish": "Mistress of Sacrifice",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Ваши умения Подношений действуют и на вас",
+        "Ваши Подношения имеют 50% ослабление эффекта на вас",
+        "40% увеличение длительности эффекта умения"
+      ],
+      "reminderText": []
+    },
+    "3554": {
+      "skill": 3554,
+      "name": "Пожиратель сущности",
+      "nameEnglish": "Essence Glutton",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Вы и ваши союзники регенерируете 0.2% энергетического щита в секунду за каждый расположенный рядом труп, вплоть до 2.0% в секунду",
+        "Вы и ваши союзники регенерируете 5 маны в секунду\nза каждый расположенный рядом труп, вплоть до 50 в секунду",
+        "Регенерация 8% энергетического щита в течение 2 секунд, когда вы поглощаете труп",
+        "Регенерация 4% маны в течение 2 секунд, когда вы поглощаете труп"
+      ],
+      "reminderText": []
+    },
+    "36017": {
+      "skill": 36017,
+      "name": "Повелитель тьмы",
+      "nameEnglish": "Commander of Darkness",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Ауры от ваших умений даруют вам и вашим союзникам 3% повышение скорости атаки и сотворения чар",
+        "Вы и ближайшие союзники наносите увеличенный на 30% урон",
+        "Вы и ближайшие союзники имеете +30% к сопротивлению стихиям"
+      ],
+      "reminderText": [
+        "(Ауры даруют бонусы только тому, на что влияют)"
+      ]
+    },
+    "26298": {
+      "skill": 26298,
+      "name": "Урон и здоровье приспешников",
+      "nameEnglish": "Minion Damage and Life",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Приспешники имеют 10% увеличение максимума здоровья",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "11490": {
+      "skill": 11490,
+      "name": "Несущий чуму",
+      "nameEnglish": "Plaguebringer",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Вы и ваши приспешники имеете 30% увеличение области действия, если вы недавно поглотили труп",
+        "Вы и ближайшие союзники наносите на 10% больше урона, пока рядом находится хотя бы один труп",
+        "Ближайшие враги наносят уменьшенный на 10% урон, пока рядом есть хотя бы один труп"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "23509": {
+      "skill": 23509,
+      "name": "Урон приспешников, скорость сотворения чар",
+      "nameEnglish": "Minion Damage, Cast Speed",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "4% повышение скорости сотворения чар",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "23572": {
+      "skill": 23572,
+      "name": "Трупный пакт",
+      "nameEnglish": "Corpse Pact",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "4% повышение скорости атаки и сотворения чар за каждый недавно поглощенный труп, вплоть до максимума в 200%",
+        "На врагов рядом с недавно созданными вами трупами действуют охлаждение и шок"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")",
+        "(Убийство врага не создает трупа)",
+        "(Шок повышает получаемый урон на 15%)",
+        "(Охлаждение снижает скорость действий врагов на 10%)"
+      ]
+    },
+    "18309": {
+      "skill": 18309,
+      "name": "Урон приспешников, длительность умений",
+      "nameEnglish": "Minion Damage, Skill Duration",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "10% увеличение длительности эффекта умения",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "60547": {
+      "skill": 60547,
+      "name": "Урон приспешников, скорость сотворения чар",
+      "nameEnglish": "Minion Damage, Cast Speed",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "4% повышение скорости сотворения чар",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "39818": {
+      "skill": 39818,
+      "name": "Урон и здоровье приспешников",
+      "nameEnglish": "Minion Damage and Life",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Приспешники имеют 10% увеличение максимума здоровья",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "18574": {
+      "skill": 18574,
+      "name": "Урон приспешников, мана",
+      "nameEnglish": "Minion Damage, Mana",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "8% увеличение максимума маны",
+        "Приспешники имеют 10% увеличение урона"
+      ],
+      "reminderText": []
+    },
+    "5415": {
+      "skill": 5415,
+      "name": "Урон приспешников, эффект аур",
+      "nameEnglish": "Minion Damage, Aura Effect",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Приспешники имеют 10% увеличение урона",
+        "5% усиление эффекта аур не-проклятий от ваших умений"
+      ],
+      "reminderText": []
+    },
+    "54159": {
+      "skill": 54159,
+      "name": "Бездумная агрессия",
+      "nameEnglish": "Mindless Aggression",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "Приспешники имеют на 20% больше максимума здоровья",
+        "Приспешники наносят на 10% больше урона"
+      ],
+      "reminderText": []
+    },
+    "65153": {
+      "skill": 65153,
+      "name": "Неестественная сила",
+      "nameEnglish": "Unnatural Strength",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "На приспешников действует Нечестивое могущество"
+      ],
+      "reminderText": [
+        "(Нечестивое могущество превращает 100% физического урона в урон хаосом и дарует 25% шанс наложить Истощение при нанесении удара)"
+      ]
+    },
+    "14603": {
+      "skill": 14603,
+      "name": "Костяная преграда",
+      "nameEnglish": "Bone Barrier",
+      "ascendancyName": "Necromancer",
+      "stats": [
+        "1% дополнительного уменьшения получаемого физического урона за каждого приспешника, вплоть до 10%",
+        "1% от наносимого вашими приспешниками урона похищается вами в виде здоровья",
+        "Приспешники получают 40% от максимума здоровья в виде дополнительного максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "60791": {
+      "skill": 60791,
+      "name": "Некромант",
+      "nameEnglish": "Necromancer",
+      "ascendancyName": "Necromancer",
+      "stats": [],
+      "reminderText": []
+    },
+    "61393": {
+      "skill": 61393,
+      "name": "Урон от атак, шанс критического удара",
+      "nameEnglish": "Attack Damage, Critical Strike Chance",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "34484": {
+      "skill": 34484,
+      "name": "Вечный голод",
+      "nameEnglish": "Endless Hunger",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "20% избыточного урона похищается в виде здоровья",
+        "20% повышение скорости атаки во время похищения",
+        "Не может получить оглушение во время похищения",
+        "Вы невосприимчивы к кровотечению во время похищения"
+      ],
+      "reminderText": [
+        "(Избыточный урон - любой урон от удара, превышающий оставшееся здоровье врага)",
+        "(Похищенное здоровье восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)",
+        "(Отрицательные эффекты, не имеющие воздействия, все ещё будут накладываться на вас, но их эффект не будет действовать)"
+      ]
+    },
+    "10143": {
+      "skill": 10143,
+      "name": "Жестокое рвение",
+      "nameEnglish": "Brutal Fervour",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "100% увеличение максимального восстановления за эффект похищения здоровья",
+        "Эффекты похищения здоровья не прекращаются при заполнении не удержанного здоровья",
+        "10% уменьшение получаемого урона во время похищения"
+      ],
+      "reminderText": []
+    },
+    "38180": {
+      "skill": 38180,
+      "name": "Воздействие",
+      "nameEnglish": "Impact",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "+0.4 м к дальности ударов ближнего боя",
+        "5% увеличение области действия за каждого недавно убитого врага, вплоть до 50%",
+        "Наносит больше урона по врагам в ближнем бою в зависимости от их близости, вплоть до 15%",
+        "50% повышение меткости"
+      ],
+      "reminderText": [
+        "(Влияет на удары ближнего боя, включая обычную атаку. Не влияет на области действия)",
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "50845": {
+      "skill": 50845,
+      "name": "Урон от атак, длительность зарядов ярости и выносливости",
+      "nameEnglish": "Attack Damage, Frenzy and Endurance Charge Duration",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "15% увеличение длительности заряда выносливости",
+        "15% увеличение длительности заряда ярости"
+      ],
+      "reminderText": []
+    },
+    "16306": {
+      "skill": 16306,
+      "name": "Непревзойдённая техника",
+      "nameEnglish": "Masterful Form",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "Ваш максимум зарядов выносливости равен максимуму зарядов ярости",
+        "+1 к максимуму зарядов ярости"
+      ],
+      "reminderText": []
+    },
+    "15286": {
+      "skill": 15286,
+      "name": "Урон от атак, скорость атаки",
+      "nameEnglish": "Attack Damage, Attack Speed",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "5% повышение скорости атаки"
+      ],
+      "reminderText": []
+    },
+    "42293": {
+      "skill": 42293,
+      "name": "Урон от атак, скорость атаки",
+      "nameEnglish": "Attack Damage, Attack Speed",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "5% повышение скорости атаки"
+      ],
+      "reminderText": []
+    },
+    "34215": {
+      "skill": 34215,
+      "name": "Урон от атак, похищение здоровья",
+      "nameEnglish": "Attack Damage, Life Leech",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "0.4% урона от атак похищается в виде здоровья"
+      ],
+      "reminderText": [
+        "(Похищенное здоровье восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)"
+      ]
+    },
+    "45696": {
+      "skill": 45696,
+      "name": "Урон от атак, похищение здоровья",
+      "nameEnglish": "Attack Damage, Life Leech",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "0.4% урона от атак похищается в виде здоровья"
+      ],
+      "reminderText": [
+        "(Похищенное здоровье восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)"
+      ]
+    },
+    "20954": {
+      "skill": 20954,
+      "name": "Урон от атак, область действия",
+      "nameEnglish": "Attack Damage, Area of Effect",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "10% увеличение урона от атак",
+        "10% увеличение области действия"
+      ],
+      "reminderText": []
+    },
+    "3184": {
+      "skill": 3184,
+      "name": "Палач",
+      "nameEnglish": "Headsman",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "При ударе умениями убивает врагов с 20% здоровья или ниже",
+        "10% повышение скорости атаки на 20 секунд, когда вы убиваете редкого или уникального врага",
+        "10% повышение скорости передвижения на 20 секунд, когда вы убиваете врага"
+      ],
+      "reminderText": []
+    },
+    "17315": {
+      "skill": 17315,
+      "name": "Подавление",
+      "nameEnglish": "Overwhelm",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "Базовый шанс нанесения критического удара атаками оружием: 8%",
+        "+10% к множителю критического удара за каждого ближайшего врага, вплоть до +100%",
+        "Ближайшие враги имеют -30% к множителю критического удара"
+      ],
+      "reminderText": []
+    },
+    "62817": {
+      "skill": 62817,
+      "name": "Гроза легенд",
+      "nameEnglish": "Bane of Legends",
+      "ascendancyName": "Slayer",
+      "stats": [
+        "На 10% больше урона, если недавно вы совершали убийство",
+        "Не может получать отражённый физический урон",
+        "На 20% больше урона от ударов и состояний по уникальным врагам"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "33795": {
+      "skill": 33795,
+      "name": "Рубака",
+      "nameEnglish": "Slayer",
+      "ascendancyName": "Slayer",
+      "stats": [],
+      "reminderText": []
+    },
+    "21264": {
+      "skill": 21264,
+      "name": "Нож в спину",
+      "nameEnglish": "Knife in the Back",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "На 100% больше шанса критического удара по врагам не с малым количеством здоровья",
+        "+100% к множителю критического удара по врагам с малым количеством здоровья",
+        "Ваши критические удары имеют эффект Добивание"
+      ],
+      "reminderText": [
+        "(Малое количество здоровья - 50% от максимума здоровья или ниже)",
+        "(Добивание означает, что враги с 10% здоровья или ниже умирают после вашего удара)"
+      ]
+    },
+    "18335": {
+      "skill": 18335,
+      "name": "В яремную вену",
+      "nameEnglish": "For the Jugular",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "+100% к множителю критического удара по врагам не с малым количеством здоровья",
+        "Шанс критического удара по врагам с малым количеством здоровья на 100% больше",
+        "Ваши критические удары имеют эффект Добивание"
+      ],
+      "reminderText": [
+        "(Малое количество здоровья - 50% от максимума здоровья или ниже)",
+        "(Добивание означает, что враги с 10% здоровья или ниже умирают после вашего удара)"
+      ]
+    },
+    "12850": {
+      "skill": 12850,
+      "name": "Шанс критического удара, длительность заряда энергии",
+      "nameEnglish": "Critical Strike Chance, Power Charge Duration",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "15% увеличение длительности заряда энергии",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "19598": {
+      "skill": 19598,
+      "name": "Работа с ядом",
+      "nameEnglish": "Toxic Delivery",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Яд от критических ударов наносит на 20% больше урона",
+        "5% увеличение длительности яда за каждый недавно наложенный вами эффект яда, вплоть до максимума в 100%",
+        "Восстанавливает 0.5% здоровья за каждый заряд яда на убитых вами врагах"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "33954": {
+      "skill": 33954,
+      "name": "Шанс критического удара, урон от чар",
+      "nameEnglish": "Critical Strike Chance, Spell Damage",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "10% увеличение урона от чар",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "1945": {
+      "skill": 1945,
+      "name": "Мистическое насыщение",
+      "nameEnglish": "Mystical Infusion",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Шанс критического удара у чар разветвляется",
+        "На 30% меньше шанса критического удара чарами"
+      ],
+      "reminderText": []
+    },
+    "43215": {
+      "skill": 43215,
+      "name": "Шанс критического удара, эффект Неуловимости",
+      "nameEnglish": "Critical Strike Chance, Elusive Effect",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "10% усиление эффекта Неуловимости",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": [
+        "(Неуловимость дарует 15% шанс избежать весь урон от ударов и 30% повышение скорости передвижения. Положительный эффект ослабевает со временем и исчезает с персонажа при нулевом эффекте. Вы не можете получить Неуловимость, если она уже активна)"
+      ]
+    },
+    "28782": {
+      "skill": 28782,
+      "name": "Ходящий в тумане",
+      "nameEnglish": "Mistwalker",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Дарует Неуловимость при нанесении критического удара",
+        "100% усиление эффекта Неуловимости",
+        "Вы не получаете дополнительного урона от критических ударов под действием Неуловимости"
+      ],
+      "reminderText": [
+        "(Неуловимость дарует 15% шанс избежать весь урон от ударов и 30% повышение скорости передвижения. Положительный эффект ослабевает со временем и исчезает с персонажа при нулевом эффекте. Вы не можете получить Неуловимость, если она уже активна)"
+      ]
+    },
+    "51402": {
+      "skill": 51402,
+      "name": "Шанс критического удара, здоровье",
+      "nameEnglish": "Critical Strike Chance, Life",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "4% увеличение максимума здоровья",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "29844": {
+      "skill": 29844,
+      "name": "Тёмная кровь",
+      "nameEnglish": "Shadowed Blood",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "40% полученного физического урона восполняется в виде здоровья",
+        "Невосприимчивость к наносящим урон состояниям"
+      ],
+      "reminderText": [
+        "(Восполнение работает только с уроном от ударов в течение 4 секунд после удара)",
+        "(Состояния, наносящие урон - кровотечение, поджог и яд)",
+        "(Отрицательные эффекты, не имеющие воздействия, все ещё будут накладываться на вас, но их эффект не будет действовать)"
+      ]
+    },
+    "46676": {
+      "skill": 46676,
+      "name": "Стиль убийства",
+      "nameEnglish": "Assassination Style",
+      "ascendancyName": "Assassin",
+      "stats": [],
+      "reminderText": [
+        "(Выберите один из двух прилагаемых вариантов)"
+      ]
+    },
+    "21192": {
+      "skill": 21192,
+      "name": "Насыщенные токсины",
+      "nameEnglish": "Infused Toxins",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Весь урон от ударов может наложить отравление"
+      ],
+      "reminderText": []
+    },
+    "4242": {
+      "skill": 4242,
+      "name": "Насыщение энергией",
+      "nameEnglish": "Unstable Infusion",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "15% шанс получить заряд энергии при нанесении критического удара",
+        "30% шанс получить заряд энергии при нанесении некритического удара",
+        "+1 к максимуму зарядов энергии"
+      ],
+      "reminderText": []
+    },
+    "47531": {
+      "skill": 47531,
+      "name": "Шанс критического удара, шанс отравить",
+      "nameEnglish": "Critical Strike Chance, Poison Chance",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "15% шанс отравить при нанесении удара",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": [
+        "(Яд наносит постепенный урон хаосом, основанный на сумме базового физического урона и урона хаосом от удара. Урон от нескольких зарядов яда складывается)"
+      ]
+    },
+    "55686": {
+      "skill": 55686,
+      "name": "Шанс критического удара, эффект меток",
+      "nameEnglish": "Critical Strike Chance, Mark Effect",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "10% усиление эффекта ваших меток",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "48239": {
+      "skill": 48239,
+      "name": "Метка смерти",
+      "nameEnglish": "Deathmarked",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Вызывает срабатывание Метки убийцы 30 уровня при нанесении критического удара атакой\nпо редкому или уникальному врагу без метки",
+        "Умения меток не расходуют ману",
+        "10% усиление эффекта ваших меток за каждую единицу максимума зарядов энергии",
+        "3% похищения происходит мгновенно за каждую единицу максимума зарядов энергии"
+      ],
+      "reminderText": [
+        "(Герой проклинает одного врага, повышая его уязвимость к критическим ударам. Убив проклятого врага, герой получит здоровье, ману и заряд энергии. Одновременно можно иметь лишь одну метку)"
+      ]
+    },
+    "9014": {
+      "skill": 9014,
+      "name": "Шанс и множитель критического удара",
+      "nameEnglish": "Critical Strike Chance and Multiplier",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "+10% к множителю критического удара",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "6064": {
+      "skill": 6064,
+      "name": "Шанс и множитель критического удара",
+      "nameEnglish": "Critical Strike Chance and Multiplier",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "+10% к множителю критического удара",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": []
+    },
+    "19083": {
+      "skill": 19083,
+      "name": "Авантюрист",
+      "nameEnglish": "Opportunistic",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "Вы наносите на 25% больше урона, пока поблизости есть максимум один редкий или уникальный враг",
+        "Урон не может быть отражён",
+        "На 35% меньше получаемого урона пока рядом находятся как минимум два редких или уникальных врага"
+      ],
+      "reminderText": []
+    },
+    "23024": {
+      "skill": 23024,
+      "name": "Шанс критического удара, шанс отравить",
+      "nameEnglish": "Critical Strike Chance, Poison Chance",
+      "ascendancyName": "Assassin",
+      "stats": [
+        "15% шанс отравить при нанесении удара",
+        "15% повышение шанса критического удара"
+      ],
+      "reminderText": [
+        "(Яд наносит постепенный урон хаосом, основанный на сумме базового физического урона и урона хаосом от удара. Урон от нескольких зарядов яда складывается)"
+      ]
+    },
+    "58229": {
+      "skill": 58229,
+      "name": "Убийца",
+      "nameEnglish": "Assassin",
+      "ascendancyName": "Assassin",
+      "stats": [],
+      "reminderText": []
+    },
+    "36242": {
+      "skill": 36242,
+      "name": "Эффекты флакона и длительность",
+      "nameEnglish": "Flask Effect and Duration",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "8% увеличение длительности эффекта флакона",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "6038": {
+      "skill": 6038,
+      "name": "Мастер перегонки",
+      "nameEnglish": "Master Distiller",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "Дарует бонусы используемым вами неподдерживаемым умениям, поглощая 3 заряда из флакона каждого типа, если возможно:",
+        "Если поглощены заряды алмазного флакона, 250% увеличение шанса критического удара",
+        "Если поглощены заряды висмутового флакона, пробивает 25% сопротивления стихиям",
+        "Если поглощены заряды аметистового флакона, дарует 37% физического урона в виде дополнительного урона хаосом"
+      ],
+      "reminderText": []
+    },
+    "32662": {
+      "skill": 32662,
+      "name": "Эффекты флакона, урон хаосом",
+      "nameEnglish": "Flask Effect, Chaos Damage",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "15% увеличение урона хаосом",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "40813": {
+      "skill": 40813,
+      "name": "Возмездие природы",
+      "nameEnglish": "Nature's Reprisal",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "25% шанс наложить Истощение на 2 секунды при нанесении удара",
+        "50% усиление эффекта Истощения"
+      ],
+      "reminderText": [
+        "(Истощение дает 6% увеличение получаемого урона от хаоса и может быть наложено до 15 раз)"
+      ]
+    },
+    "20480": {
+      "skill": 20480,
+      "name": "Эффекты флакона, длительность отравления",
+      "nameEnglish": "Flask Effect, Poison Duration",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "5% усиление эффекта примененных на вас флаконов",
+        "10% увеличение длительности яда"
+      ],
+      "reminderText": []
+    },
+    "1697": {
+      "skill": 1697,
+      "name": "Мастер по токсинам",
+      "nameEnglish": "Master Toxicist",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "Враги в радиусе 1.5 м отравляются при убийстве вами отравленного врага во время действия любого эффекта флакона",
+        "Яд, наложенный вами во время действия эффекта любого флакона, имеет 20% шанс нанести на 100% больше урона"
+      ],
+      "reminderText": []
+    },
+    "51101": {
+      "skill": 51101,
+      "name": "Природный адреналин",
+      "nameEnglish": "Nature's Adrenaline",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "Флаконы получают 3 заряда(-ов) каждые 3 секунды"
+      ],
+      "reminderText": []
+    },
+    "14156": {
+      "skill": 14156,
+      "name": "Эффекты флакона и длительность",
+      "nameEnglish": "Flask Effect and Duration",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "8% увеличение длительности эффекта флакона",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "63293": {
+      "skill": 63293,
+      "name": "Мастер-хирург",
+      "nameEnglish": "Master Surgeon",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "Эффекты флакона здоровья не прекращаются при заполнении не удержанного здоровья\nЭффекты флакона здоровья срабатывают вне очереди",
+        "На 50% меньше восстановления здоровья от флаконов"
+      ],
+      "reminderText": []
+    },
+    "32640": {
+      "skill": 32640,
+      "name": "Эффекты флакона и получение зарядов",
+      "nameEnglish": "Flask Effect and Charges Gained",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "10% увеличение получаемого количества зарядов флакона",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "65296": {
+      "skill": 65296,
+      "name": "Дар природы",
+      "nameEnglish": "Nature's Boon",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "30% усиление эффекта примененных к вам волшебных особых флаконов"
+      ],
+      "reminderText": []
+    },
+    "40631": {
+      "skill": 40631,
+      "name": "Эффекты флакона и получение зарядов",
+      "nameEnglish": "Flask Effect and Charges Gained",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "10% увеличение получаемого количества зарядов флакона",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "61805": {
+      "skill": 61805,
+      "name": "Мастер-алхимик",
+      "nameEnglish": "Master Alchemist",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "Снимает стихийные состояния при использовании флакона",
+        "50% шанс сохранить заряды флаконов при их использовании"
+      ],
+      "reminderText": [
+        "(Стихийные состояния - поджог, опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "59800": {
+      "skill": 59800,
+      "name": "Эффекты флакона и получение зарядов",
+      "nameEnglish": "Flask Effect and Charges Gained",
+      "ascendancyName": "Pathfinder",
+      "stats": [
+        "10% увеличение получаемого количества зарядов флакона",
+        "5% усиление эффекта примененных на вас флаконов"
+      ],
+      "reminderText": []
+    },
+    "64111": {
+      "skill": 64111,
+      "name": "Следопыт",
+      "nameEnglish": "Pathfinder",
+      "ascendancyName": "Pathfinder",
+      "stats": [],
+      "reminderText": []
+    },
+    "48999": {
+      "skill": 48999,
+      "name": "Пьющий душу",
+      "nameEnglish": "Soul Drinker",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "2% от урона похищается в виде энергетического щита",
+        "Эффекты похищения энергетического щита не прекращаются при заполнении энергетического щита"
+      ],
+      "reminderText": [
+        "(Похищенный энергетический щит восстанавливается с течением времени. Одновременно могут быть активны сразу несколько похищений, вплоть до максимальной скорости похищения)"
+      ]
+    },
+    "37191": {
+      "skill": 37191,
+      "name": "Уклонение и энергетический щит, длительность зарядов ярости",
+      "nameEnglish": "Evasion and Energy Shield, Frenzy Charge Duration",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "15% увеличение длительности заряда ярости"
+      ],
+      "reminderText": []
+    },
+    "41891": {
+      "skill": 41891,
+      "name": "Разрушитель чар",
+      "nameEnglish": "Spellbreaker",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "Предотвращает +15% урона от подавленных чар при полном энергетическом щите",
+        "50% начать перезарядку энергетического щита, когда вы подавляете урон от чар"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)"
+      ]
+    },
+    "2336": {
+      "skill": 2336,
+      "name": "Уклонение и энергетический щит, похищение энергетического щита",
+      "nameEnglish": "Evasion and Energy Shield, Energy Shield Leech",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "40% увеличение итогового восстановления в секунду от похищения энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "23225": {
+      "skill": 23225,
+      "name": "На шаг впереди",
+      "nameEnglish": "One Step Ahead",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "Ваша скорость действий не может быть ниже 90% от базового значения",
+        "Скорость действий ближайших врагов-монстров не может превышать 90% от базового значения"
+      ],
+      "reminderText": []
+    },
+    "13219": {
+      "skill": 13219,
+      "name": "Уклонение и энергетический щит, урон",
+      "nameEnglish": "Evasion and Energy Shield, Damage",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "10% увеличение урона",
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "58454": {
+      "skill": 58454,
+      "name": "Уклонение и энергетический щит, перезарядка энергетического щита",
+      "nameEnglish": "Evasion and Energy Shield, Energy Shield Recharge",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "10% повышение скорости перезарядки энергетического щита"
+      ],
+      "reminderText": []
+    },
+    "32947": {
+      "skill": 32947,
+      "name": "Быстрый убийца",
+      "nameEnglish": "Swift Killer",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "200% увеличение длительности заряда",
+        "+2 к максимуму зарядов ярости"
+      ],
+      "reminderText": []
+    },
+    "55867": {
+      "skill": 55867,
+      "name": "Эрудит",
+      "nameEnglish": "Polymath",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "На 2% больше урона за каждый тип выбранного вами мастерства",
+        "Восстанавливает 1% здоровья при убийстве за каждый выбранный вами тип мастерства",
+        "Восстанавливает 1% энергетического щита при убийстве за каждый выбранный вами тип мастерства",
+        "Восстанавливает 1% маны при убийстве за каждый выбранный вами тип мастерства"
+      ],
+      "reminderText": []
+    },
+    "63908": {
+      "skill": 63908,
+      "name": "Уклонение и энергетический щит, скорость передвижения",
+      "nameEnglish": "Evasion and Energy Shield, Movement Speed",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "4% повышение скорости передвижения"
+      ],
+      "reminderText": []
+    },
+    "28884": {
+      "skill": 28884,
+      "name": "Останавливающий сердце",
+      "nameEnglish": "Heartstopper",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "Каждые 10 секунд:\nПолучает на 50% меньше урона от ударов в течение 5 секунд\nПолучает на 50% меньше постепенного урона в течение 5 секунд"
+      ],
+      "reminderText": [
+        "(Действуют последовательно)"
+      ]
+    },
+    "19587": {
+      "skill": 19587,
+      "name": "Уклонение и энергетический щит, скорость передвижения",
+      "nameEnglish": "Evasion and Energy Shield, Movement Speed",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "4% повышение скорости передвижения"
+      ],
+      "reminderText": []
+    },
+    "29825": {
+      "skill": 29825,
+      "name": "Мастер побега",
+      "nameEnglish": "Escape Artist",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "+4 к уклонению за 1 максимума энергетического щита на надетом шлеме",
+        "+1 к максимуму энергетического щита за каждые 8 уклонения на надетом нательном доспехе"
+      ],
+      "reminderText": []
+    },
+    "35598": {
+      "skill": 35598,
+      "name": "Уклонение и энергетический щит, скорость атаки и сотворения чар",
+      "nameEnglish": "Evasion and Energy Shield, Attack and Cast Speed",
+      "ascendancyName": "Trickster",
+      "stats": [
+        "14% увеличение уклонения",
+        "5% увеличение максимума энергетического щита",
+        "4% повышение скорости атаки и сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "55236": {
+      "skill": 55236,
+      "name": "Плут",
+      "nameEnglish": "Trickster",
+      "ascendancyName": "Trickster",
+      "stats": [],
+      "reminderText": []
+    },
+    "64842": {
+      "skill": 64842,
+      "name": "Область действия, эффект ослепления",
+      "nameEnglish": "Area of Effect, Blind Effect",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "15% усиление эффекта ослепления"
+      ],
+      "reminderText": [
+        "(Ослепление даёт на 20% меньше меткости и уклонения на 4 секунды)"
+      ]
+    },
+    "28535": {
+      "skill": 28535,
+      "name": "Идеальное преступление",
+      "nameEnglish": "Perfect Crime",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "При выборе вызывает срабатывание Призыва триггерботов 20 уровня",
+        "На 30% меньше урона срабатываемых чар"
+      ],
+      "reminderText": [
+        "(Призывает двух Триггерботов, которые следуют за вами и стремятся сблизиться с противниками. Ваши срабатывающие чары срабатывают дважды, по разу с позиции каждого Триггербота)"
+      ]
+    },
+    "25167": {
+      "skill": 25167,
+      "name": "Область действия, скорость броска мин",
+      "nameEnglish": "Area of Effect, Mine Throwing Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "5% повышение скорости броска мины"
+      ],
+      "reminderText": []
+    },
+    "39834": {
+      "skill": 39834,
+      "name": "Подрывник",
+      "nameEnglish": "Demolitions Specialist",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "150% усиление эффекта аур мин",
+        "Мины сковывают врагов вокруг них на 2 секунд(-ы) при приземлении"
+      ],
+      "reminderText": [
+        "(Скованность снижает скорость передвижения на 30%)"
+      ]
+    },
+    "869": {
+      "skill": 869,
+      "name": "Область действия, скорость передвижения",
+      "nameEnglish": "Area of Effect, Movement Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "4% повышение скорости передвижения",
+        "8% увеличение области действия"
+      ],
+      "reminderText": []
+    },
+    "38918": {
+      "skill": 38918,
+      "name": "Цепная реакция",
+      "nameEnglish": "Chain Reaction",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "Умения, используемые ловушками, имеют 50% увеличение области действия",
+        "При срабатывании ловушки также срабатывают и ближайшие ловушки"
+      ],
+      "reminderText": []
+    },
+    "16212": {
+      "skill": 16212,
+      "name": "Область действия, скорость броска ловушек",
+      "nameEnglish": "Area of Effect, Trap Throwing Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "5% повышение скорости броска ловушки"
+      ],
+      "reminderText": []
+    },
+    "47778": {
+      "skill": 47778,
+      "name": "Специалист по бомбам",
+      "nameEnglish": "Bomb Specialist",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "30% шанс нанести на 50% больше урона ударами по области",
+        "30% шанс получить на 50% меньше урона от ударов по области"
+      ],
+      "reminderText": []
+    },
+    "62067": {
+      "skill": 62067,
+      "name": "Область действия, Урон по области",
+      "nameEnglish": "Area of Effect, Area Damage",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "10% увеличение урона по области"
+      ],
+      "reminderText": []
+    },
+    "57175": {
+      "skill": 57175,
+      "name": "Специалист по шрапнели",
+      "nameEnglish": "Shrapnel Specialist",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "Снаряды усиленных умений с 50% шансом могут вернуться к вам",
+        "Снаряды выпускаются в случайных направлениях"
+      ],
+      "reminderText": []
+    },
+    "64785": {
+      "skill": 64785,
+      "name": "Скорость и урон снарядов",
+      "nameEnglish": "Projectile Speed, Projectile Damage",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% повышение скорости снарядов",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "16940": {
+      "skill": 16940,
+      "name": "Пироман",
+      "nameEnglish": "Pyromaniac",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "Иммунитет к поджогу и шоку",
+        "Регенерация 2% здоровья в секунду за каждую недавно взорванную мину, вплоть до 10% в секунду",
+        "Регенерация 2% здоровья в секунду за каждую недавно сработавшую ловушку, вплоть до 10% в секунду"
+      ],
+      "reminderText": [
+        "(Недавно означает \"За последние 4 секунды\")"
+      ]
+    },
+    "65085": {
+      "skill": 65085,
+      "name": "Скорость и урон снарядов",
+      "nameEnglish": "Projectile Speed, Projectile Damage",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% повышение скорости снарядов",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "1953": {
+      "skill": 1953,
+      "name": "Область действия, скорость броска ловушек и мин",
+      "nameEnglish": "Area of Effect, Trap and Mine Throwing Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "5% повышение скорости броска ловушки",
+        "5% повышение скорости броска мины"
+      ],
+      "reminderText": []
+    },
+    "41081": {
+      "skill": 41081,
+      "name": "Область действия, скорость передвижения",
+      "nameEnglish": "Area of Effect, Movement Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "4% повышение скорости передвижения",
+        "8% увеличение области действия"
+      ],
+      "reminderText": []
+    },
+    "5087": {
+      "skill": 5087,
+      "name": "Рожденный во мраке",
+      "nameEnglish": "Born in the Shadows",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "Не может быть ослеплён",
+        "15% уменьшение получаемого урона от ослепленных врагов",
+        "Ближайшие враги получают ослепление",
+        "Ослепляет врагов при нанесении удара"
+      ],
+      "reminderText": [
+        "(Во время ослепления меткость и уклонение на 20% меньше)",
+        "(Ослепление даёт на 20% меньше меткости и уклонения на 4 секунды)"
+      ]
+    },
+    "63135": {
+      "skill": 63135,
+      "name": "Область действия, Урон по области",
+      "nameEnglish": "Area of Effect, Area Damage",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "10% увеличение урона по области"
+      ],
+      "reminderText": []
+    },
+    "14103": {
+      "skill": 14103,
+      "name": "Обдуманный риск",
+      "nameEnglish": "Calculated Risk",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "Ваш шанс критического удара удачлив",
+        "Урон наносящих по вам удары врагов неудачлив",
+        "Урон от ударов неудачлив"
+      ],
+      "reminderText": [
+        "(Проверка на удачливые события происходит дважды, выбирается наилучший из исходов)",
+        "(Проверка на неудачливые события происходит дважды, выбирается наихудший из исходов)"
+      ]
+    },
+    "47366": {
+      "skill": 47366,
+      "name": "Область действия, скорость броска мин",
+      "nameEnglish": "Area of Effect, Mine Throwing Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "5% повышение скорости броска мины"
+      ],
+      "reminderText": []
+    },
+    "51462": {
+      "skill": 51462,
+      "name": "Как часы",
+      "nameEnglish": "Like Clockwork",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "50% повышение скорости перезарядки умений",
+        "10% снижение скорости перезарядки умений ближайших врагов"
+      ],
+      "reminderText": []
+    },
+    "26446": {
+      "skill": 26446,
+      "name": "Область действия, скорость броска ловушек",
+      "nameEnglish": "Area of Effect, Trap Throwing Speed",
+      "ascendancyName": "Saboteur",
+      "stats": [
+        "8% увеличение области действия",
+        "5% повышение скорости броска ловушки"
+      ],
+      "reminderText": []
+    },
+    "18635": {
+      "skill": 18635,
+      "name": "Диверсант",
+      "nameEnglish": "Saboteur",
+      "ascendancyName": "Saboteur",
+      "stats": [],
+      "reminderText": []
+    },
+    "53421": {
+      "skill": 53421,
+      "name": "Уклонение, шанс заморозить",
+      "nameEnglish": "Evasion, Chance to Freeze",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% шанс заморозить"
+      ],
+      "reminderText": [
+        "(Заморозка снижает скорость действий врагов до нуля, не давая им совершать действия. Длительность зависит от урона от холода нанесенного удара)"
+      ]
+    },
+    "33645": {
+      "skill": 33645,
+      "name": "Клятва лета",
+      "nameEnglish": "Oath of Summer",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Если ваши действия должны поджечь врага, вместо этого вы Опаляете его",
+        "Вы можете наложить дополнительное Опаление на каждого врага"
+      ],
+      "reminderText": [
+        "(Враги с наложенным на них Опалением в течение 4 секунд получают вплоть до 30% уменьшение сопротивления стихиям, в зависимости от урона от огня удара, наложившего Опаление)"
+      ]
+    },
+    "15550": {
+      "skill": 15550,
+      "name": "Уклонение, длительность стихийных состояний",
+      "nameEnglish": "Evasion, Elemental Ailment Duration",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% увеличение длительности стихийных состояний на врагах"
+      ],
+      "reminderText": [
+        "(Стихийные состояния - поджог, опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "55509": {
+      "skill": 55509,
+      "name": "Воплощение лесов",
+      "nameEnglish": "Avatar of the Wilds",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Дарует умение Воплощение безудержности 20 уровня",
+        "Lарует 1 Безудержной ярости, когда вы ударом накладываете стихийное состояние на врага, но не чаще 1 раза за каждые 0,2 секунды для каждого типа состояния\nВы не можете получать Безудержную ярость, пока вы Безудержны",
+        "Ваши удары всегда накладывают заморозку, шок и поджог, пока вы Безудержны",
+        "На 100% больше урона от стихий, пока вы Безудержны"
+      ],
+      "reminderText": [
+        "(Воплощение безудержности требует 100 Безудержной ярости для использования и делает вас Безудержным на 10 секунд, что не имеет никаких эффектов, кроме перечисленных здесь)"
+      ]
+    },
+    "2060": {
+      "skill": 2060,
+      "name": "Уклонение, эффект микстур",
+      "nameEnglish": "Evasion, Tincture Effect",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% усиление эффекта действующих на вас микстур"
+      ],
+      "reminderText": []
+    },
+    "58650": {
+      "skill": 58650,
+      "name": "Уклонение, эффект микстур",
+      "nameEnglish": "Evasion, Tincture Effect",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% усиление эффекта действующих на вас микстур"
+      ],
+      "reminderText": []
+    },
+    "61761": {
+      "skill": 61761,
+      "name": "Уклонение, длительность стихийных состояний",
+      "nameEnglish": "Evasion, Elemental Ailment Duration",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% увеличение длительности стихийных состояний на врагах"
+      ],
+      "reminderText": [
+        "(Стихийные состояния - поджог, опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "63940": {
+      "skill": 63940,
+      "name": "Уклонение, длительность стихийных состояний",
+      "nameEnglish": "Evasion, Elemental Ailment Duration",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% увеличение длительности стихийных состояний на врагах"
+      ],
+      "reminderText": [
+        "(Стихийные состояния - поджог, опаление, охлаждение, заморозка, хрупкость, шок и ошеломление)"
+      ]
+    },
+    "29662": {
+      "skill": 29662,
+      "name": "Опытный травник",
+      "nameEnglish": "Experienced Herbalist",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Вы можете активировать дополнительную микстуру"
+      ],
+      "reminderText": []
+    },
+    "40104": {
+      "skill": 40104,
+      "name": "Густая пропитка",
+      "nameEnglish": "Enduring Suffusion",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Эффекты микстур действуют на вас еще 0.5 секунд(-ы) за каждый заряд Сжигания маны на вас при отключении микстуры, вплоть до максимума в 6 секунд",
+        "На 30% меньше скорости наложения Сжигания маны действующими на вас микстурами"
+      ],
+      "reminderText": [
+        "(Пока активны, микстуры периодически накладывают на вас Сжигание маны)"
+      ]
+    },
+    "36958": {
+      "skill": 36958,
+      "name": "Опытный охотник",
+      "nameEnglish": "Seasoned Hunter",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Эффекты микстур также применяются к оружию дальнего боя"
+      ],
+      "reminderText": []
+    },
+    "31364": {
+      "skill": 31364,
+      "name": "Клятва весны",
+      "nameEnglish": "Oath of Spring",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Максимальный эффект шока равен 2% увеличению получаемого урона",
+        "Вы можете наложить до 50 зарядов шока на каждого врага"
+      ],
+      "reminderText": []
+    },
+    "24214": {
+      "skill": 24214,
+      "name": "Уклонение, эффект микстур",
+      "nameEnglish": "Evasion, Tincture Effect",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% усиление эффекта действующих на вас микстур"
+      ],
+      "reminderText": []
+    },
+    "19488": {
+      "skill": 19488,
+      "name": "Уклонение, эффект микстур",
+      "nameEnglish": "Evasion, Tincture Effect",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% усиление эффекта действующих на вас микстур"
+      ],
+      "reminderText": []
+    },
+    "5926": {
+      "skill": 5926,
+      "name": "Уклонение, шанс наложить шок",
+      "nameEnglish": "Evasion, Chance to Shock",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% шанс наложить шок"
+      ],
+      "reminderText": [
+        "(Шок повышает получаемый урон до 50%, в зависимости от количества урона от молнии от удара, на 2 секунды)"
+      ]
+    },
+    "16848": {
+      "skill": 16848,
+      "name": "Клятва зимы",
+      "nameEnglish": "Oath of Winter",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Замороженные вами враги остаются таковыми в течение как минимум 2 секунд",
+        "Замораживающие удары, которые не заморозили врага, накладывают Белый хлад"
+      ],
+      "reminderText": [
+        "(Заморозка снижает скорость действий врагов до нуля, не давая им совершать действия. Длительность зависит от урона от холода нанесенного удара)",
+        "(Заморозка длительностью 0,3 секунды или меньше не накладывается)",
+        "(Белый хлад длится 10 секунд и может быть наложен несколько раз, при каждом наложении длительность существующего на цели Белого хлада обновляется. Каждый заряд Белого хлада увеличивает длительность заморозки на цели на 20%. Весь Белый хлад удаляется, если цель будет заморожена)"
+      ]
+    },
+    "27536": {
+      "skill": 27536,
+      "name": "Уклонение, подавление чар",
+      "nameEnglish": "Evasion, Spell Suppression",
+      "ascendancyName": "Raider",
+      "stats": [
+        "+5% шанс подавить урон от чар",
+        "15% увеличение уклонения"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)"
+      ]
+    },
+    "4849": {
+      "skill": 4849,
+      "name": "Материнские ученья",
+      "nameEnglish": "Mother's Teachings",
+      "ascendancyName": "Raider",
+      "stats": [
+        "Дарует умение Дубовая кожа 20 уровня"
+      ],
+      "reminderText": [
+        "(Вы принимаете силу леса, и ваше тело постепенно покрывается корой. Получение ударов от атак противника снимает кору. Чем больше нарастает коры, тем выше ваша броня, но чем меньше коры, тем выше шанс уклониться)"
+      ]
+    },
+    "12146": {
+      "skill": 12146,
+      "name": "Уклонение, подавление чар",
+      "nameEnglish": "Evasion, Spell Suppression",
+      "ascendancyName": "Raider",
+      "stats": [
+        "+5% шанс подавить урон от чар",
+        "15% увеличение уклонения"
+      ],
+      "reminderText": [
+        "(40% урона от подавленных ударов и накладываемых ими состояний предотвращается)"
+      ]
+    },
+    "11597": {
+      "skill": 11597,
+      "name": "Уроки сезонов",
+      "nameEnglish": "Lesson of the Seasons",
+      "ascendancyName": "Raider",
+      "stats": [
+        "-25 получаемого урона каждого типа от ударов от чар за каждый слой коры",
+        "Предотвращает +3% урона от подавленных чар за каждый слой коры ниже максимума",
+        "Вы теряете слоев коры при получении урона от чар от врага: 1"
+      ],
+      "reminderText": [
+        "(Типы урона: физический, от огня, от холода, от молнии и хаосом)"
+      ]
+    },
+    "24432": {
+      "skill": 24432,
+      "name": "Уклонение, шанс поджечь",
+      "nameEnglish": "Evasion, Chance to Ignite",
+      "ascendancyName": "Raider",
+      "stats": [
+        "15% увеличение уклонения",
+        "10% шанс поджечь"
+      ],
+      "reminderText": [
+        "(Поджог наносит постепенный урон от огня в течение 4 секунд, рассчитанный от базового урона от огня умения)"
+      ]
+    },
+    "58427": {
+      "skill": 58427,
+      "name": "Хранитель",
+      "nameEnglish": "Warden",
+      "ascendancyName": "Raider",
+      "stats": [],
+      "reminderText": []
+    },
+    "53086": {
+      "skill": 53086,
+      "name": "Урон снарядами, скорость наложения меток",
+      "nameEnglish": "Projectile Damage, Mark Cast Speed",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "Умения метки имеют 25% повышение скорости сотворения чар"
+      ],
+      "reminderText": []
+    },
+    "44482": {
+      "skill": 44482,
+      "name": "Энтузиазм",
+      "nameEnglish": "Avidity",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "На 5% больше меткости за заряд ярости",
+        "Дарует заряд ярости каждую секунду при передвижении",
+        "+1 к максимуму зарядов ярости"
+      ],
+      "reminderText": []
+    },
+    "55985": {
+      "skill": 55985,
+      "name": "Урон снарядами, меткость",
+      "nameEnglish": "Projectile Damage, Accuracy",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "10% повышение меткости"
+      ],
+      "reminderText": []
+    },
+    "62136": {
+      "skill": 62136,
+      "name": "Урон снарядами, длительность Призрачного лучника",
+      "nameEnglish": "Projectile Damage, Mirage Archer Duration",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "15% увеличение длительности Призрачного лучника"
+      ],
+      "reminderText": []
+    },
+    "24848": {
+      "skill": 24848,
+      "name": "Порывы ветра",
+      "nameEnglish": "Gathering Winds",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "Дарует 1 стадию Силы шторма при использовании умения\n10% усиление эффекта Попутного ветра на вас за каждую стадию Силы шторма",
+        "На вас и ближайших союзников действует Попутный ветер"
+      ],
+      "reminderText": [
+        "(Каждая стадия Силы шторма длится 4 секунды. Максимум 10 стадий)",
+        "(Попутный ветер повышает скорость действий на 8%)"
+      ]
+    },
+    "1729": {
+      "skill": 1729,
+      "name": "Урон снарядами, длительность Призрачного лучника",
+      "nameEnglish": "Projectile Damage, Mirage Archer Duration",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "15% увеличение длительности Призрачного лучника"
+      ],
+      "reminderText": []
+    },
+    "2872": {
+      "skill": 2872,
+      "name": "Довлеющая сила",
+      "nameEnglish": "Occupying Force",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "Призрачные лучники не привязаны к вам",
+        "+2 к максимальному количеству призванных Призрачных лучников",
+        "Нельзя призвать Призрачных лучников, находясь вблизи ваших Призрачных лучников"
+      ],
+      "reminderText": []
+    },
+    "56134": {
+      "skill": 56134,
+      "name": "Урон снарядами, меткость",
+      "nameEnglish": "Projectile Damage, Accuracy",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "10% повышение меткости"
+      ],
+      "reminderText": []
+    },
+    "64028": {
+      "skill": 64028,
+      "name": "Урон снарядами, скорость снарядов",
+      "nameEnglish": "Projectile Damage, Projectile Speed",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% повышение скорости снарядов",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "22852": {
+      "skill": 22852,
+      "name": "Урон снарядами, скорость атаки",
+      "nameEnglish": "Projectile Damage, Attack Speed",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "5% повышение скорости атаки",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "5443": {
+      "skill": 5443,
+      "name": "Фокус",
+      "nameEnglish": "Focal Point",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "75% усиление эффекта ваших меток",
+        "На 25% меньше получаемого урона от врагов, находящихся рядом с помеченным вами врагом",
+        "Ваша метка переходит на другого врага, когда помеченный враг умирает"
+      ],
+      "reminderText": []
+    },
+    "23169": {
+      "skill": 23169,
+      "name": "Защита ветра",
+      "nameEnglish": "Wind Ward",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "На 4% меньше получаемого урона за каждую стадию Силы шторма",
+        "Теряет Силу шторма при получении удара"
+      ],
+      "reminderText": []
+    },
+    "59837": {
+      "skill": 59837,
+      "name": "Урон снарядами, скорость атаки",
+      "nameEnglish": "Projectile Damage, Attack Speed",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "5% повышение скорости атаки",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "61627": {
+      "skill": 61627,
+      "name": "Рикошет",
+      "nameEnglish": "Ricochet",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "Умения поражают целей по цепи: +1",
+        "Снаряды имеют 30% шанс ударить по цепи при столкновении с окружающей средой"
+      ],
+      "reminderText": []
+    },
+    "5082": {
+      "skill": 5082,
+      "name": "Урон снарядами, меткость",
+      "nameEnglish": "Projectile Damage, Accuracy",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% увеличение урона снарядов",
+        "10% повышение меткости"
+      ],
+      "reminderText": []
+    },
+    "26067": {
+      "skill": 26067,
+      "name": "Нескончаемые боеприпасы",
+      "nameEnglish": "Endless Munitions",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "Умения выпускают дополнительных снарядов: 2"
+      ],
+      "reminderText": []
+    },
+    "28995": {
+      "skill": 28995,
+      "name": "Урон снарядами, скорость снарядов",
+      "nameEnglish": "Projectile Damage, Projectile Speed",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "10% повышение скорости снарядов",
+        "10% увеличение урона снарядов"
+      ],
+      "reminderText": []
+    },
+    "45313": {
+      "skill": 45313,
+      "name": "Дальний выстрел",
+      "nameEnglish": "Far Shot",
+      "ascendancyName": "Deadeye",
+      "stats": [
+        "Снаряды наносят больше урона в зависимости от пройденного расстояния,\nвплоть до 30% больше урона от ударов и состояний",
+        "Очереди снарядов не имеют разброса"
+      ],
+      "reminderText": []
+    },
+    "56856": {
+      "skill": 56856,
+      "name": "Снайпер",
+      "nameEnglish": "Deadeye",
+      "ascendancyName": "Deadeye",
+      "stats": [],
+      "reminderText": []
+    }
+  },
+  "signatureNodeIds": [
+    "34567",
+    "10099",
+    "61072",
+    "43122",
+    "36072",
+    "35448",
+    "47058",
+    "40276",
+    "46479",
+    "1564",
+    "56292",
+    "25944",
+    "5819",
+    "44297",
+    "17988",
+    "53816",
+    "59920",
+    "29630",
+    "24528",
+    "57560",
+    "1731",
+    "48480",
+    "61355",
+    "32249",
+    "33645",
+    "31364",
+    "16848",
+    "55509",
+    "26067",
+    "61627",
+    "45313",
+    "24848",
+    "40813",
+    "1697",
+    "51101",
+    "65296",
+    "37127",
+    "27096",
+    "47630",
+    "25309",
+    "53123",
+    "27038",
+    "40810",
+    "61259",
+    "54159",
+    "36017",
+    "14603",
+    "11490",
+    "3184",
+    "62817",
+    "10143",
+    "17315",
+    "27864",
+    "15616",
+    "758",
+    "8419",
+    "56967",
+    "31700",
+    "13374",
+    "27604",
+    "48214",
+    "53884",
+    "40059",
+    "39790",
+    "40510",
+    "922",
+    "1105",
+    "25651",
+    "4494",
+    "55146",
+    "39728",
+    "42264",
+    "19083",
+    "28782",
+    "21264",
+    "19598",
+    "23225",
+    "55867",
+    "28884",
+    "29825",
+    "47778",
+    "5087",
+    "51462",
+    "57175"
+  ],
+  "verification": {
+    "englishSourceFile": "poe-classes-source.json",
+    "englishPageVersion": "3.29.3b",
+    "matchingVersion": true,
+    "matchedClassCount": 7,
+    "matchedAscendancyCount": 21,
+    "matchedNodeIdsAndAscendancyIds": 411,
+    "matchedGraphsAndNodeFlags": 411,
+    "matchedSignatureCount": 84,
+    "numericTokensMatchAfterExplicitLinguisticNormalization": true,
+    "linguisticNormalization": [
+      "Only when literal numeric tokens differ: English one -> 1",
+      "English once -> 1",
+      "English Every Rage -> Every 1 Rage",
+      "Russian decimal comma -> decimal point for comparison only"
+    ],
+    "literalDigitTokenDifferencesBeforeNormalization": [
+      "24528",
+      "55146",
+      "30919",
+      "55509"
+    ],
+    "comparisonScope": "Numeric tokens in stats only; reminderText preserved exactly but its full semantic translation was not independently audited."
+  },
+  "sourceIssues": [
+    {
+      "nodeId": "55509",
+      "nameEnglish": "Avatar of the Wilds",
+      "field": "stats[1]",
+      "originalPrefix": "Lарует 1 Безудержной ярости",
+      "issue": "Official RU source contains Latin L in Lарует. Raw text preserved. A user-facing correction to Дарует is an editorial typo correction, not the raw source."
+    }
+  ]
+}

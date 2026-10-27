@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "retrievedDate": "2026-10-27",
+  "sources": {
+    "Character": {
+      "url": "https://www.poewiki.net/wiki/Character",
+      "revisionId": 1698839,
+      "permalink": "https://www.poewiki.net/index.php?title=Character&oldid=1698839",
+      "htmlSha256": "2ca4d45faf7d62fa2a38de20fefc762a1ad6a3d147a31f5dae5500412dc733de"
+    },
+    "Life": {
+      "url": "https://www.poewiki.net/wiki/Life",
+      "revisionId": 1701298,
+      "permalink": "https://www.poewiki.net/index.php?title=Life&oldid=1701298",
+      "htmlSha256": "dd5162ae6da1bd548b445623cae028cf585f319905f1cbe92df3614a49e5cde1"
+    },
+    "Mana": {
+      "url": "https://www.poewiki.net/wiki/Mana",
+      "revisionId": 1673464,
+      "permalink": "https://www.poewiki.net/index.php?title=Mana&oldid=1673464",
+      "htmlSha256": "e1394ba2c861a18c2307d44cbe57bf4e275b44632e38722d38490685951c9af1"
+    },
+    "Accuracy": {
+      "url": "https://www.poewiki.net/wiki/Accuracy",
+      "revisionId": 1612031,
+      "permalink": "https://www.poewiki.net/index.php?title=Accuracy&oldid=1612031",
+      "htmlSha256": "9ea5001f8c173816c389974c261a9a67d8eb0477060e29a0caff62d50a3b1966"
+    },
+    "Evasion": {
+      "url": "https://www.poewiki.net/wiki/Evasion",
+      "revisionId": 1611557,
+      "permalink": "https://www.poewiki.net/index.php?title=Evasion&oldid=1611557",
+      "htmlSha256": "e4d2a12c769e7f9ca7d227fdef4d6d8586b39308885de20080cbbca63acb5a78"
+    },
+    "Ascendancy_class": {
+      "url": "https://www.poewiki.net/wiki/Ascendancy_class",
+      "revisionId": 1697030,
+      "permalink": "https://www.poewiki.net/index.php?title=Ascendancy_class&oldid=1697030",
+      "htmlSha256": "c98d7edc82f82aa6edc3e9299f293658291dde7886d591dd83a2c7f5a6a2e1f3"
+    },
+    "Experience": {
+      "url": "https://www.poewiki.net/wiki/Experience",
+      "revisionId": 1700851,
+      "permalink": "https://www.poewiki.net/index.php?title=Experience&oldid=1700851",
+      "htmlSha256": "354e3b6307d8dc570ee85741eca931f30cc3e061450ee0352884b44fb5a6ee79"
+    },
+    "Attribute": {
+      "url": "https://www.poewiki.net/wiki/Attribute",
+      "revisionId": 1698836,
+      "permalink": "https://www.poewiki.net/index.php?title=Attribute&oldid=1698836",
+      "htmlSha256": "37476ad5c1076e4762346a4276c6475fa75a66bb496f3efc357a4fb7e50a0a79"
+    }
+  },
+  "scope": "Original Path of Exile 1 rules for reference. Duskbound run duration/experience pacing/reset are a separate game adaptation.",
+  "level": {
+    "start": 1,
+    "maximum": 100,
+    "passivePointsPerLevelUp": 1,
+    "lifePerLevelUp": 12,
+    "manaPerLevelUp": 6,
+    "accuracyPerLevelUp": 2,
+    "automaticAttributeGainPerLevelUp": {
+      "strength": 0,
+      "dexterity": 0,
+      "intelligence": 0
+    },
+    "sourceKeys": [
+      "Character",
+      "Experience"
+    ]
+  },
+  "baseFormulas": {
+    "life": {
+      "constantAtLevelZero": 38,
+      "perLevel": 12,
+      "perStrength": 0.5,
+      "formula": "38 + 12 * level + strength / 2",
+      "levelOneWithoutStrength": 50,
+      "sourceKeys": [
+        "Life"
+      ]
+    },
+    "mana": {
+      "constantAtLevelZero": 34,
+      "perLevel": 6,
+      "perIntelligence": 0.5,
+      "formula": "34 + 6 * level + intelligence / 2",
+      "levelOneWithoutIntelligence": 40,
+      "regenerationFractionPerSecond": 0.018,
+      "sourceKeys": [
+        "Mana"
+      ]
+    },
+    "accuracy": {
+      "perLevel": 2,
+      "perDexterity": 2,
+      "formula": "2 * level + 2 * dexterity",
+      "sourceKeys": [
+        "Accuracy",
+        "Character"
+      ]
+    },
+    "evasion": {
+      "base": 15,
+      "perLevel": 0,
+      "dexterityIncreasedPercentPerFive": 1,
+      "formulaWithoutOtherModifiers": "15 * (1 + ceil(dexterity / 5) / 100)",
+      "sourceKeys": [
+        "Evasion"
+      ],
+      "roundingCaveat": "Evasion page says Dexterity rounds up to the nearest multiple of 5 for this increased percentage. Final displayed evasion integer rounding not independently verified."
+    },
+    "lifeAndManaRoundingCaveat": "Formulas preserve halves from odd attributes. Final integer rounding is not documented by the fetched pages; do not claim exact displayed integer without additional verification."
+  },
+  "attributeBonuses": {
+    "strength": {
+      "maximumLifePerPoint": 0.5,
+      "increasedMeleePhysicalDamagePercentPerTen": 2
+    },
+    "dexterity": {
+      "accuracyPerPoint": 2,
+      "increasedEvasionPercentPerTen": 2
+    },
+    "intelligence": {
+      "maximumManaPerPoint": 0.5,
+      "increasedMaximumEnergyShieldPercentPerTen": 1
+    },
+    "sourceKeys": [
+      "Attribute"
+    ]
+  },
+  "rage": {
+    "maximum": 30,
+    "moreAttackDamagePercentPerRage": 1,
+    "lossPerSecond": 10,
+    "lossStartsAfterSecondsWithoutBeingHitOrGainingRage": 2,
+    "attackHitGainFromBerserkerSmallPassives": 1,
+    "minimumSecondsBetweenRageGainHits": 0.5,
+    "grantingOfficialNodeIds": [
+      "63583",
+      "42861"
+    ],
+    "sourceUrl": "https://www.pathofexile.com/passive-skill-tree",
+    "sourcePageVersion": "3.29.3b",
+    "note": "Rage is not granted automatically to every character. The granting Attack Hit source must be allocated/equipped. Crave the Slaughter modifies loss start and Rage also granting Attack Speed."
+  },
+  "ascendancy": {
+    "maximumPoints": 8,
+    "pointsPerFirstCompletionOfEachLabyrinthDifficulty": 2,
+    "difficultyCompletions": 4,
+    "selection": "Choose one of three Ascendancies associated with the base class after the first Labyrinth.",
+    "normalTreeSource": "https://www.pathofexile.com/passive-skill-tree",
+    "pointBudgetAlsoVerifiedByOfficialTree": true,
+    "layout": "Notables normally require a preceding small passive; some require a prior notable. Scion Ascendant and Reliquarian use choice hubs and different prerequisites. Preserve graph.",
+    "refundCostInRegularPassiveRefundPointsPerAscendancyPoint": 5,
+    "sourceKeys": [
+      "Ascendancy_class"
+    ]
+  },
+  "originalExperienceTable": [
+    {
+      "level": 1,
+      "totalExperience": 0,
+      "experienceToNextLevel": 525
+    },
+    {
+      "level": 2,
+      "totalExperience": 525,
+      "experienceToNextLevel": 1235
+    },
+    {
+      "level": 3,
+      "totalExperience": 1760,
+      "experienceToNextLevel": 2021
+    },
+    {
+      "level": 4,
+      "totalExperience": 3781,
+      "experienceToNextLevel": 3403
+    },
+    {
+      "level": 5,
+      "totalExperience": 7184,
+      "experienceToNextLevel": 5002
+    },
+    {
+      "level": 6,
+      "totalExperience": 12186,
+      "experienceToNextLevel": 7138
+    },
+    {
+      "level": 7,
+      "totalExperience": 19324,
+      "experienceToNextLevel": 10053
+    },
+    {
+      "level": 8,
+      "totalExperience": 29377,
+      "experienceToNextLevel": 13804
+    },
+    {
+      "level": 9,
+      "totalExperience": 43181,
+      "experienceToNextLevel": 18512
+    },
+    {
+      "level": 10,
+      "totalExperience": 61693,
+      "experienceToNextLevel": 24297
+    },
+    {
+      "level": 11,
+      "totalExperience": 85990,
+      "experienceToNextLevel": 31516
+    },
+    {
+      "level": 12,
+      "totalExperience": 117506,
+      "experienceToNextLevel": 39878
+    },
+    {
+      "level": 13,
+      "totalExperience": 157384,
+      "experienceToNextLevel": 50352
+    },
+    {
+      "level": 14,
+      "totalExperience": 207736,
+      "experienceToNextLevel": 62261
+    },
+    {
+      "level": 15,
+      "totalExperience": 269997,
+      "experienceToNextLevel": 76465
+    },
+    {
+      "level": 16,
+      "totalExperience": 346462,
+      "experienceToNextLevel": 92806
+    },
+    {
+      "level": 17,
+      "totalExperience": 439268,
+      "experienceToNextLevel": 112027
+    },
+    {
+      "level": 18,
+      "totalExperience": 551295,
+      "experienceToNextLevel": 133876
+    },
+    {
+      "level": 19,
+      "totalExperience": 685171,
+      "experienceToNextLevel": 158538
+    },
+    {
+      "level": 20,
+      "totalExperience": 843709,
+      "experienceToNextLevel": 187025
+    },
+    {
+      "level": 21,
+      "totalExperience": 1030734,
+      "experienceToNextLevel": 218895
+    },
+    {
+      "level": 22,
+      "totalExperience": 1249629,
+      "experienceToNextLevel": 255366
+    },
+    {
+      "level": 23,
+      "totalExperience": 1504995,
+      "experienceToNextLevel": 295852
+    },
+    {
+      "level": 24,
+      "totalExperience": 1800847,
+      "experienceToNextLevel": 341805
+    },
+    {
+      "level": 25,
+      "totalExperience": 2142652,
+      "experienceToNextLevel": 392470
+    },
+    {
+      "level": 26,
+      "totalExperience": 2535122,
+      "experienceToNextLevel": 449555
+    },
+    {
+      "level": 27,
+      "totalExperience": 2984677,
+      "experienceToNextLevel": 512121
+    },
+    {
+      "level": 28,
+      "totalExperience": 3496798,
+      "experienceToNextLevel": 583857
+    },
+    {
+      "level": 29,
+      "totalExperience": 4080655,
+      "experienceToNextLevel": 662181
+    },
+    {
+      "level": 30,
+      "totalExperience": 4742836,
+      "experienceToNextLevel": 747411
+    },
+    {
+      "level": 31,
+      "totalExperience": 5490247,
+      "experienceToNextLevel": 844146
+    },
+    {
+      "level": 32,
+      "totalExperience": 6334393,
+      "experienceToNextLevel": 949053
+    },
+    {
+      "level": 33,
+      "totalExperience": 7283446,
+      "experienceToNextLevel": 1064952
+    },
+    {
+      "level": 34,
+      "totalExperience": 8384398,
+      "experienceToNextLevel": 1192712
+    },
+    {
+      "level": 35,
+      "totalExperience": 9541110,
+      "experienceToNextLevel": 1333241
+    },
+    {
+      "level": 36,
+      "totalExperience": 10874351,
+      "experienceToNextLevel": 1487491
+    },
+    {
+      "level": 37,
+      "totalExperience": 12361842,
+      "experienceToNextLevel": 1656447
+    },
+    {
+      "level": 38,
+      "totalExperience": 14018289,
+      "experienceToNextLevel": 1841143
+    },
+    {
+      "level": 39,
+      "totalExperience": 15859432,
+      "experienceToNextLevel": 2046202
+    },
+    {
+      "level": 40,
+      "totalExperience": 17905634,
+      "experienceToNextLevel": 2265837
+    },
+    {
+      "level": 41,
+      "totalExperience": 20171471,
+      "experienceToNextLevel": 2508528
+    },
+    {
+      "level": 42,
+      "totalExperience": 22679999,
+      "experienceToNextLevel": 2776124
+    },
+    {
+      "level": 43,
+      "totalExperience": 25456123,
+      "experienceToNextLevel": 3061734
+    },
+    {
+      "level": 44,
+      "totalExperience": 28517857,
+      "experienceToNextLevel": 3379914
+    },
+    {
+      "level": 45,
+      "totalExperience": 31897771,
+      "experienceToNextLevel": 3723676
+    },
+    {
+      "level": 46,
+      "totalExperience": 35621447,
+      "experienceToNextLevel": 4099570
+    },
+    {
+      "level": 47,
+      "totalExperience": 39721017,
+      "experienceToNextLevel": 4504444
+    },
+    {
+      "level": 48,
+      "totalExperience": 44225461,
+      "experienceToNextLevel": 4951099
+    },
+    {
+      "level": 49,
+      "totalExperience": 49176560,
+      "experienceToNextLevel": 5430907
+    },
+    {
+      "level": 50,
+      "totalExperience": 54607467,
+      "experienceToNextLevel": 5957868
+    },
+    {
+      "level": 51,
+      "totalExperience": 60565335,
+      "experienceToNextLevel": 6528910
+    },
+    {
+      "level": 52,
+      "totalExperience": 67094245,
+      "experienceToNextLevel": 7153414
+    },
+    {
+      "level": 53,
+      "totalExperience": 74247659,
+      "experienceToNextLevel": 7827968
+    },
+    {
+      "level": 54,
+      "totalExperience": 82075627,
+      "experienceToNextLevel": 8555414
+    },
+    {
+      "level": 55,
+      "totalExperience": 90631041,
+      "experienceToNextLevel": 9353933
+    },
+    {
+      "level": 56,
+      "totalExperience": 99984974,
+      "experienceToNextLevel": 10212541
+    },
+    {
+      "level": 57,
+      "totalExperience": 110197515,
+      "experienceToNextLevel": 11142646
+    },
+    {
+      "level": 58,
+      "totalExperience": 121340161,
+      "experienceToNextLevel": 12157041
+    },
+    {
+      "level": 59,
+      "totalExperience": 133497202,
+      "experienceToNextLevel": 13252160
+    },
+    {
+      "level": 60,
+      "totalExperience": 146749362,
+      "experienceToNextLevel": 14441758
+    },
+    {
+      "level": 61,
+      "totalExperience": 161191120,
+      "experienceToNextLevel": 15731508
+    },
+    {
+      "level": 62,
+      "totalExperience": 176922628,
+      "experienceToNextLevel": 17127265
+    },
+    {
+      "level": 63,
+      "totalExperience": 194049893,
+      "experienceToNextLevel": 18635053
+    },
+    {
+      "level": 64,
+      "totalExperience": 212684946,
+      "experienceToNextLevel": 20271765
+    },
+    {
+      "level": 65,
+      "totalExperience": 232956711,
+      "experienceToNextLevel": 22044909
+    },
+    {
+      "level": 66,
+      "totalExperience": 255001620,
+      "experienceToNextLevel": 23950783
+    },
+    {
+      "level": 67,
+      "totalExperience": 278952403,
+      "experienceToNextLevel": 26019833
+    },
+    {
+      "level": 68,
+      "totalExperience": 304972236,
+      "experienceToNextLevel": 28261412
+    },
+    {
+      "level": 69,
+      "totalExperience": 333233648,
+      "experienceToNextLevel": 30672515
+    },
+    {
+      "level": 70,
+      "totalExperience": 363906163,
+      "experienceToNextLevel": 33287878
+    },
+    {
+      "level": 71,
+      "totalExperience": 397194041,
+      "experienceToNextLevel": 36118904
+    },
+    {
+      "level": 72,
+      "totalExperience": 433312945,
+      "experienceToNextLevel": 39163425
+    },
+    {
+      "level": 73,
+      "totalExperience": 472476370,
+      "experienceToNextLevel": 42460810
+    },
+    {
+      "level": 74,
+      "totalExperience": 514937180,
+      "experienceToNextLevel": 46024718
+    },
+    {
+      "level": 75,
+      "totalExperience": 560961898,
+      "experienceToNextLevel": 49853964
+    },
+    {
+      "level": 76,
+      "totalExperience": 610815862,
+      "experienceToNextLevel": 54008554
+    },
+    {
+      "level": 77,
+      "totalExperience": 664824416,
+      "experienceToNextLevel": 58473753
+    },
+    {
+      "level": 78,
+      "totalExperience": 723298169,
+      "experienceToNextLevel": 63314495
+    },
+    {
+      "level": 79,
+      "totalExperience": 786612664,
+      "experienceToNextLevel": 68516464
+    },
+    {
+      "level": 80,
+      "totalExperience": 855129128,
+      "experienceToNextLevel": 74132190
+    },
+    {
+      "level": 81,
+      "totalExperience": 929261318,
+      "experienceToNextLevel": 80182477
+    },
+    {
+      "level": 82,
+      "totalExperience": 1009443795,
+      "experienceToNextLevel": 86725730
+    },
+    {
+      "level": 83,
+      "totalExperience": 1096169525,
+      "experienceToNextLevel": 93748717
+    },
+    {
+      "level": 84,
+      "totalExperience": 1189918242,
+      "experienceToNextLevel": 101352108
+    },
+    {
+      "level": 85,
+      "totalExperience": 1291270350,
+      "experienceToNextLevel": 109524907
+    },
+    {
+      "level": 86,
+      "totalExperience": 1400795257,
+      "experienceToNextLevel": 118335069
+    },
+    {
+      "level": 87,
+      "totalExperience": 1519130326,
+      "experienceToNextLevel": 127813148
+    },
+    {
+      "level": 88,
+      "totalExperience": 1646943474,
+      "experienceToNextLevel": 138033822
+    },
+    {
+      "level": 89,
+      "totalExperience": 1784977296,
+      "experienceToNextLevel": 149032822
+    },
+    {
+      "level": 90,
+      "totalExperience": 1934009687,
+      "experienceToNextLevel": 160890604
+    },
+    {
+      "level": 91,
+      "totalExperience": 2094900291,
+      "experienceToNextLevel": 173648795
+    },
+    {
+      "level": 92,
+      "totalExperience": 2268549086,
+      "experienceToNextLevel": 187372170
+    },
+    {
+      "level": 93,
+      "totalExperience": 2455921256,
+      "experienceToNextLevel": 202153736
+    },
+    {
+      "level": 94,
+      "totalExperience": 2658074992,
+      "experienceToNextLevel": 218041909
+    },
+    {
+      "level": 95,
+      "totalExperience": 2876116901,
+      "experienceToNextLevel": 235163399
+    },
+    {
+      "level": 96,
+      "totalExperience": 3111280300,
+      "experienceToNextLevel": 253547862
+    },
+    {
+      "level": 97,
+      "totalExperience": 3364828162,
+      "experienceToNextLevel": 273358532
+    },
+    {
+      "level": 98,
+      "totalExperience": 3638186694,
+      "experienceToNextLevel": 294631836
+    },
+    {
+      "level": 99,
+      "totalExperience": 3932818530,
+      "experienceToNextLevel": 317515914
+    },
+    {
+      "level": 100,
+      "totalExperience": 4250334444,
+      "experienceToNextLevel": 0
+    }
+  ],
+  "originalExperienceTableConsistency": {
+    "status": "Source table has inconsistencies; preserved verbatim, not a verified executable XP curve.",
+    "mismatches": [
+      {
+        "level": 33,
+        "tabulatedExperienceToNextLevel": 1064952,
+        "differenceBetweenTabulatedTotals": 1100952
+      },
+      {
+        "level": 34,
+        "tabulatedExperienceToNextLevel": 1192712,
+        "differenceBetweenTabulatedTotals": 1156712
+      },
+      {
+        "level": 89,
+        "tabulatedExperienceToNextLevel": 149032822,
+        "differenceBetweenTabulatedTotals": 149032391
+      }
+    ]
+  },
+  "adaptationRequirements": [
+    "Run level reset to 1 and profile/class persistence are Duskbound decisions, not original PoE rules.",
+    "Do not claim an automatic class-specific STR/DEX/INT gain per level: original level-up bonuses do not grant these attributes.",
+    "Do not claim original passive tree or Ascendancy progression merely from giving free signature effects: original points, choices, and prerequisites matter.",
+    "Exact original experience table is provided as provenance; using a compressed short-run XP curve must be labelled adaptation.",
+    "Increased/reduced modifiers are additive in a category; more/less modifiers multiply. A literal generic damage bonus cannot replace all original modifier semantics."
+  ]
+}

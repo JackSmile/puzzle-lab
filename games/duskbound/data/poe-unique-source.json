@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "retrievedDate": "2026-10-27",
+  "scope": "PoE 1 current regular/non-Foulborn, non-legacy, non-Ruthless item versions from live Wiki item cards. Exact version evidence per item is recorded when the page provides it; Wiki revisions are not game version identifiers. No media downloaded.",
+  "items": [
+    {
+      "id": "headhunter",
+      "name": "Headhunter",
+      "base": "Leather Belt",
+      "requiredLevel": 40,
+      "implicitStats": [
+        "+(25-40) to maximum Life"
+      ],
+      "explicitStats": [
+        "+(40-55) to Strength",
+        "+(40-55) to Dexterity",
+        "+(50-60) to maximum Life",
+        "(20-30)% increased Damage with Hits against Rare monsters",
+        "When you Kill a Rare monster, you gain its Modifiers for 60 seconds"
+      ],
+      "mechanics": {
+        "rareModifierDurationSeconds": 60,
+        "killRarity": "Rare",
+        "modifierScope": "All explicit modifiers of the killed rare monster",
+        "minionOrProxyKillsTrigger": true,
+        "sameStolenModifierStacks": false,
+        "differentStolenModifiersCanCoexist": true,
+        "duplicateModifierRefreshRule": "Not independently verified in this research; do not infer refresh rules from non-stacking.",
+        "modifiersAreInherentlyBuffs": false
+      },
+      "versionEvidence": "Wiki Version history explicitly records 3.18.0e: stolen-modifier duration changed from 20 to 60 seconds, including existing versions.",
+      "adaptationBoundary": "Requires actual rare monster modifiers and timed stolen instances. A fixed generic buff after elite kills is an adaptation of its signature mechanic, not original modifier transfer.",
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Headhunter",
+        "revisionId": 1674910,
+        "permalink": "https://www.poewiki.net/index.php?title=Headhunter&oldid=1674910",
+        "htmlSha256": "eae00aae840dd89598bdcf945b1a9b2e32717ce225b725397af07f474692817a"
+      }
+    },
+    {
+      "id": "death-rush",
+      "name": "Death Rush",
+      "base": "Amethyst Ring",
+      "requiredLevel": 30,
+      "implicitStats": [
+        "+(17-23)% to Chaos Resistance"
+      ],
+      "explicitStats": [
+        "Recover (3-5)% of Life on Kill",
+        "Gain Adrenaline for (1-3) seconds on Kill"
+      ],
+      "mechanics": {
+        "lifeRecoveryPercentOnKillRange": [
+          3,
+          5
+        ],
+        "adrenalineDurationSecondsRange": [
+          1,
+          3
+        ],
+        "adrenalineCanBeGainedOrRefreshedWhileAlreadyActive": false,
+        "twoCopiesAdrenalineDurationSecondsRange": [
+          2,
+          6
+        ],
+        "twoCopyRule": "Durations from equivalent item stats add. Buff magnitude does not double."
+      },
+      "versionEvidence": "Wiki Version history records 3.19.0 replacement of the old modifiers with Life recovery and Adrenaline. Old Onslaught and leech lines are legacy.",
+      "adaptationBoundary": "Adrenaline cannot have its timer reset on every kill. Life-on-kill recovery is a separate modifier. Do not use old Onslaught or physical-attack leech lines.",
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Death_Rush",
+        "revisionId": 1674871,
+        "permalink": "https://www.poewiki.net/index.php?title=Death_Rush&oldid=1674871",
+        "htmlSha256": "efc42ca1f3972957e4b91fcd86362d01edc1125d6ebb1e4a267ada40417485a3"
+      }
+    },
+    {
+      "id": "dying-sun",
+      "name": "Dying Sun",
+      "base": "Ruby Flask",
+      "requiredLevel": 68,
+      "baseFlaskStats": [
+        "+40% to Fire Resistance",
+        "+5% to maximum Fire Resistance"
+      ],
+      "implicitStats": [],
+      "explicitStats": [
+        "(125-150)% increased Charges per use",
+        "(60-40)% less Duration",
+        "(10-20)% increased Area of Effect during Effect",
+        "Skills fire 2 additional Projectiles during Effect"
+      ],
+      "mechanics": {
+        "baseUnmodifiedFlaskDurationSeconds": 8,
+        "baseChargesUsed": 20,
+        "chargeCapacity": 50,
+        "itemChargesUsedRangeWithoutOtherModifiers": [
+          45,
+          50
+        ],
+        "itemDurationSecondsRangeAtZeroQualityWithoutOtherModifiers": [
+          3.2,
+          4.8
+        ],
+        "additionalProjectilesDuringEffect": 2,
+        "increasedAreaPercentDuringEffectRange": [
+          10,
+          20
+        ],
+        "effectsRequireActiveFlask": true,
+        "ruthlessExcluded": true,
+        "durationRule": "less Duration is multiplicative with quality and other relevant duration modifiers; displayed range here is the zero-quality default item.",
+        "effectScalingExample": "Wiki explicitly states 50% increased Flask Effect raises 2 extra projectiles to 3."
+      },
+      "versionEvidence": "Wiki Version history: 3.15.0 changed area to 10-20% and charges used to 125-150%; 3.16.0 changed reduced Duration to less Duration. Current main item card/Ruby Flask tooltip provide the 8-second base and 40%/+5% Fire Resistance stats; old base-flask history entries are not current values.",
+      "observedDuskboundAdaptation": {
+        "file": "games/duskbound/core.mjs",
+        "mods": {
+          "projectiles": 1,
+          "area": 0.2
+        },
+        "note": "Snapshot inspected during research: unconditional equipment modifiers, not timed charged flask effects. +1 projectile differs from original +2. 20% area is one legal roll but currently permanent."
+      },
+      "adaptationBoundary": "A permanent projectile/area item omits flask activation, duration, charges, resistance stats, and flask-effect scaling. Keep labelled adaptation.",
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Dying_Sun",
+        "revisionId": 1597033,
+        "permalink": "https://www.poewiki.net/index.php?title=Dying_Sun&oldid=1597033",
+        "htmlSha256": "2d57d5b5f6e6c2014ab0e482dfd4fd36890c3c220770c3f72f792cbc52c57da6"
+      }
+    },
+    {
+      "id": "cloak-of-flame",
+      "name": "Cloak of Flame",
+      "base": "Scholar's Robe",
+      "requiredLevel": 18,
+      "implicitStats": [],
+      "explicitStats": [
+        "+(50-75)% to Fire Resistance",
+        "(40-75)% increased Ignite Duration on Enemies",
+        "Reflects 100 Fire Damage to Melee Attackers",
+        "40% of Physical Damage taken as Fire Damage"
+      ],
+      "mechanics": {
+        "physicalDamageTakenAsFirePercent": 40,
+        "damageOverTimeAlsoAffected": true,
+        "reflectFireDamageToMeleeAttackers": 100,
+        "fireResistancePercentRange": [
+          50,
+          75
+        ],
+        "increasedIgniteDurationPercentRange": [
+          40,
+          75
+        ],
+        "damageTakenAsRule": "Changes the damage type of that portion before mitigation. It is not unconditional reduced Damage taken. Applies to physical hits and physical DoT such as Bleed/Corrupted Blood."
+      },
+      "versionEvidence": "Wiki Version history: 3.19.0 replaced 20% Physical Damage from Hits taken as Fire with 40% Physical Damage taken as Fire, removed 10% chance to Ignite, increased resistance/duration rolls and reflection to current values.",
+      "observedDuskboundAdaptation": {
+        "file": "games/duskbound/core.mjs",
+        "mods": {
+          "maxHp": 35,
+          "regen": 0.7,
+          "damageReduction": 0.15
+        },
+        "note": "Snapshot inspected during research. None of these three modifiers are the current unique explicit mods."
+      },
+      "adaptationBoundary": "Original has no explicit +35 maximum Life, 0.7 regeneration or 15% generic reduction. A real implementation needs damage types and damage-taken-as processing.",
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Cloak_of_Flame",
+        "revisionId": 1701278,
+        "permalink": "https://www.poewiki.net/index.php?title=Cloak_of_Flame&oldid=1701278",
+        "htmlSha256": "7fd625bc5535da68dedc27680b87b41218515ac1cbdab06056bb689fa121a33b"
+      }
+    },
+    {
+      "id": "nebulis",
+      "name": "Nebulis",
+      "base": "Void Sceptre",
+      "requiredLevel": 68,
+      "variant": "Current synthesised version, not fractured/legacy/Replica",
+      "implicitStats": [
+        "<Three random synthesis implicit modifiers>"
+      ],
+      "explicitStats": [
+        "(60-120)% increased Implicit Modifier magnitudes",
+        "(15-20)% increased Cast Speed",
+        "(6-8)% increased Elemental Damage per 1% Fire, Cold, or Lightning Resistance above 75%"
+      ],
+      "mechanics": {
+        "randomSynthesisImplicitCount": 3,
+        "increasedImplicitModifierMagnitudePercentRange": [
+          60,
+          120
+        ],
+        "increasedCastSpeedPercentRange": [
+          15,
+          20
+        ],
+        "increasedElementalDamagePercentPerResistancePointAbove75Range": [
+          6,
+          8
+        ],
+        "resistanceInputs": "Actual capped Fire, Cold, and Lightning Resistance, not uncapped/overcapped values.",
+        "formulaForUniqueExplicitElementalDamageIncreasePercent": "roll * (max(0, cappedFireResistance - 75) + max(0, cappedColdResistance - 75) + max(0, cappedLightningResistance - 75))",
+        "globalMaximumResistancePercent": 90,
+        "maximumSummedResistancePointsAbove75": 45,
+        "maximumIncreasedElementalDamagePercentAtAllThree90ResistanceRange": [
+          270,
+          360
+        ]
+      },
+      "versionEvidence": "Wiki Version history explicitly records 3.29.0: 6-8% per resistance point (previously 5-10%). 3.27.0 changed old separate 15-20% Cold/Lightning scaling to all-element scaling and added 60-120% implicit magnitudes.",
+      "observedDuskboundAdaptation": {
+        "file": "games/duskbound/core.mjs",
+        "mods": {
+          "damage": 0.35
+        },
+        "note": "Snapshot inspected during research. Constant generic damage differs from cast speed, synthesis implicit scaling and capped-resistance-dependent Elemental Damage."
+      },
+      "adaptationBoundary": "Do not copy the old 15-20% Cold/Lightning lines from the separate fractured item card or legacy section. Three synthesis implicits replace the normal 40% increased Elemental Damage base implicit; exact implicit choices are variable.",
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Nebulis",
+        "revisionId": 1675563,
+        "permalink": "https://www.poewiki.net/index.php?title=Nebulis&oldid=1675563",
+        "htmlSha256": "11f9c9b0b30d63aca730abca4ae8e487dd4e4b357a7de144af6b0a65299d7c22"
+      }
+    }
+  ],
+  "relatedMechanics": {
+    "adrenaline": {
+      "source": {
+        "url": "https://www.poewiki.net/wiki/Adrenaline",
+        "revisionId": 1673488,
+        "permalink": "https://www.poewiki.net/index.php?title=Adrenaline&oldid=1673488",
+        "htmlSha256": "ea84dd4eb975adb784240c6401b4e969f27a1b70497220074355062e132eb7cb"
+      },
+      "stats": [
+        "100% increased Damage",
+        "25% increased Attack, Cast, and Movement Speed",
+        "10% additional Physical Damage Reduction"
+      ],
+      "canBeGainedOrRefreshedWhileAlreadyActive": false,
+      "versionEvidence": "Wiki history records 3.19.0: cannot be gained while already active."
+    }
+  },
+  "verification": "All listed original item stat lines checked against fetched HTML visible text. Source revisions and SHA-256 recorded. Production gameplay not modified or tested."
+}

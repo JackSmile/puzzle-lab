@@ -1,0 +1,22 @@
+{"seed":42,"classId":"scion","ascendancy":"Ascendant","phase":"won","time":578.1,"level":19,"kills":790,"nodes":2,"trials":4,"hp":559,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"scion","ascendancy":"Reliquarian","phase":"won","time":609,"level":24,"kills":1387,"nodes":3,"trials":4,"hp":626,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"scion","ascendancy":"Luminary","phase":"won","time":721.4,"level":18,"kills":838,"nodes":4,"trials":4,"hp":421,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"marauder","ascendancy":"Juggernaut","phase":"won","time":590.4,"level":21,"kills":1094,"nodes":4,"trials":4,"hp":456,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"marauder","ascendancy":"Berserker","phase":"won","time":602.3,"level":17,"kills":582,"nodes":4,"trials":4,"hp":434,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"marauder","ascendancy":"Chieftain","phase":"won","time":596.7,"level":17,"kills":572,"nodes":4,"trials":4,"hp":453,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"ranger","ascendancy":"Warden","phase":"won","time":653.7,"level":15,"kills":501,"nodes":4,"trials":4,"hp":295,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"ranger","ascendancy":"Deadeye","phase":"won","time":755.1,"level":26,"kills":1877,"nodes":4,"trials":4,"hp":492,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"ranger","ascendancy":"Pathfinder","phase":"won","time":746.1,"level":19,"kills":910,"nodes":4,"trials":4,"hp":377,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"witch","ascendancy":"Occultist","phase":"won","time":686.9,"level":18,"kills":703,"nodes":4,"trials":4,"hp":61,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"witch","ascendancy":"Elementalist","phase":"playing","time":800,"level":17,"kills":1144,"nodes":4,"trials":4,"hp":399,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"witch","ascendancy":"Necromancer","phase":"won","time":795.9,"level":18,"kills":873,"nodes":4,"trials":4,"hp":378,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"duelist","ascendancy":"Slayer","phase":"dead","time":387.9,"level":11,"kills":340,"nodes":3,"trials":3,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"duelist","ascendancy":"Gladiator","phase":"dead","time":132.9,"level":7,"kills":141,"nodes":1,"trials":1,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"duelist","ascendancy":"Champion","phase":"dead","time":160.4,"level":8,"kills":150,"nodes":1,"trials":1,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"templar","ascendancy":"Inquisitor","phase":"dead","time":61.4,"level":3,"kills":24,"nodes":0,"trials":0,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"templar","ascendancy":"Hierophant","phase":"dead","time":61.4,"level":3,"kills":24,"nodes":0,"trials":0,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"templar","ascendancy":"Guardian","phase":"dead","time":61.4,"level":3,"kills":24,"nodes":0,"trials":0,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"shadow","ascendancy":"Assassin","phase":"dead","time":184,"level":8,"kills":177,"nodes":2,"trials":2,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+{"seed":42,"classId":"shadow","ascendancy":"Trickster","phase":"won","time":599.2,"level":18,"kills":760,"nodes":4,"trials":4,"hp":401,"bossDefeated":true,"defeatedBosses":["brutus","merveil","dominus","kitava"],"bossRewards":4}
+{"seed":42,"classId":"shadow","ascendancy":"Saboteur","phase":"dead","time":215.6,"level":9,"kills":194,"nodes":2,"trials":2,"hp":0,"bossDefeated":false,"defeatedBosses":[],"bossRewards":0}
+SUMMARY {"runs":21,"won":12,"dead":8,"playing":1}
